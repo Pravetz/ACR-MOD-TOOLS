@@ -7,6 +7,8 @@
 #include <string>
 #include <fstream>
 #include <cctype>
+#include <vector>
+#include <algorithm>
 
 bool stop = false;
 
@@ -21,19 +23,27 @@ string loc_arg_buffer, loc_arg_t;
 
 string f_GC_path, f_loc_path, f_lockey_path, f_varloc_path;
 
-void save_varlocs(string culture)
+void save_varlocs(const string &culture)
 {
-	fstream f_varloc_save;
+	ofstream f_varloc_save;
 	
-	culture[0] = toupper(culture[0]);
+	string culture_formated;
+	culture_formated = culture;
+	culture_formated[0] = toupper(culture_formated[0]);
+	for(int i=0; i<culture_formated.length(); i++){
+		if(culture_formated[i] == '_'){
+			culture_formated[i] = ' ';
+			culture_formated[i+1] = toupper(culture_formated[i+1]);
+		}
+	}
 	
 	f_varloc_save.open(f_varloc_path.c_str(), fstream::app);
-	f_varloc_save << " "+POPculture_prcnt+":0 "+'"'+culture+'"'+"\n";
+	f_varloc_save << " "+POPculture_prcnt+":0 "+'"'+culture_formated+'"'+"\n";
 	f_varloc_save.close();
 }
 void save_loc_keys()
 {
-	fstream f_lockey_save;
+	ofstream f_lockey_save;
 	
 	f_lockey_save.open(f_lockey_path.c_str());	// will overwrite every time, not append
 	f_lockey_save << loc_arg_buffer;
@@ -51,8 +61,8 @@ void stf()
 		getline(cin, f_loc_path);
 	}
 	
-	fstream f_GetCulture_;
-	fstream loc_GetCulture_;
+	ofstream f_GetCulture_;
+	ofstream loc_GetCulture_;
 	
 	f_GetCulture_.open(f_GC_path.c_str(), fstream::app);
 	f_GetCulture_ << "\n";
@@ -133,98 +143,107 @@ void create_pop(string culture)
 	}
 }
 
+std::vector<std::string> split_string(const std::string &str, const std::string &separators){
+	size_t last_seppos = 0;
+	size_t seppos = 0;
+	std::vector<std::string> strings;
+	
+	while((seppos = str.find_first_of(separators, seppos)) != std::string::npos){
+		if(seppos - last_seppos - (last_seppos > 0) > 0){
+			strings.push_back(str.substr(last_seppos + (last_seppos >= 0), seppos - last_seppos - (last_seppos >= 0)));
+		}
+		last_seppos = seppos;
+		seppos++;
+	}
+	strings.push_back(str.substr(last_seppos + 1));
+	if(!strings[strings.size() - 1].length()){
+		strings.pop_back();
+	}
+	
+	return strings;
+}
+
+size_t count_tab_appearances(const string &str){
+	size_t counter = 0;
+	for(; counter < str.length() && str[counter] == '\t'; counter++);
+	return counter;
+}
+
+vector<string> parse_culture_names(ifstream &file){
+	string parse_line = "";
+	static const string exception_list[] = { "(",")","[","]","{","}", "\n", "male_names", "primary", "female_names", "dynasty_names", "graphical_culture", "second_graphical_culture" };
+	vector<string> culture_names;
+	
+	while(getline(file, parse_line)){
+		if(count_tab_appearances(parse_line) == 1){
+			vector<string> tokens = split_string(parse_line, " \t={}()[]");
+			if(find(begin(exception_list), end(exception_list), tokens[0]) == end(exception_list) && tokens[0][0] != '#' && !tokens[0].empty()){
+				culture_names.push_back(tokens[0]);
+			}
+		}
+	}
+	
+	return culture_names;
+}
+
 int main()
 {
-	getline(cin, mode_);
+	string path_cultures;
+	cout<<"Path to file with cultures: ";
+	getline(cin, path_cultures);
 	
-	if(mode_ == "!separate"){
-		string culture;
-		string ifsave;
+	ifstream _cultures;
+	_cultures.open(path_cultures.c_str());
+	vector<string> cultures;
+	if(_cultures){
+		cultures = parse_culture_names(_cultures);
+	}
+	else{
+		cout << "Failed to open file in path \""<< path_cultures <<"\"" << endl;
+		return 0;
+	}
+	_cultures.close();
 	
-		while(!stop){
-			getline(cin, culture);
-			if(culture != "!stop"){
-				create_pop(culture);
-					cout<<"Save to file? (y/n)"<<endl;
-					getline(cin, ifsave);
-						if(ifsave == "y"){
-							stf();
-						}
+	while(mode_ != "!exit"){
+		getline(cin, mode_);
+		
+		if(mode_ == "!separate"){
+			for(size_t i = 0; i < cultures.size(); i++){
+				create_pop(cultures[i]);
 			}
-			if(culture == "!stop")
-			{
-				return 0;
+		}
+		if(mode_ == "!all"){
+			int lines = 0;
+			cout<<"Customizable loc path: ";
+			getline(cin, f_GC_path);
+			cout<<"CL keys loc path(expects YAML file, any will work): ";
+			getline(cin, f_loc_path);
+			
+			for(size_t i = 0; i < cultures.size(); i++){
+				create_pop(cultures[i]);
+			}
+		}
+		
+		if(mode_ == "!all-keys"){
+			int lines = 0;
+			cout<<"Path to save loc keys: ";
+			getline(cin, f_lockey_path);
+			
+			for(size_t i = 0; i < cultures.size(); i++){
+				create_pop(cultures[i]);
+			}
+		}
+		
+		if(mode_ == "!all-varloc"){
+			int lines = 0;
+			cout<<"Path to save variable loc(expects YAML file, any will work): ";
+			getline(cin, f_varloc_path);
+			
+			for(size_t i = 0; i < cultures.size(); i++){
+				create_pop(cultures[i]);
 			}
 		}
 	}
-	if(mode_ == "!all"){
-		int lines = 0;
-		string lc_path;
-		getline(cin, lc_path);
-		cout<<"Customizable loc path: ";
-		getline(cin, f_GC_path);
-		cout<<"CL keys loc path(expects YAML file, any will work): ";
-		getline(cin, f_loc_path);
-		string culture;
-		
-		fstream load_cultures;
-		load_cultures.open(lc_path.c_str());
-		while(getline(load_cultures, culture)){
-			lines++;
-		}
-		load_cultures.close();
-		load_cultures.open(lc_path.c_str());
-		string cultures[lines];
-		for(int i=1; i<lines; i++){
-			getline(load_cultures, cultures[i]);
-			create_pop(cultures[i]);
-		}
-		load_cultures.close();
-	}
 	
-	if(mode_ == "!all-keys"){
-		int lines = 0;
-		string lc_path;
-		getline(cin, lc_path);
-		cout<<"Path to save loc keys: ";
-		getline(cin, f_lockey_path);
-		string culture;
-		
-		fstream load_cultures;
-		load_cultures.open(lc_path.c_str());
-		while(getline(load_cultures, culture)){
-			lines++;
-		}
-		load_cultures.close();
-		load_cultures.open(lc_path.c_str());
-		string cultures[lines];
-		for(int i=1; i<lines; i++){
-			getline(load_cultures, cultures[i]);
-			create_pop(cultures[i]);
-		}
-		load_cultures.close();
-	}
-	
-	if(mode_ == "!all-varloc"){
-		int lines = 0;
-		string lc_path;
-		getline(cin, lc_path);
-		cout<<"Path to save variable loc(expects YAML file, any will work): ";
-		getline(cin, f_varloc_path);
-		string culture;
-		
-		fstream load_cultures;
-		load_cultures.open(lc_path.c_str());
-		while(getline(load_cultures, culture)){
-			lines++;
-		}
-		load_cultures.close();
-		load_cultures.open(lc_path.c_str());
-		string cultures[lines];
-		for(int i=1; i<lines; i++){
-			getline(load_cultures, cultures[i]);
-			create_pop(cultures[i]);
-		}
-		load_cultures.close();
-	}
+	return 0;
 }
