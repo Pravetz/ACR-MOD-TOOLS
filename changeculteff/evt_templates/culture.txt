@@ -1,0 +1,135 @@
+namespace = %MODIFIER%_event
+
+province_event = {
+	id = %MODIFIER%_event.0
+	title = "%MODIFIER%_event.0.t"
+	desc = "%MODIFIER%_event.0.d"
+	picture = CULTURE_eventPicture
+	
+	major = no
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			has_province_modifier = %MODIFIER%
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+		
+		#decrease
+		modifier = {
+			factor = 0.1
+			NOT = {
+				check_variable = {
+					which = local_population
+					value = 1000
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				check_variable = {
+					which = local_population
+					value = 5000
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				check_variable = {
+					which = local_population
+					value = 10000
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			AND = {
+				check_variable = {
+					which = assimilation_eff
+					value = 0.5
+				}
+			}
+		}
+		
+		#increase
+		modifier = {
+			factor = 2
+			AND = {
+				check_variable = {
+					which = local_population
+					value = 100000
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			AND = {
+				check_variable = {
+					which = local_population
+					value = 1000000
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 6
+			NOT = {
+				check_variable = {
+					which = assimilation_eff
+					value = 0
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 4
+			AND = {
+				check_variable = {
+					which = assimilation_eff
+					value = 0
+				}
+			}
+			NOT = {
+				check_variable = {
+					which = assimilation_eff
+					value = 0.2
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			AND = {
+				check_variable = {
+					which = assimilation_eff
+					value = 0.2
+				}
+			}
+			NOT = {
+				check_variable = {
+					which = assimilation_eff
+					value = 0.5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		acr_target_assimilate_everyone_effect = { culture = %CULTURE% }
+		#alloc cultures
+		hidden_effect = {
+			province_event = { id = acr_population_system.7 }
+		}
+	}
+	
+	option = {
+		name = %MODIFIER%_event.0.ok
+		ai_chance = { factor = 100 }
+	}
+}
