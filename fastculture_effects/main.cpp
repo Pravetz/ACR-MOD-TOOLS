@@ -372,7 +372,7 @@ size_t count_tab_appearances(const string &str){
 
 vector<string> parse_culture_names(ifstream &file){
 	string parse_line = "";
-	static const string exception_list[] = { "(",")","[","]","{","}", "\n", "male_names", "primary", "female_names", "dynasty_names", "graphical_culture", "second_graphical_culture" };
+	static const string exception_list[] = { "(",")","[","]","{","}", "\n", "country", "province", "male_names", "primary", "female_names", "dynasty_names", "graphical_culture", "second_graphical_culture" };
 	vector<string> culture_names;
 	
 	while(getline(file, parse_line)){
@@ -386,6 +386,7 @@ vector<string> parse_culture_names(ifstream &file){
 	
 	return culture_names;
 }
+
 
 int main()
 {
