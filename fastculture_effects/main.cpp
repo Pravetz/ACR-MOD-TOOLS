@@ -8,6 +8,30 @@ using namespace std;
 string mode_;
 string f_path_variable, f_path_scoped_any, f_path_conditions, f_path_modifiers, f_path_triggers, f_path_assimilation, f_path_assimilation_t, f_path;
 
+void calc_avg_percentages(const string &culture)
+{
+	ofstream _assim;
+	_assim.open(f_path_assimilation.c_str(), fstream::app);
+	_assim << "divide_variable = {\n";
+	_assim << "	which = POPculture_"+culture+"_prcnt\n";
+	_assim << "	which = prov_count\n";
+	_assim << "}\n";
+	_assim.close();
+}
+
+void calc_total_percentages(const string &culture)
+{
+	ofstream _assim;
+	_assim.open(f_path_assimilation.c_str(), fstream::app);
+	_assim << "PREV = {\n";
+	_assim << "	change_variable = {\n";
+	_assim << "		which = POPculture_"+culture+"_prcnt\n";
+	_assim << "		which = PREV\n";
+	_assim << "	}\n";
+	_assim << "}\n";
+	_assim.close();
+}
+
 void rm_flags_eff(const string &culture)
 {
 	ofstream _assim;
@@ -405,7 +429,7 @@ int main()
 		return 0;
 	}
 	_cultures.close();
-	cout<<"Commands: !lst, !var, !cdt, !mod, !tri, !asm(!asm-tri, !asm-eff, !asm-etr, !asm-evt, !asm-unactr), !flt"<<endl;
+	cout<<"Commands: !lst, !var, !cdt, !mod, !tri, !asm(!asm-tri, !asm-eff, !asm-etr, !asm-evt, !asm-unactr, !asm-scope), !flt, !calc-tot, !calc-avg"<<endl;
 	while(mode_ != "!exit"){
 		getline(cin, mode_);
 		
@@ -541,6 +565,20 @@ int main()
 			getline(cin, f_path_assimilation);
 			for(int i=0; i<cultures.size(); i++){
 				evt_toexpel_culture_options_loc(cultures[i]);
+			}
+		}
+		if(mode_ == "!calc-tot" || mode_ == "!all"){
+			cout<<"calc_total_percentages Save path: ";
+			getline(cin, f_path_assimilation);
+			for(int i=0; i<cultures.size(); i++){
+				calc_total_percentages(cultures[i]);
+			}
+		}
+		if(mode_ == "!calc-avg" || mode_ == "!all"){
+			cout<<"calc_avg_percentages Save path: ";
+			getline(cin, f_path_assimilation);
+			for(int i=0; i<cultures.size(); i++){
+				calc_avg_percentages(cultures[i]);
 			}
 		}
 	}
