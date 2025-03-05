@@ -18,3 +18,7 @@ Mod link: https://steamcommunity.com/sharedfiles/filedetails/?id=2601684449
 "fast_ukr_modifier" is used to create modifiers for the Ruthenian centralization-decentralization mechanic in certain range. Default range in ACR is 50: from -25 to 25.
 
 "prevgen" is used to generate previews for modifiers, generated keys can be then used by "custom_tooltip" to display info about modifier to the player without "hacks" like adding it to the country for 1 in-game day. 
+
+All data about available modifiers was obtained from EU4 wiki: https://eu4.paradoxwikis.com/Modifier_list
+
+Modifier localizations for prevgen are taken from game files.
