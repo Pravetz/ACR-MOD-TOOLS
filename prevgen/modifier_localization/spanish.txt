@@ -1,0 +1,843 @@
+ACTUALPOWER_MODIFIER:Modificado por $VAL$.\n
+ADJ_C_SPEED:Junto al Centro de Reforma: $VAL$\n
+ADMINISTRATIVE_EFFICIENCY:Eficiencia administrativa
+ADMIN_EFFICIENCY:Eficiencia Administrativa
+ADVISOR_DEATH_CHANCE:Tiene §Y$CHANCE$%§!  Riesgo de muerte al año.
+AFFORD_SHIP_COST:No te puedes permitir este barco. Necesitas al menos $COST$¤
+AGGRESSIVE_EXPANSION_DISTANCE_MODIFIER:Modificador de distancia
+ALLY_JOIN_CHANCE:$NAME$: §Y$VAL$§!
+ARMY_MAINTENANCE_CONDOTTIERI_NUM:\nCondotieros: $A|2Y$¤
+ARMY_MAINTENANCE_DRILLING_NUM:\nEjércitos en instrucción: $A|2Y$¤
+ARMY_MAINTENANCE_NUM:Ejércitos: $A|2Y$¤ \nMercenarios: $M|2Y$¤\nCompañías mercenarias: $MC|2Y$¤
+ARMY_MAINTENANCE_OVERFORCE:Sobre el límite de fuerzas: $FORCE|2Y$¤
+ARMY_MAINTENANCE_REINFORCE:Refuerzo: $REINFORCE|2Y$¤
+ARMY_MAINTENANCE_TOTAL:Coste total: $TOTAL|2Y$¤
+AUTOMATIC_MAINTENANCE_DESC:Si está activado, el mantenimiento de tu ejército y flota será aumentado, y tus fuertes serán activados, cuando entras en guerra.\n
+AUTOMATIC_MAINTENANCE_DRILL:Todo ejército en instrucción también dejará de instruirse.\n
+AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER:Modifica la §YCiudad de Tenochtitlán§! en:\n   Crecimiento de prosperidad local: §G+0,50§!\n   Coste de desarrollo local: §G-5,00%§!
+AZT_UNLOCK_TENOCHTITLAN_CONDITIONAL_MODIFIER:Desbloquea el modificador condicional en el Gran proyecto §YCiudad de Tenochtitlán§!.
+BASE_LAND_MAINTENANCE_FACTOR:Factor Base de Mantenimiento de Tierra
+BLOCKADE_EFFICIENCY:Eficiencia de bloqueo
+BUILDING_MAINTENANCE_COST:Mantenimiento una vez terminado: §Y$AMOUNT$§!¤/mes
+CANNOT_AFFORD_IT_AI_MODIFIER:No pueden pagarlo
+CARDINAL_CHANCE:Probabilidad de cardenal
+CARDINAL_TOOLTIP_CHANCE:§Y$COUNTRY$§! tiene §Y$AMOUNT$§! posibilidad de convertirse en el próximo controlador de la curia.
+CD_CONODTIERRIS_RECEIVED:Tiene contratadas tropas condotieros de $LIST$.
+CHURCH_POWER_MODIFIER:Modificador de poder de la iglesia
+COLONIST_PLACEMENT_CHANCE:Probabilidad de colono
+COLONY_MAINTENANCE_COST:$NAME$: §Y+$COST$§!¤ $EXTRA$\n
+CONFIRMMISSION_MAINTENANCE_COST:Convertir esta provincia costará $COST|R$¤/mes debido a su desarrollo y autonomía.
+CONFIRMMISSION_MAINTENANCE_COST_BASE:Coste base por provincia: $COST|Y$¤
+CONFIRMMISSION_MAINTENANCE_COST_MODIFIED_BY:Este coste se modifica en:
+CORE_CREATION_COST_MODIFIER:\nCoste de convertir en núcleo modificado en: $VAL$\n
+COSSACKS_ABILITY_COSSACKS_MODIFIER:Al confiar en estos regimientos, el coste de nuestra estabilidad aumentará a $MODIFIER$.
+COT_GLOBAL_MODIFIER:§YModificador mundial§!:\n$MODIFIER$\n
+COT_PROVINCE_GLOBAL_MODIFIER:§Y$PROVINCE$:§! $NAME$
+COT_PROVINCE_MODIFIER:§YModificador provincial§!:\n$MODIFIER$\n
+COT_REGION_MODIFIER:§YProvincias poseídas en región§!:\n$MODIFIER$\n
+COT_STATE_MODIFIER:§YProvincias en posesión en el área§!:\n$MODIFIER$\n
+COUNTRY_REVOLUTIONARY_ZEAL_MODIFIER:Fervor revolucionario
+COUNTRY_TRADE_EFFICIENCY:Ef. comercial (Max 200%): $VAL$
+DECREASE_SPEED:Disminuir la velocidad del juego
+DIPLO_DAMAGED_SHIPS:Barcos dañados: 
+DIPLO_WAR_EXHAUSTION:$WHO$ Hastío Bélico:
+DONT_HAVE_THE_ACTIVE_PROVINCE_MODIFIER:NO tiene el modificador de provincia activa 
+DONT_HAVE_THE_MODIFIER:NO tienes el modificador
+DONT_HAVE_THE_PROVICEN_MODIFIER:No tienes el modificador de provincia
+DONT_HAVE_THE_RULER_MODIFIER:NO tener el modificador de gobernante
+ECONOMY_ADVISOR_COST_MODIFIER:Los salarios de los consejeros se han modificado en:
+ECONOMY_STATE_MAINTENANCE_DRO:El mantenimiento estatal se paga cada mes para la administración en estados que no son nuestra capital. Esto se basa en el desarrollo total y la distancia de la capital.
+EFFECT_ADD_TRIGGERED_MODIFIER:§Y$PROV$§! consigue el modificador condicional '$MODIFIER$' con estos efectos:\n$VALUE$\n\n
+EFFECT_REMOVE_TRIGGERED_MODIFIER:§Y$PROV$§! pierde el modificador condicional '$MODIFIER$'.
+EMBARGO_EFFICIENCY:Eficiencia de Bloqueo: §Y$VAL$§!
+ESTATE_INFLUENCE_MODIFIER:$ESTATE|Y$ tiene(n) el modificador de influencia de $VALUE|Y$.
+ESTATE_LOYALTY_MODIFIER:Los $ESTATE|Y$ el modificador de lealtad de $VALUE|Y$.
+EXPAND_INFRASTRUCTURE_TOOLTIP_MODIFIER:Ampliar las infraestructuras aplicará esto a la provincia:\n$MODIFIER$\n
+FEO_ALL_RUTHENIAN_PROVINCES_GAIN_PERMANENT_MODIFIER:Todas nuestras provincias de §YRutenia§! ganarán Coste de desarrollo local §G-10,0%§!, modificador de Soldadesca local §G10,0%§! y modificador de Impuestos locales §G15,0%§!
+FEO_OCCUPYING_MAJOR_EUROPEAN_CITIES_GRANTS_PERMANENT_MODIFIER:Conquistar §Ygrandes ciudades alemanas§! ahora nos dará estas bonificaciones:\n   §YViena§!: coste de anexión diplomática §G-10,0%§!\n   §YPraga§!: coste de consejero de la misma cultura §G-15,0%§!\n   §YColonia§!: misioneros §G+1§! y Fuerza misionera contra herejes §G+2,00%§!\n   §YAquisgrán§!: eficacia administrativa §G+5,00%§!\n   §YLübeck§!: modificador del límite de fuerzas navales §G+20,0%§! y modificador de poder comercial provincial §G+15,0%§!
+FEO_SELECTING_DOCTRINE_GIVES_BLACK_SEAS_FLEET_MODIFIER:\nCuando seleccionemos una doctrina naval, ganaremos §YFlota del mar Negro§! durante §Y15§! años, lo que nos da:\n   Capacidad de combate de galeras §G+10,0%§!\n   Modificador de mantenimiento naval §G-10,0%§!
+FLAGSHIP_COST:Coste de buque insignia
+FLAGSHIP_MAINTENANCE_MODIFIER:$VALUE|R$
+FLAGSHIP_MAINTENANCE_TOTAL:Coste: $COST|R$¤\nMantenimiento: $MAINTENANCE|R$¤
+FORT_MAINTENANCE_ECO_IRO:Estamos pagando el mantenimiento de $PAID|Y$ fortalezas, mientras que actualmente $MOTH|Y$ están en la reserva.
+FORT_MAINTENANCE_ECO_IRO_2:Las fortalezas del enemigo de $MOTH|Y$ son puestas en reserva y no nos cuestan nada.
+FORT_MAINTENANCE_LOCK_NONC:Solo se puede alterar el bloqueo de mantenimiento en las fortalezas que controlas, ya que son las únicas por las que pagas dinero.
+FORT_MAINTENANCE_LOCK_OFF:La fortaleza de esta provincia se puede poner en reserva con esta interfaz o usando el botón «Fortalezas en reserva» de la pestaña Militar.
+FORT_MAINTENANCE_LOCK_OFF_ACTION:§GHaz clic para no haya nunca fortalezas en reserva§!
+FORT_MAINTENANCE_LOCK_ON:La fortaleza de esta provincia nunca se pondrá en reserva.
+FORT_MAINTENANCE_LOCK_ON_ACTION:§GHaz clic para permitir fortalezas en reserva§!
+FORT_MAINTENANCE_LOCK_SIEGE:¡No se puede alterar el bloqueo de mantenimiento cuando la provincia está siendo asediada!
+FORT_MAINTENANCE_LONG:Esto es cuánto costará al mes a nuestra nación cada nivel de fortaleza.
+FORT_MAINTENANCE_MODIFIER:Mantenimiento de la Fortaleza
+FREE_POLICY_MODIFIER:\n$MODIFIERS$
+GLOBAL_AUTONOMY_MOD:Cambio mensual de autonomía
+GLOBAL_GARRISON_GROWTH:Guarnición Nacional de Crecimiento
+GLOBAL_MANPOWER:Modif. de soldadesca nacional
+GLOBAL_MISSIONARY_STRENGTH:Fuerza misionera
+GLOBAL_PROV_TRADE_POWER_MODIFIER:Modificador provincial de poder comercial
+GLOBAL_REVOLT_RISK:Riesgo de revuelta nacional
+GLOBAL_SAILORS:Modificador de marineros nacionales
+GLOBAL_SUPPLY_LIMIT_MODIFIER:Modificador límite abastecimiento nacional
+GLOBAL_TARIFF_MODIFIER:Aranceles globales
+GLOBAL_TAX_MODIFIER:Modif. de impuestos nacionales
+GLOBAL_TRADEGOODS_SIZE_DESC:Este factor aumenta la cantidad de bienes producidos en el país en nuestras provincias.
+GLOBAL_TRADE_INCOME_MODIFIER:Modif. de ingresos por comercio nacional
+GLOBAL_UNREST:Disturbio Nacional
+GOLD_DEPLETE_CHANCE:Con una base de producción $PROD|Y$ hay §R$CHANCE$%§! al año de que la mina se agote, reduciendo a la mitad su producción.
+GOODS_PRODUCED_EFFICIENCY:Eficiencia bienes producidos
+GOVERNING_CAPACITY_MODIFIER:\nEsto se multiplica por:\n$MODIFIER$
+GOV_INTERACTION_CAPITAL_AREA_MODIFIER:Durante $YEARS|Y$ años todas las provincias del área de tu capital conseguirán:\n$MODIFIER$\n
+GOV_INTERACTION_GLOBAL_MODIFIER:Durante $YEARS|Y$ años conseguirás:\n$MODIFIER$\n
+GROWTH_MODIFIER:Modificador de crecimiento
+HAB_ALL_HUNGARIAN_PROVINCES_LOSE_AUTONOMY_AND_GAIN_THE_FOLLOWING_MODIFIER:Toda provincia núcleo §Yhúngara§! perderá un §R50%§! de autonomía y ganará:
+HAB_EVERY_IMPERIAL_CAPITAL_GAINS_FOLLOWING_MODIFIER:Toda §Ycapital§! de un §Yestado imperial§! ganará esto:
+HAB_UNLOCK_VIENNA_CONDITIONAL_MODIFIER:Desbloquea el §Ymodificador condicional§! en el Gran proyecto §YPalacio de Schönbrunn§!.
+HAS_NOT_TRADE_MODIFIER:$WHO$ no tiene §Y$WHAT$§! en §Y$WHERE$§!.\n
+HAS_TRADE_MODIFIER:$WHO$ tiene §Y$WHAT$§! en §Y$WHERE$§!.\n
+HAVE_LAND_MAINTENANCE_OVER:Se tiene un mantenimiento de ejército de tierra superior a 
+HAVE_LAND_MAINTENANCE_UNDER:Se tiene un mantenimiento de ejército de tierra inferior a 
+HAVE_LESS_GLOBAL_MODIFIER:Tener menos de $VALUE$ $MODIFIER$
+HAVE_LESS_LOCAL_MODIFIER:Tener menos de $VALUE$ $MODIFIER$
+HAVE_MORE_GLOBAL_MODIFIER:Tener al menos $VALUE$ $MODIFIER$
+HAVE_MORE_LOCAL_MODIFIER:Tener al menos $VALUE$ $MODIFIER$
+HAVE_NAVAL_MAINTENANCE_OVER:Se tiene un mantenimiento de armada superior a 
+HAVE_NAVAL_MAINTENANCE_UNDER:Se tiene un mantenimiento de armada inferior a 
+HAVE_THE_ACTIVE_PROVINCE_MODIFIER:Tiene el modificador de provincia activa 
+HAVE_THE_LIBERTY_DESIRE_MODIFIER:Tiene el modificador $MODIFIER|Y$ de Deseo de libertad
+HAVE_THE_MODIFIER:Tienes el modificador
+HAVE_THE_PROVINCE_MODIFIER:Tienes el modificador de provincia 
+HAVE_THE_RULER_MODIFIER:Tener el modificador de gobernante
+HEAVYSHIP_COST:Coste de barco grande
+HEGEMON_BASE_MODIFIER:Siempre tiene estos beneficios:\n
+HEGEMON_MAX_MODIFIER:Al máximo de poder, gana:\n
+HEGEMON_SCALES_MODIFIER:Con el paso del tiempo y el aumento de poder, gana:\n
+HORDES_BASAQS_NOW_GRANT_TRIPLES_LOYALTY_PER_TRIBUTE_RECEIVED:El privilegio §Yautonomía basqaq§! ahora rendirá lealtad §G+1%§! al estamento al cual esté asignado cada vez que un §Ytributario§! nos pague tributo.
+HORDES_CREATE_PAX_MONGOLICA_MODIFIER:Fusiona los modificadores §YKan de kanes§! y §YComo un dragón§! en el modificador §YPax Mongolica§! y los modifica más allá en:\n   Tiempo de viaje de enviados: §G-10,0%§!\n   Capacidad de gobierno: §G+100§!
+HRE_EMPEROR_HAS_MODIFIER:El SIR tiene el modificador
+HRE_EMPEROR_HAS_NOT_MODIFIER:El SIR no tiene el modificador
+HRE_MEMBER_HAS_MODIFIER:Los miembros del SIR tienen el modificador
+HRE_MEMBER_HAS_NOT_MODIFIER:Los miembros del SIR no tienen el modificador
+HUN_ALL_AUSTRIAN_PROVINCES_LOSE_AUTONOMY_AND_GAIN_THE_FOLLOWING_MODIFIER:Toda provincia núcleo §Yaustriaca§! perderá un §R50%§! de autonomía y ganará:
+IMPROVE_RELATION_MODIFIER:Mejorar relaciones
+INCREASE_SPEED:Aumentar la velocidad del juego
+INVESTMENT_AREA_MODIFIER:Todo el área de $AREA|Y$:\n
+INVESTMENT_COMPANY_AREA_MODIFIER:Provincias de compañías comerciales de $COUNTRY|Y$ en $AREA|Y$:\n
+INVESTMENT_OWNER_MODIFIER:Por $COUNTRY|Y$:\n
+INVESTMENT_OWNER_REGION_MODIFIER:Por $COUNTRY|Y$ en $REGION|Y$:\n
+INVESTMENT_REGION_MODIFIER:Todo $REGION|Y$:\n
+INVITE_RECEIVED:Invitación recibida
+LAG_DECREASE_SPEED:$PLAYER$ está sufriendo lag, velocidad reducida
+LAND_FORCELIMIT_MODIFIER:Modif. de lím. terrestres
+LAND_MAINTENANCE_MODIFIER:Modif. de mant. terrestre
+LAND_OWNERSHIP_MODIFIER:$PERCENT|Y0&$ de propiedad de la tierra da:\n$MODIFIERS$\n
+LEDGER_CHANCE:Probabilidad
+LEDGER_PLACEMENT_COST:Coste de emplazamiento
+LEDGER_PRODUCTION_EFFICIENCY:Rendimiento
+LEDGER_REAL_PRODUCTION_EFFICIENCY:Rendimiento real
+LEDGER_SCORE_PLACEMENT:Posición
+LEDGER_SPEED:Velocidad
+LEDGER_TRADE_EFFICIENCY:Ef. Comercial
+LIBERTY_DESIRE_FROM_ADM_EFFICIENCY:Eficiencia administrativa: $VAL$
+LIBERTY_DESIRE_FROM_WAR_EXHAUSTION:Hastío de guerra de §Y$OVERLORD$§!: $VAL$
+LIGHTSHIP_COST:Coste de barco ligero
+LOCAL_COLONIST_PLACEMENT_CHANCE:Probabilidad de colono local
+LOCAL_MISSIONARY_PLACEMENT_CHANCE:Probabilidad de misionero local
+LOCAL_PRODUCTION_EFFICIENCY:Eficiencia producción local
+LOCAL_TARIFF_MODIFIER:Aranceles locales
+LOCAL_TAX_MODIFIER:Modif. de impuestos locales
+LOCAL_TRADE_INCOME_MODIFIER:Modif. de ingresos por comercio local
+LOOT_RECOVERY:§Y$DELAY$§! días después del último saqueo, la provincia iniciará la recuperación en un §G$PERCENTAGE$%§! mensual.
+LOOT_RECOVERY_DATE:Esta provincia ha sido saqueada el §Y$LAST_LOOT_DATE$§!. Empezará a recobrar en §G$PERCENTAGE$%§! mensualmente desde §Y$FUTURE_LOOT_DATE$§!, a menos que sea saqueada otra vez antes de esa fecha.
+LOOT_RECOVERY_DATE_AFTER:Esta provincia fue saqueada por última vez el $LAST_LOOT_DATE|Y$. Se recupera un §G$PERCENTAGE$%§! al mes, a menos que vuelva a ser saqueada.
+L_REGIMENT_RECRUIT_SPEED:Tiempo de Contratación Local
+L_SHIP_RECRUIT_SPEED:Tiempo de construcción naval local
+MACRO_MAINTENANCE_COST:Mantenimiento: $COST|1$¤ por mes
+MACRO_MAINTENANCE_FORCE_LIMIT_WARN:§R¡Construir esto superará nuestro límite de fuerzas!§!
+MACRO_REDUCE_MAINTENANCE_DESC:Este edificio reducirá el mantenimiento en $VAL$
+MANPOWER_EFFICIENCY:Modif. de Soldadesca
+MANPOWER_RECOVERY:Recuperación de la soldadesca
+MERCHANT_FOREIGN_COMPETE_CHANCE:Prob. de competir en el extranjero
+MERCHANT_OWN_COMPETE_CHANCE:Probabilidad de competir del comerciante nacional
+MERC_MAINTENANCE_MODIFIER:Modificador mantenimiento mercenarios
+MERC_MAINTENANCE_TT:§YMantenimiento mensual§!\n
+MIGRATION_MODIFIER:Se modifica más en:\n$MOD$
+MIL_SCORE_EXHAUSTION:Fatiga de guerra: §R$VAL$§!\n
+MISSIONARY_PLACEMENT_CHANCE:Probabilidad de misionero
+MODIFIER_ACCEPTED_CULTURES:Máximo de culturas promovidas
+MODIFIER_ACCEPTED_CULTURE_THRESHOLD:Umbral de Cultura Aceptada
+MODIFIER_ACCEPT_VASSALIZATION_REASONS:Aceptación de vasallaje
+MODIFIER_ADDED:$WHERE$ logra «$WHAT|Y$» $TIME$, con estos efectos:\n$EFFECT$\n\n
+MODIFIER_ADDED_AREA:$WHERE$ consigue '§Y$WHAT$§!' hasta §Y$DATE$§!, causando los efectos siguientes:\n$EFFECT$\n\n
+MODIFIER_ADDED_SHORT:'$WHAT|Y$' $TIME$\n
+MODIFIER_ADDED_SHORT_TIME_DATE:hasta $DATE|Y$
+MODIFIER_ADDED_SHORT_TIME_DURATION:durante $DURATION|Y$
+MODIFIER_ADDED_SHORT_TIME_FOREVER:hasta final de la partida
+MODIFIER_ADDED_TIME_DATE:hasta $DATE|Y$
+MODIFIER_ADDED_TIME_DURATION:durante $DURATION|Y$
+MODIFIER_ADDED_TIME_FOREVER:hasta el fin de la partida
+MODIFIER_ADD_TRIBAL_LAND_COST:Añadir coste de tierra tribal
+MODIFIER_ADMINISTRATIVE_EFFICIENCY:Eficacia administrativa
+MODIFIER_ADMIRAL_COST:Coste de almirante
+MODIFIER_ADM_ADVISOR_COST:Coste consejero administrativo
+MODIFIER_ADVISOR_COST:Costes de consejero
+MODIFIER_ADVISOR_POOL:Consejeros posibles
+MODIFIER_AE_IMPACT:Impacto de expansión agresiva 
+MODIFIER_ALLOWED_CARAVEL_FRACTION:Límite de fuerzas de carabelas
+MODIFIER_ALLOWED_COSSACK_FRACTION:Límite de fuerzas de la fracción de cosacos
+MODIFIER_ALLOWED_GALLEASS_FRACTION:Límite de fuerzas de galeazas
+MODIFIER_ALLOWED_GALLEON_FRACTION:Límite de fuerzas de galeones
+MODIFIER_ALLOWED_GEOBUKSEON_FRACTION:Límite de fuerzas de geobukseon
+MODIFIER_ALLOWED_MAMLUKS_FRACTION:Límite de fuerzas de la fracción de mamelucos
+MODIFIER_ALLOWED_MAN_OF_WAR_FRACTION:Límite de fuerzas de buques de guerra
+MODIFIER_ALLOWED_MARINE_FRACTION:Límites de fuerza de Infantería de marina
+MODIFIER_ALLOWED_MUSKETEER_FRACTION:Límite de fuerzas de mosqueteros
+MODIFIER_ALLOWED_NUM_OF_BUILDINGS:Numero posible de edificios
+MODIFIER_ALLOWED_NUM_OF_MANUFACTORIES:Número posible de fábricas
+MODIFIER_ALLOWED_QIZILBASH_FRACTION:Límite de fuerzas de la fracción de qizilbash
+MODIFIER_ALLOWED_RAJPUT_FRACTION:Límite de fuerzas de la fracción de rajputs
+MODIFIER_ALLOWED_REV_GUARD_FRACTION:Límite de fuerzas de la fracción de guardia revolucionaria
+MODIFIER_ALLOWED_SAMURAI_FRACTION:Límite de fuerzas de samuráis
+MODIFIER_ALLOWED_STRELTSY_FRACTION:Límite de fuerzas de la fracción de streltsí
+MODIFIER_ALLOWED_TERCIO_FRACTION:Límite de fuerzas de la fracción de tercios
+MODIFIER_ALLOWED_VOC_INDIAMEN_FRACTION:Límite de fuerzas de VOC indiamen
+MODIFIER_ALLOW_CLIENT_STATES:Se puede crear §Yestado clientelar§!
+MODIFIER_ALLOW_FREE_ESTATE_PRIVILEGE_REVOCATION:Permite revocar los privilegios de los estamentos sin importar lealtad e influencia
+MODIFIER_ALLOW_JANISSARIES_FROM_OWN_FAITH:Permitir jenízaros en provincias de la Fe verdadera
+MODIFIER_ALLOW_MERCENARIES_TO_SPLIT:Se pueden dividir y unir unidades mercenarias
+MODIFIER_ALLOW_MERCENARY_DRILL:Permite que los mercenarios reciban instrucción
+MODIFIER_ALL_ESTATE_INFLUENCE_MODIFIER:Modificador de influencia de todos los estamentos
+MODIFIER_ALL_ESTATE_LOYALTY_EQUILIBRIUM:Equilibrio de lealtad de todos los estamentos
+MODIFIER_ALL_ESTATE_POSSIBLE_PRIVILEGES:Privilegios máx. por estamento
+MODIFIER_ALL_POWER_COST:Costes de todos los poderes
+MODIFIER_AMOUNT_OF_BANNERS:Posibles estandartes manchúes
+MODIFIER_AMOUNT_OF_CARAVEL:Límite de fuerzas de carabelas
+MODIFIER_AMOUNT_OF_CAROLEAN:Posible infantería carolina
+MODIFIER_AMOUNT_OF_CAWA:Posible cawa
+MODIFIER_AMOUNT_OF_GALLEASS:Límite de fuerzas de galeazas
+MODIFIER_AMOUNT_OF_GALLEON:Límite de fuerzas de galeones
+MODIFIER_AMOUNT_OF_GEOBUKSEON:Límite de fuerzas de geobukseon
+MODIFIER_AMOUNT_OF_HUSSARS:Posibles húsares alados
+MODIFIER_AMOUNT_OF_MAMLUKS:Límite de fuerzas de mamelucos
+MODIFIER_AMOUNT_OF_MAN_OF_WAR:Límite de fuerzas de buques de guerra
+MODIFIER_AMOUNT_OF_MUSKETEER:Límite de fuerzas de mosqueteros
+MODIFIER_AMOUNT_OF_QIZILBASH:Límite de fuerzas de qizilbash
+MODIFIER_AMOUNT_OF_SAMURAI:Límite de fuerzas de samuráis
+MODIFIER_AMOUNT_OF_STRELTSY:Límite de fuerzas de streltsí
+MODIFIER_AMOUNT_OF_TERCIO:Límite de fuerzas de tercios
+MODIFIER_AMOUNT_OF_VOC_INDIAMEN:Límite de fuerzas de VOC indiamen
+MODIFIER_ANNEXATION_RELATIONS_IMPACT:Impacto en las relaciones de la anexión
+MODIFIER_APPOINT_CARDINAL_COST:Coste de nombrar cardenal
+MODIFIER_ARMY_TRADITION_FROM_BATTLE:Tradición militar a partir de batallas
+MODIFIER_ARTILLERY_BARRAGE_COST:Coste de bombardeo artillero
+MODIFIER_ARTILLERY_BONUS_VS_FORT:Bonificación artillera contra fortaleza
+MODIFIER_ARTILLERY_FIRE:Fuego de artillería
+MODIFIER_ARTILLERY_LEVELS_AVAILABLE_VS_FORT:Niveles de artillería disponibles contra fortaleza
+MODIFIER_ARTILLERY_LEVEL_MODIFIER:Contribución al asedio de los niveles de artillería
+MODIFIER_ARTILLERY_SHOCK:Choque de artillería
+MODIFIER_ASSAULT_FORT_ABILITY:Habilidad de asaltar fortaleza
+MODIFIER_ASSAULT_FORT_COST_MODIFIER:Modificador de coste de asaltar fortaleza
+MODIFIER_ATTACK:Bonificación de combate
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN:Bonificación de combate en terreno de la capital
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN_IN_PROV: para nosotros por ser el mismo terreno que en nuestra capital
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN_IN_PROV_BONUS:§GBonificación de combate $VALUE|=0$§!
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN_IN_PROV_PENALTY:§R$VALUE|=0$ Penalización de combate§!
+MODIFIER_AUTONOMY_CHANGE_TIME:Enfriamiento del cambio de autonomía
+MODIFIER_AUTO_EXPLORE_ADJACENT_TO_COLONY:Descubrir automáticamente lo adyacente cuando se construya una colonia.
+MODIFIER_AVAILABLE_PROVINCE_LOOT:Botín disponible
+MODIFIER_BACKROW_ARTILLERY_DAMAGE:Daño artillero desde filas traseras
+MODIFIER_BLOCKADE_FORCE_REQUIRED:Se requiere fuerza de bloqueo
+MODIFIER_BLOCKADE_IMPACT_ON_SIEGE_IN_FLEET:Impacto de bloque de la flota sobre el asedio
+MODIFIER_BLOCK_INTRODUCE_NEW_HEIR:Bloquea Presentar nuevo heredero
+MODIFIER_CANDIDATE_RANDOM_BONUS:Bonif. candidato aleatorio
+MODIFIER_CANNONS_FOR_HUNTING_PIRATES_IN_FLEET:Eficacia de caza de piratas de la flota
+MODIFIER_CAN_BYPASS_FORTS:Ignorar zona de control
+MODIFIER_CAN_CHAIN_CLAIM:Permite reclamar derechos fronterizos
+MODIFIER_CAN_CLAIM_STATES:Se pueden reclamar estados enteros
+MODIFIER_CAN_COLONY_BOOST_DEVELOPMENT:+1 de §Ycada desarrollo§! cuando se termine la colonia
+MODIFIER_CAN_NOT_BUILD_BUILDINGS:NO se pueden construir edificios
+MODIFIER_CAN_NOT_BUILD_COLONIES:NO se pueden crear colonias
+MODIFIER_CAN_NOT_BUILD_MISSIONARIES:NO se pueden enviar misioneros
+MODIFIER_CAN_NOT_DECLARE_WAR:NO se pueden declarar guerras
+MODIFIER_CAN_NOT_SEND_MERCHANTS:NO se pueden enviar comerciantes
+MODIFIER_CAN_RECRUIT_CAWA:Puede reclutar cawa
+MODIFIER_CAN_RECRUIT_COSSACKS:Puede reclutar cosacos
+MODIFIER_CAN_RECRUIT_HUSSARS:Permite al país reclutar unidades de húsares alados
+MODIFIER_CAN_RECRUIT_JANISSARIES:Se pueden reclutar jenízaros
+MODIFIER_CAN_RECRUIT_RAJPUTS:Puede reclutar rajputs
+MODIFIER_CAN_RECRUIT_REVOLUTIONARY_GUARDS:Puede reclutar guardia revolucionaria
+MODIFIER_CAN_RECRUIT_TERCIO:Puede reclutar tercios
+MODIFIER_CAN_REVOKE_PARLIAMENT_SEATS:Se pueden revocar escaños en el parlamento
+MODIFIER_CAN_TRANSFER_VASSAL_WARGOAL:Permite «§YTransferir súbdito§!» Tratado de paz
+MODIFIER_CAN_TRANSPORT_UNITS:Puede transportar unidades
+MODIFIER_CAPED_BY_FORCELIMIT:NO se puede superar el límite de fuerzas
+MODIFIER_CAPTURE_SHIP_CHANCE:Posibilidad de capturar barcos enemigos
+MODIFIER_CAVALRY_FIRE:Fuego de caballería
+MODIFIER_CAVALRY_FLANKING:Capacidad de flanqueo de caballería
+MODIFIER_CAVALRY_SHOCK:Choque de caballería
+MODIFIER_CAV_TO_INF_RATIO:Ratio caballería infantería
+MODIFIER_CAWA_COST:Coste de regimiento de cawa
+MODIFIER_CENTER_OF_TRADE_UPGRADE_COST:Coste de mejorar centro de comercio
+MODIFIER_CENTRALIZE_STATE_COST:Coste de centralizar estado
+MODIFIER_CHANCE_TO_INHERIT:Oportunidad de heredar súbditos de unión personal
+MODIFIER_CHURCH_POWER:Poder de la iglesia
+MODIFIER_CLAIM_COLONIES:Puede Crear Reclamaciones en cualquier provincia de ultramar que pertenezca a otra nación, también de ultramar o bien de sus naciones coloniales.
+MODIFIER_CLAIM_DURATION:Duración de derechos
+MODIFIER_COAST_CAN_NOT_BE_RAIDED:Bloquea asaltos esclavistas
+MODIFIER_COAST_RAID_RANGE:Alcance asalto costero
+MODIFIER_COLONIAL_GROWTH:Crecimiento colonial global
+MODIFIER_COLONIAL_LIBERTY_DESIRE:Deseo de Libertad en las Colonias
+MODIFIER_COLONIAL_RANGE:Alcance colonial 
+MODIFIER_COLONIAL_SUBJECT_TYPE_UPGRADE_COST_MODIFIER:Modif. de coste de mejora de tipo colonial
+MODIFIER_COLONIAL_TYPE_CHANGE_COST_MODIFIER:Modif. de coste de cambio de tipo colonial
+MODIFIER_COLONIST_TIME:Tiempo de viaje de Colono
+MODIFIER_COLONY_COST_MODIFIER:Modificador de coste de colonia
+MODIFIER_COLONY_DEVELOPMENT_BOOST:Impulso de desarrollo de colonia
+MODIFIER_CORE_CREATION:Coste de creación de un núcleo
+MODIFIER_CORE_DECAY_ON_YOUR_OWN:Duración de núcleo extranjero
+MODIFIER_COUNTRY_ADMIN_POWER:Poder administrativo mensual
+MODIFIER_COUNTRY_DIPLOMATIC_POWER:Poder diplomático mensual
+MODIFIER_COUNTRY_MILITARY_POWER:Poder militar mensual
+MODIFIER_CULTURE_CONVERSION_COST:Coste de Conversión de Cultura
+MODIFIER_CULTURE_CONVERSION_TIME:Tiempo de conversión cultural
+MODIFIER_CURIA_POWERS_COST:Coste de poderes de Curia
+MODIFIER_CURIA_TREASURY_CONTRIBUTION:Contribución al tesoro de la Curia
+MODIFIER_DEVELOPMENT_COST_IN_PRIMARY_CULTURE:Coste de desarrollo en cultura principal
+MODIFIER_DEVELOPMENT_COST_MODIFIER:Modificador de coste de desarrollo
+MODIFIER_DEVELOPMENT_EFFICIENCY:Eficacia de desarrollo
+MODIFIER_DIPLOMATIC_ANNEXATION_COST:Coste de Anexión Diplomática
+MODIFIER_DIPLOMATIC_UPKEEP:Relaciones diplomáticas
+MODIFIER_DIPLO_SKILL:Reputación diplomática
+MODIFIER_DIP_ADVISOR_COST:Coste consejero diplomático
+MODIFIER_DIRECT_TAX_PERCENTAGE:Impuesto directo
+MODIFIER_DISCIPLINE:Disciplina
+MODIFIER_DISCOVERED_RELATION_IMPACT:Impacto en relaciones por acciones descubiertas
+MODIFIER_DISEMBARK_SPEED:Velocidad de desembarque
+MODIFIER_DISENGAGEMENT_CHANCE:Posibilidad de separar barcos
+MODIFIER_DRILL_DECAY_MODIFIER:Deterioro Instrucción militar
+MODIFIER_DRILL_GAIN_MODIFIER:Modif. ganancia Instrucción militar 
+MODIFIER_ELECTION_CYCLE:Término de duración de elección
+MODIFIER_EMBARGO_EFFICIENCY:Eficiencia del embargo
+MODIFIER_EMBRACEMENT_COST:Coste de incorporar Institución
+MODIFIER_ENABLE_FORCED_MARCH:Activa marcha forzada
+MODIFIER_ENEMY_CORE_CREATION:Coste de creación de un núcleo hostil
+MODIFIER_ENGAGEMENT_COST:Ancho de combate de barcos
+MODIFIER_ENGAGEMENT_COST_MODIFIER:Modificador de ancho de combate de barcos
+MODIFIER_ENVOY_TRAVEL_TIME:Tiempo de viaje
+MODIFIER_ESTABLISH_ORDER_COST:Coste de fundar organización local
+MODIFIER_ESTATE_INTERACTION_COOLDOWN_MODIFIER:Modificador de cuenta atrás de interacción de estamento
+MODIFIER_ESTATE_LOYALTY_CHANGE_ON_REVOKED:Lealtad de estamento al revocar privilegio
+MODIFIER_EXPAND_ADMINISTRATION_COST:Coste de Expandir administración
+MODIFIER_EXPAND_INFRASTRUCTURE_COST_MODIFIER:Modificador de coste de ampliar infraestructuras
+MODIFIER_EXPEL_MINORITIES_COST:Coste de expulsar minorías
+MODIFIER_EXPLORATION_MISSION_RANGE_IN_FLEET:Rango de exploración de la flota
+MODIFIER_EXTRA_MANPOWER_AT_RELIGIOUS_WAR:La soldadesca se incrementa durante las guerras religiosas.
+MODIFIER_FABRICATE_CLAIMS_TIME:Coste de inventar reclamaciones
+MODIFIER_FEMALE_ADVISOR_CHANCE:Oportunidad de una consejera
+MODIFIER_FIRE_DAMAGE:Daño por fuego
+MODIFIER_FIRE_DAMAGE_RECIEVED:Daño por fuego recibido
+MODIFIER_FLAGSHIP_DURABILITY_MODIFIER:Durabilidad de buque insignia
+MODIFIER_FLAGSHIP_LANDING_PENALTY:Penalización de combate al desembarcar
+MODIFIER_FLAGSHIP_NAVAL_ENGAGEMENT_IN_FLEET:Amplitud de combate de la flota
+MODIFIER_FLAGSHIP_NAVAL_TRADITION:Tradición naval de la flota por batallas
+MODIFIER_FORCE_MARCH_FREE:Forzar marcha no cuesta fuerza.
+MODIFIER_FREE_ADM_POLICY:Políticas administrativas gratis
+MODIFIER_FREE_CITY_IMPERIAL_AUTHORITY:Autoridad imperial de Ciudades libres
+MODIFIER_FREE_CONCENTRATE_DEVELOPMENT:Se puede concentrar desarrollo sin pérdidas.
+MODIFIER_FREE_DIP_POLICY:Políticas diplomáticas gratis
+MODIFIER_FREE_LAND_LEADER_POOL:Líder(es) terrestres sin gastos de mantenimiento
+MODIFIER_FREE_LEADER_POOL:Líder(es) sin mantenimiento
+MODIFIER_FREE_MAINTENANCE_ON_EXPL_CONQ:Líderes exploradores sin mantenimiento
+MODIFIER_FREE_MIL_POLICY:Políticas militares gratis
+MODIFIER_FREE_NAVY_LEADER_POOL:Líder(es) navales sin gastos de mantenimiento
+MODIFIER_FREE_POLICY:Políticas gratis
+MODIFIER_GALLEY_HULL_SIZE_MODIFIER:Tamaño de casco de galera
+MODIFIER_GALLEY_NUMBER_OF_CANNONS_MODIFIER:Cañones de galera
+MODIFIER_GARRISON_DAMAGE:Daño de ejército de guarnición
+MODIFIER_GARRISON_SIZE:Tamaño de guarnición
+MODIFIER_GENERAL_COST:Coste general
+MODIFIER_GLOBAL_ALLOWED_NUM_OF_BUILDINGS:Número global posible de edificios
+MODIFIER_GLOBAL_ALLOWED_NUM_OF_MANUFACTORIES:Número posible de fábricas
+MODIFIER_GLOBAL_ATTACKER_DICE_ROLL_BONUS:Bonificación de tirada de dados de atacante global
+MODIFIER_GLOBAL_COT_GRAVITY:Atractivo del nodo comercial nacional
+MODIFIER_GLOBAL_DEFENDER_DICE_ROLL_BONUS:Bonificación de tirada de dados de defensor global
+MODIFIER_GLOBAL_FOREIGN_TRADE_POWER:Poder comercial extranjero
+MODIFIER_GLOBAL_HEATHEN_MISSIONARY_STRENGTH:Fuerza misionera contra infieles
+MODIFIER_GLOBAL_HERETIC_MISSIONARY_STRENGTH:Fuerza misionera contra herejes
+MODIFIER_GLOBAL_INSTITUTION_SPREAD:Extensión de la institución
+MODIFIER_GLOBAL_MONTHLY_DEVASTATION:Devastación mensual goblal
+MODIFIER_GLOBAL_NAVAL_BARRAGE_COST:Coste de bombardeo naval
+MODIFIER_GLOBAL_NAVAL_ENGAGEMENT:Combate naval global
+MODIFIER_GLOBAL_NAVAL_ENGAGEMENT_MODIFIER:Modificador de combate naval global
+MODIFIER_GLOBAL_OWN_TRADE_POWER:Poder comercial doméstico
+MODIFIER_GLOBAL_PROPSPERITY_GROWTH:Incremento de la prosperidad global
+MODIFIER_GLOBAL_REBEL_SUPPRESSION:Eficacia de represión de rebeldes
+MODIFIER_GLOBAL_SHIP_REPAIR:Reparación barco global
+MODIFIER_GLOBAL_SHIP_TRADE_POWER:Poder comercial barcos
+MODIFIER_GLOBAL_TRADE_GOODS_SIZE:Mercancías de Producción Nacional
+MODIFIER_GLOBAL_TRADE_GOODS_SIZE_MODIFIER:Modificador de bienes producidos
+MODIFIER_GLOBAL_TRADE_POWER:Poder comercial global
+MODIFIER_GOLD_DEPLETION_CHANCE_MODIFIER:Modificador de la posibilidad de agotamiento de oro
+MODIFIER_GOVERNING_CAPACITY:Capacidad de gobierno
+MODIFIER_GOVERNING_CAPACITY_MODIFIER:Modificador de Capacidad de gobierno
+MODIFIER_GOVERNING_COST:Coste de gobierno
+MODIFIER_GREAT_PROJECT_UPGRADE_COST:Costo de mejora del Gran proyecto
+MODIFIER_GREAT_PROJECT_UPGRADE_TIME:Tiempo de mejora de gran proyecto
+MODIFIER_HARMONIZATION_SPEED:Velocidad de armonización religiosa
+MODIFIER_HARSH_TREATMENT_COST:Coste de tratamiento duro
+MODIFIER_HAS_BANNERS:Permite estandartes
+MODIFIER_HAS_CARAVEL:El país permite carabelas
+MODIFIER_HAS_CAROLEAN:Permite infantería carolina
+MODIFIER_HAS_GALLEASSE:El país permite galeazas
+MODIFIER_HAS_GALLEON:El país permite galeones
+MODIFIER_HAS_GEOBUKSEON:El país permite barcos geobukseon
+MODIFIER_HAS_HUSSARS:Permite húsares alados
+MODIFIER_HAS_MAMLUKS:El país permite mamelucos
+MODIFIER_HAS_MAN_OF_WAR:El país permite buques de guerra
+MODIFIER_HAS_MARINES:El país permite infantería de marina
+MODIFIER_HAS_MUSKETEER:El país permite infantería de mosqueteros
+MODIFIER_HAS_QIZILBASH:El país permite qizilbash
+MODIFIER_HAS_SAMURAI:El país permite infantería samurái
+MODIFIER_HAS_STRELTSY:El país permite infantería de streltsí
+MODIFIER_HAS_TERCIO:El país permite infantería de tercios
+MODIFIER_HAS_VOC_INDIAMEN:El país permite VOC indiamen
+MODIFIER_HEAVY_SHIP_HULL_SIZE_MODIFIER:Tamaño de casco de barco grande
+MODIFIER_HEAVY_SHIP_NUMBER_OF_CANNONS_MODIFIER:Cañones de barco pesado
+MODIFIER_HEIR_CHANCE:Posibilidad de nuevo heredero
+MODIFIER_HOSTILE_DISEMBARK_SPEED:Tiempo de desembarco hostil
+MODIFIER_HOSTILE_FLEET_ATTRITION:Desgasto de flota hostil
+MODIFIER_HULL_SIZE:Tamaño de casco de los barcos.
+MODIFIER_HULL_SIZE_MODIFIER:Tamaño de casco
+MODIFIER_HUSSARS_COST:Coste de regimiento de húsares
+MODIFIER_IDEA_COST:Coste de la Idea
+MODIFIER_IGNORE_CORING_DISTANCE:Ignorar distancia de núcleo
+MODIFIER_IMPERIAL_AUTHORITY:Autoridad Imperial
+MODIFIER_IMPERIAL_AUTHORITY_VALUE:Modificador de autoridad imperial
+MODIFIER_IMPERIAL_MANDATE:Modificador de crecimiento de mandato
+MODIFIER_IMPERIAL_MERCENARY_COST:Coste reclutamiento mercenario del SIR
+MODIFIER_IMPERIAL_REFORM_CATHOLIC_APPROVAL:Aprobación de las reformas imperiales por los príncipes católicos
+MODIFIER_INFANTRY_FIRE:Fuego de infantería
+MODIFIER_INFANTRY_SHOCK:Choque de infantería
+MODIFIER_INFILTRATE_ADMINITRATION:Infiltrar Administración
+MODIFIER_INFLATION_ACTION_COST:Reducir el coste de inflación
+MODIFIER_INNOVATIVENESS_GAIN:Ganancia de cap. de innovación
+MODIFIER_INSTITUTION_GROWTH:Crecimiento de institución
+MODIFIER_INSTITUTION_SPREAD_FROM_TRUE_FAITH:Propagación de Institución por la misma fe
+MODIFIER_IN_COUNTRY:$MODIFIER|Y$
+MODIFIER_JANISSARY_COST:Coste de regimiento de jenízaros
+MODIFIER_JUSTIFY_TRADE_CONFLICT_TIME:Coste para justificar el conflicto comercial
+MODIFIER_LAND_MORALE:Moral de ejércitos
+MODIFIER_LEADER_COST:Coste de líder
+MODIFIER_LEGITIMATE_SUBJECT_ELECTOR:Súbdito elector legítimo
+MODIFIER_LIBERTY_DESIRE:Deseo de libertad
+MODIFIER_LIBERTY_DESIRE_FROM_SUBJECT_DEVELOPMENT:Deseo de libertad por desarrollo de súbditos
+MODIFIER_LIGHT_SHIP_HULL_SIZE_MODIFIER:Tamaño de casco de barco ligero
+MODIFIER_LIGHT_SHIP_NUMBER_OF_CANNONS_MODIFIER:Cañones de barco ligero
+MODIFIER_LOCAL_AMOUNT_OF_BANNERS:Posibles estandartes manchúes
+MODIFIER_LOCAL_AMOUNT_OF_CAROLEAN:Posible infantería carolina
+MODIFIER_LOCAL_AMOUNT_OF_CAWA:Posible cawa
+MODIFIER_LOCAL_AMOUNT_OF_HUSSARS:Húsares alados posibles por desarrollo
+MODIFIER_LOCAL_ASSAULT_FORT_ABILITY:Habilidad de asaltar fortaleza local
+MODIFIER_LOCAL_ASSAULT_FORT_COST_MODIFIER:Modificador de coste de asaltar fortaleza local
+MODIFIER_LOCAL_ATTACKER_DICE_ROLL_BONUS:Bonificación de tirada de dados de atacante local
+MODIFIER_LOCAL_CENTER_OF_TRADE_UPGRADE_COST:Coste de mejorar centro de comercio local
+MODIFIER_LOCAL_CENTRALIZE_STATE_COST:Coste de centralizar estado
+MODIFIER_LOCAL_COLONIAL_GROWTH:Crecimiento colonial local
+MODIFIER_LOCAL_COLONY_COST_MODIFIER:Modificador de coste de colonia local
+MODIFIER_LOCAL_CORE_CREATION:Costo de creación de núcleo local
+MODIFIER_LOCAL_COT_GRAVITY:Atractivo del nodo comercial local
+MODIFIER_LOCAL_CULTURE_CONVERSION_TIME:Tiempo de conversión cultural local
+MODIFIER_LOCAL_DEFENDER_DICE_ROLL_BONUS:Bonificación de tirada de dados de defensor local
+MODIFIER_LOCAL_DEVELOPMENT_COST_MODIFIER:Modificador de coste de desarrollo local
+MODIFIER_LOCAL_DEVELOPMENT_EFFICIENCY:Eficacia de desarrollo local
+MODIFIER_LOCAL_FORT_MAINTENANCE_MODIFIER:Mantenimiento fortaleza local
+MODIFIER_LOCAL_FRIENDLY_MOVEMENT_SPEED:Velocidad de movimiento amigo
+MODIFIER_LOCAL_GARRISON_DAMAGE:Daño de ejército de guarnición local
+MODIFIER_LOCAL_GARRISON_SIZE:Tamaño de guarnición local
+MODIFIER_LOCAL_GOLD_DEPLETION_CHANCE_MODIFIER:Modificador de la posibilidad de agotamiento de oro local
+MODIFIER_LOCAL_GOVERNING_COST:Coste de gobierno provincia
+MODIFIER_LOCAL_GOVERNING_INCREASE_COST:Aumento del coste del gobierno local
+MODIFIER_LOCAL_GREAT_PROJECT_UPGRADE_COST:Coste de la mejora del Gran proyecto
+MODIFIER_LOCAL_GREAT_PROJECT_UPGRADE_TIME:Tiempo de mejora de gran proyecto local
+MODIFIER_LOCAL_HAS_CARAVEL:La provincia permite carabelas
+MODIFIER_LOCAL_HAS_CAROLEAN:La provincia permite infantería carolina
+MODIFIER_LOCAL_HAS_GALLEASS:La provincia permite galeazas
+MODIFIER_LOCAL_HAS_GALLEON:La provincia permite galeones
+MODIFIER_LOCAL_HAS_GEOBUKSEON:La provincia permite barcos geobukseon
+MODIFIER_LOCAL_HAS_MAMLUKS:La provincia permite mamelucos
+MODIFIER_LOCAL_HAS_MAN_OF_WAR:Provincia permite buques de guerra
+MODIFIER_LOCAL_HAS_MUSKETEER:La provincia permite infantería de mosqueteros
+MODIFIER_LOCAL_HAS_QIZILBASH:La provincia permite qizilbash
+MODIFIER_LOCAL_HAS_SAMURAI:La provincia permite infantería samurái
+MODIFIER_LOCAL_HAS_STRELTSY:La provincia permite infantería de streltsí
+MODIFIER_LOCAL_HAS_TERCIO:La provincia permite infantería de tercios
+MODIFIER_LOCAL_HAS_VOC_INDIAMEN:La provincia permite VOC indiamen
+MODIFIER_LOCAL_HEIR_ADMIN:Habilidad administrativa heredero local
+MODIFIER_LOCAL_HEIR_DIPLOMATIC:Habilidad diplomática heredero local
+MODIFIER_LOCAL_HEIR_MILITARY:Habilidad militar heredero local
+MODIFIER_LOCAL_HOSTILE_MOVEMENT_SPEED:Velocidad de movimiento hostil
+MODIFIER_LOCAL_INSTITUTION_SPREAD:Extensión de la institución
+MODIFIER_LOCAL_MISSIONARY_MAINTENANCE_COST:Mantenimiento misioneros local
+MODIFIER_LOCAL_MONTHLY_DEVASTATION:Devastación mensual
+MODIFIER_LOCAL_MOVEMENT_SPEED:Velocidad movimiento local
+MODIFIER_LOCAL_NAVAL_ENGAGEMENT:Combate naval local
+MODIFIER_LOCAL_OWN_COAST_NAVAL_COMBAT_BONUS:Bon. combate naval local en costa propia
+MODIFIER_LOCAL_PROPSPERITY_GROWTH:Incremento de la prosperidad local
+MODIFIER_LOCAL_REGIMENT_COST:Coste regimiento local
+MODIFIER_LOCAL_RELIGIOUS_CONVERSION_RESISTANCE:Resistencia local a la Reforma
+MODIFIER_LOCAL_RELIGIOUS_UNITY_CONTRIBUTION:Contribución a la unidad religiosa local
+MODIFIER_LOCAL_SHIP_COST:Coste barco local
+MODIFIER_LOCAL_SHIP_REPAIR:Reparación barco local
+MODIFIER_LOCAL_TOLERANCE_OF_HEATHENS:Tolerancia local de herejes
+MODIFIER_LOCAL_TOLERANCE_OF_HERETICS:Tolerancia local de herejes
+MODIFIER_LOCAL_TRADE_COMPANY_INVESTMENT_COST:Coste de inversión de compañía comercial local
+MODIFIER_LOCAL_WARSCORE_COST_MODIFIER:Coste de Puntuación de guerra
+MODIFIER_LOOT_AMOUNT:Velocidad de saqueo
+MODIFIER_MANPOWER_AGAINST_IMPERIAL_ENEMIES:Soldadesca contra enemigos imperiales
+MODIFIER_MANPOWER_IN_ACCEPTED_CULTURE_PROVINCES:Soldadesca en provincias de cultura aceptada
+MODIFIER_MANPOWER_IN_CULTURE_GROUP_PROVINCES:Soldadesca en provincias de la misma cultura
+MODIFIER_MANPOWER_IN_OWN_CULTURE_PROVINCES:Soldadesca en provincias de cultura primaria
+MODIFIER_MANPOWER_IN_TRUE_FAITH_PROVINCES:Soldadesca en provincias de la fe verdadera
+MODIFIER_MANPOWER_PER_PRINCE_AGAINST_IMPERIAL_ENEMIES:Bonificación de soldadesca por príncipe contra enemigos imperiales
+MODIFIER_MAX_ABSOLUTISM:Absolutismo máximo
+MODIFIER_MAX_ABSOLUTISM_EFFECT:Efecto máx. absolutismo
+MODIFIER_MAX_ADMIRAL_FIRE:Fuego máx. almirante
+MODIFIER_MAX_ADMIRAL_MANEUVER:Maniobra máx. almirante
+MODIFIER_MAX_ADMIRAL_SHOCK:Choque máx. almirante
+MODIFIER_MAX_ADMIRAL_SIEGE:Asedio máx. almirante
+MODIFIER_MAX_COALITION_SIZE:Tamaño máximo de coalición
+MODIFIER_MAX_ELECTORS:Número de Electores
+MODIFIER_MAX_FLAGSHIPS:Núm. máximo de buques insignias
+MODIFIER_MAX_FREE_CITIES:Número de Ciudades libres
+MODIFIER_MAX_GENERAL_FIRE:Fuego máx. general
+MODIFIER_MAX_GENERAL_MANEUVER:Maniobra máx. general
+MODIFIER_MAX_GENERAL_SHOCK:Choque máx. general
+MODIFIER_MAX_GENERAL_SIEGE:Asedio máx. general
+MODIFIER_MAX_HOSTILE_ATTRITION:Desgaste hostil máximo
+MODIFIER_MAX_POSSIBLE_PARLIAMENT_SEATS:Número máximo posible del escaños del parlamento
+MODIFIER_MAX_REVOLUTIONARY_ZEAL:Fervor revolucionario máximo
+MODIFIER_MAX_STATES:Número de estados
+MODIFIER_MAY_ATTACK_GOVERNMENT_ENEMIES:Casus Belli permanente contra otras formas de gobierno
+MODIFIER_MAY_ATTACK_OVERSEAS:Puede inventar una reclamación en el extranjero, en regiones de una compañía comercial.
+MODIFIER_MAY_ATTACK_PRIMITIVES:Puede inventar una reclamación en el extranjero, en regiones coloniales.
+MODIFIER_MAY_ATTACK_RELIGIOUS_ENEMIES:Casus Belli permanente contra Herejes.
+MODIFIER_MAY_BUILD_SUPPLY_DEPOT:Puede construir depósitos de suministros
+MODIFIER_MAY_CONVERT_TERRITORIES:Puede convertir la religión en territorios.
+MODIFIER_MAY_EXPLORE:Permitir el reclutamiento de exploradores y conquistadores.
+MODIFIER_MAY_FABRICATE_FOR_VASSALS:Se pueden crear reclamaciones para súbditos
+MODIFIER_MAY_NON_RELIGION:Las provincias herejes y paganas no dan penalizaciones
+MODIFIER_MAY_NOT_CONVERT_TERRITORIES:NO se puede convertir provincias en territorios
+MODIFIER_MAY_NOT_REDUCE_INFLATION:NO se puede reducir la inflación
+MODIFIER_MAY_PERFORM_SLAVE_RAID:Puede asaltar costas
+MODIFIER_MAY_PERFORM_SLAVE_RAID_ON_SAME_RELIGION:Puede asaltar costas, incluyendo la países con la misma religión.
+MODIFIER_MAY_RECRUIT_FEMALE_GENERALS:Puedes reclutar generales femeninos
+MODIFIER_MAY_REFILL_GARRISON:Puede reponer guarnición
+MODIFIER_MAY_REPAIR_AT_SEA:Los barcos pueden reparar cuando estén en zonas marítimas costeras.
+MODIFIER_MAY_REPAIR_SEA:Se pueden reparar barcos en zonas marinas costeras.
+MODIFIER_MAY_RETURN_MANPOWER_ON_DISBAND:Recupera soldadesca al desmantelar
+MODIFIER_MAY_SEA_REPAIR:Se pueden reparar barcos en zonas marinas costeras.
+MODIFIER_MAY_SIBERIAN_FRONTIER:Se pueden fundar fronteras siberianas
+MODIFIER_MAY_STEAL_MAPS:Puede Robar mapas
+MODIFIER_MERCANTILISM_COST:Coste de Promover mercantilismo
+MODIFIER_MERCENARY_DISCIPLINE:Disciplina mercenaria
+MODIFIER_MERCENARY_INDEPENDENT_FROM_TRADE_RANGE:Se pueden reclutar mercenarios de cualquier parte
+MODIFIER_MERCENARY_LEADER_ARMY_TRADITION:Modificación de tradición militar de líder mercenario
+MODIFIER_MERCENARY_MANPOWER:Soldadesca mercenaria
+MODIFIER_MILITARY_TACTICS:Tácticas militares
+MODIFIER_MIL_ADVISOR_COST:Coste conejero militar
+MODIFIER_MIN_AUTONOMY_IN_TERRITORIES:Autonomía mínima de territorios
+MODIFIER_MISSIONARY_MAINTENANCE_COST:Coste de mantenimiento misionero
+MODIFIER_MONARCH_ADMIN_POWER:Habilidad administrativa del monarca
+MODIFIER_MONARCH_DIPLOMATIC_POWER:Habilidad diplomática del monarca
+MODIFIER_MONARCH_LIFESPAN:Vida media de un monarca
+MODIFIER_MONARCH_MILITARY_POWER:Habilidad militar del monarca
+MODIFIER_MONARCH_POWER_TRIBUTE:Tributo de poder del monarca de estados tributarios
+MODIFIER_MONTHLY_CHANCE_ADMIRAL_GAINING_SKILL:Oportunidad mensual de que el almirante gane habilidad durante la misión
+MODIFIER_MONTHLY_CHURCH_POWER:Poder de fe mensual
+MODIFIER_MONTHLY_FAVOR_MODIFIER:Modificador del crecimiento de fervor mensual
+MODIFIER_MONTHLY_FEDERATION_FAVOR_GROWTH:Crecimiento mensual de Favor de la federación
+MODIFIER_MONTHLY_FERVOR_INCREASE:Fervor mensual
+MODIFIER_MONTHLY_GOLD_INFLATION_MODIFIER:Modificación de la inflación de oro mensual
+MODIFIER_MONTHLY_HEIR_CLAIM_INCREASE:Aumento mensual de reclamación del heredero
+MODIFIER_MONTHLY_HEIR_CLAIM_INCREASE_MODIFIER:Modificador del aumento mensual de reclamación del heredero
+MODIFIER_MONTHLY_KARMA:Karma mensual
+MODIFIER_MONTHLY_KARMA_ACCELERATOR:Acelerador de karma mensual
+MODIFIER_MONTHLY_PIETY:Piedad mensual
+MODIFIER_MONTHLY_PIETY_ACCELERATOR:Acelerador de piedad mensual
+MODIFIER_MONTHLY_REFORM_PROGRESS:Progreso mensual de reforma
+MODIFIER_MONTHLY_REFORM_PROGRESS_BUILDING:Progreso de reforma mensual por edificios
+MODIFIER_MONTHLY_REFORM_PROGRESS_MODIFIER:Modificador mensual de Progreso de reforma
+MODIFIER_MONTHLY_SUPPORT_HEIR_GAIN:Aumento mensual del apoyo al heredero
+MODIFIER_MORALE_DAMAGE:Daño de moral
+MODIFIER_MORALE_DAMAGE_RECIEVED:Daño de moral recibido
+MODIFIER_MORALE_FLAGSHIP:Moral de buque insignia
+MODIFIER_MOVEMENT_SPEED:Velocidad de movimiento
+MODIFIER_MOVEMENT_SPEED_IN_FLEET:Velocidad de movimiento de la flota
+MODIFIER_MOVEMENT_SPEED_ONTO_OFF_BOAT:Velocidad entrada y salida de barcos
+MODIFIER_MOVE_CAPITAL_COST_MODIFIER:Modificador coste del traslado de capital
+MODIFIER_NATIONAL_FOCUS_COOLDOWN_YEARS:Años de reinicio para cambiar el foco nacional
+MODIFIER_NATIVE_ADVANCEMENT_COST:Coste del avance Nativo
+MODIFIER_NATIVE_ASSIMILATION:Asimilación nativa
+MODIFIER_NATIVE_UPRISING_CHANCE:Posibilidad de levantamiento indígena
+MODIFIER_NAVAL_ATTRITION_IN_FLEET:Desgaste de la flota
+MODIFIER_NAVAL_BARRAGE_COST_IN_FLEET:Coste de bombardeo naval de la flota
+MODIFIER_NAVAL_MAINTENANCE_FLAGSHIP:Mantenimiento buque insignia
+MODIFIER_NAVAL_MORALE:Moral de armadas
+MODIFIER_NAVAL_MORALE_DAMAGE:Daño de moral naval
+MODIFIER_NAVAL_MORALE_DAMAGE_RECEIVED:Daño de moral naval recibido
+MODIFIER_NAVAL_MORALE_IN_FLEET:Moral de la flota
+MODIFIER_NAVAL_TRADITION_FROM_BATTLE:Tradición naval a partir de batallas
+MODIFIER_NAVAL_TRADITION_FROM_TRADE:Tradición naval por protección de comercio
+MODIFIER_NO_CLAIM_COST_INCREASEMENT:Sin coste extra de reclamaciones
+MODIFIER_NO_COST_FOR_REINFORCING:Refuerzo sin coste
+MODIFIER_NO_RELIGION_PENALTY:Tolerancia religiosa negativa ya no penaliza. Provincias herejes e infieles no penalizarán nuestra unidad religiosa.
+MODIFIER_NO_STABILITY_LOSS_ON_MONARCH_DEATH:Sin pérdida de estabilidad a la muerte del monarca
+MODIFIER_NUMBER_OF_CANNONS:Número de cañones en los buques
+MODIFIER_NUMBER_OF_CANNONS_FLAGSHIP:Cañones de buque insignia
+MODIFIER_NUMBER_OF_CANNONS_FLAGSHIP_MODIFIER:Cañones de buque insignia
+MODIFIER_NUMBER_OF_CANNONS_MODIFIER:Cañones de barco
+MODIFIER_NUM_OF_PARLIAMENT_ISSUES:Número de posibles asuntos del parlamento
+MODIFIER_OVEREXTENSION_IMPACT_MODIFIER:Modificador de impacto de la sobreextensión
+MODIFIER_OWN_COAST_NAVAL_COMBAT_BONUS:Bon. combate naval en costa propia
+MODIFIER_OWN_TERRITORY_DICE_ROLL_BONUS:Bonificación de tirada de dados de territorio propio
+MODIFIER_PAPAL_INFLUENCE_FROM_CARDINALS:Influencia papal de cardenales
+MODIFIER_PARLIAMENT_BACKING_CHANCE:Probabilidad de apoyar un debate parlamentario
+MODIFIER_PARLIAMENT_CHANCE_OF_DECISION:Probabilidad de decisión del parlamento
+MODIFIER_PARLIAMENT_DEBATE_DURATION:Duración del debate del parlamento
+MODIFIER_PARLIAMENT_EFFECT_DURATION:Duración del efecto del parlamento
+MODIFIER_PLACED_MERCHANT_POWER_MODIFIER:Modificador de poder de comerciante situado
+MODIFIER_POSSIBLE_ADM_POLICY:Políticas administrativas posibles
+MODIFIER_POSSIBLE_CONDOTTIERI:Condotieros posibles
+MODIFIER_POSSIBLE_DIP_POLICY:Políticas diplomáticas posibles
+MODIFIER_POSSIBLE_MERCENARIES:Mercenarios Disponibles
+MODIFIER_POSSIBLE_MIL_POLICY:Políticas militares posibles
+MODIFIER_POSSIBLE_POLICY:Políticas posibles
+MODIFIER_POWER_PROJECTION_FROM_INSULTS:Proyección de poder por insultos
+MODIFIER_PRESTIGE_FROM_BATTLES_IN_FLEET:Prestigio de la flota por batallas
+MODIFIER_PRESTIGE_PER_DEVELOPMENT_FROM_CONVERSION:Prestigio de desarrollo por misionario
+MODIFIER_PRIVATEERING_EFFICIENCY_IN_FLEET:Eficacia de las flotas de corso
+MODIFIER_PRIVATEER_EFFICIENCY:Eficiencia Corsaria
+MODIFIER_PROMOTE_CULTURE_COST:Coste de promocionar cultura
+MODIFIER_PROVINCE_OWNER_TRADE_CHANCE:Probabilidad de competir de los mercaderes de provincias poseídas.
+MODIFIER_PROVINCE_WARSCORE_COST:Coste provincial en Marcador de Guerra
+MODIFIER_REASONS_TO_ELECT:Razones para elegir
+MODIFIER_REBEL_SUPPORT_EFFICIENCY:Eficiencia en el Apoyo a los Rebeldes
+MODIFIER_REDUCED_LIBERTY_DESIRE:El deseo de la libertad en súbditos
+MODIFIER_REDUCED_LIBERTY_DESIRE_ON_OTHER_CONTINENT:Deseo de libertad reducido en otro continente
+MODIFIER_REDUCED_LIBERTY_DESIRE_ON_SAME_CONTINENT:Deseo de libertad en súbditos del mismo continente
+MODIFIER_REDUCED_STAB_IMPACTS:Impacto en la estabilidad por acciones diplomáticas reducido.
+MODIFIER_REDUCED_TRADE_PENALTY_ON_NON_MAIN_TRADE_NODE:Penalización comercial reducida en nodo comercial no principal
+MODIFIER_REELECTION_COST:Coste de reelección
+MODIFIER_REFORM_PROGRESS_GROWTH:Aumento de progreso de reforma
+MODIFIER_REFORM_PROGRESS_GROWTH_BUILDING:Contribución de progreso de reforma
+MODIFIER_REGIMENT_MANPOWER_USAGE:Uso de soldadesca del regimiento
+MODIFIER_REINFORCE_COST:Coste de refuerzo
+MODIFIER_REINFORCE_SPEED:Velocidad de refuerzos
+MODIFIER_RELATIONS_DECAY:Decaimiento de las Relaciones
+MODIFIER_RELATIONS_DECAY_OF_ME:Mejora de relac. con el tiempo
+MODIFIER_RELATION_WITH_ACCEPED_CULTURE:Opinión de cultura aceptada
+MODIFIER_RELATION_WITH_HEATHENS:Opinión de paganos
+MODIFIER_RELATION_WITH_HERETICS:Opinión sobre herejes
+MODIFIER_RELATION_WITH_OTHER_CULTURE:Opinión de cultura no aceptada
+MODIFIER_RELATION_WITH_SAME_CULTURE:Opinión de la misma cultura
+MODIFIER_RELATION_WITH_SAME_CULTURE_GROUP:Opinión del mismo grupo cultural
+MODIFIER_RELATION_WITH_SAME_RELIGION:Opinión de misma religión
+MODIFIER_RELIGIOUS_CONVERSION_RESISTANCE:Resistencia a la Reforma
+MODIFIER_RELIGIOUS_CONVERSION_RESISTANCE_DRO:Así es cómo tu nación puede resistirse a la difusión de religión desde los Centros de Reforma. Esto reduce las probabilidades de que tus provincias sean escogidas por los Centros de Reforma.
+MODIFIER_RELIGIOUS_UNITY:Unidad religiosa
+MODIFIER_REMOVED:$WHAT|Y$ será retirado de $WHERE$.\n
+MODIFIER_RESERVES_ORGANIZATION:Las reservas reciben menor daño de moral
+MODIFIER_REVERSE_RELATION_WITH_HEATHEN_RELIGION:Opinión sobre el país de otros de religiones paganas
+MODIFIER_REVERSE_RELATION_WITH_HERETIC_RELIGION:Opinión sobre el país de otros de religiones herejes
+MODIFIER_REVERSE_RELATION_WITH_SAME_RELIGION:Opinión sobre el país de otros de la misma religión
+MODIFIER_RIVAL_BORDER_FORT_MAINTENANCE:Mantenimiento de fortaleza en frontera con rival
+MODIFIER_RIVAL_CHANGE_COST:Coste de cambio de rival
+MODIFIER_SABOTAGE_REPUTATION:Sabotear Reputación
+MODIFIER_SAILORS_COST:Coste de marineros
+MODIFIER_SAILOR_MAINTENANCE:Mantenimiento de marineros
+MODIFIER_SAME_CULTURE_ADVISOR_COST:Coste de consejeros con la cultura del gobernante
+MODIFIER_SAME_RELIGION_ADVISOR_COST:Coste de consejeros de la religión del gobernante
+MODIFIER_SETTLE_COST:Coste de asentamiento
+MODIFIER_SHIP_DURABILITY:Durabilidad de la Embarcación
+MODIFIER_SHIP_POWER_PROPAGATION:Propagación de poder comercial naval
+MODIFIER_SHIP_TRADE_POWER:Potencia comercial naval
+MODIFIER_SHIP_TRADE_POWER_MODIFIER:Modificador de poder comercial de barcos
+MODIFIER_SHOCK_DAMAGE:Daño por choque
+MODIFIER_SHOCK_DAMAGE_RECIEVED:Recibido daño por impacto
+MODIFIER_SIEGE_ABILITY:Capacidad de Asedio
+MODIFIER_SIEGE_BLOCKADE_PROGRESS:Impacto de bloqueo sobre asedio
+MODIFIER_SOW_DISCONTENT:Sembrar el Descontento
+MODIFIER_SPECIAL_UNIT_COST_MODIFIER:Modificador de coste de unidades especiales
+MODIFIER_SPECIAL_UNIT_FORCELIMIT:Límite de fuerza unidad especial
+MODIFIER_SPECIAL_UNIT_MANPOWER_COST_MODIFIER:Modificador de coste de soldadesca de unidades especiales
+MODIFIER_SPIES_COST:Coste de espías
+MODIFIER_SPY_ACTION_COST_MODIFIER:Modificador de coste de acción de espía
+MODIFIER_STABILITY_COST_TO_DECLARE_WAR:Impacto de estabilidad para declarar guerra
+MODIFIER_STATES_GOVERNING_COST:Coste de gobierno de estados
+MODIFIER_STATEWIDE_GOVERNING_COST:Coste de gobierno estatal
+MODIFIER_STATE_GOVERNING_INCREASE_COST:Aumento de coste de gobernar el estado
+MODIFIER_SUNK_SHIP_MORALE_HIT_RECIEVED:Moral dañada al perder un barco
+MODIFIER_TECHNOLOGY_COST:Coste tecnológico
+MODIFIER_TERRITORY_GOVERNING_COST:Coste de gobierno de territorio
+MODIFIER_TOLERANCE_HEATHEN:Tolerancia de paganos
+MODIFIER_TOLERANCE_HERETIC:Tolerancia de herejes
+MODIFIER_TOLERANCE_OF_HEATHENS_CAPACITY:Tolerancia máxima de paganos
+MODIFIER_TOLERANCE_OF_HERETICS_CAPACITY:Tolerancia máxima de herejes
+MODIFIER_TOLERANCE_OWN:Tolerancia de la fe verdadera
+MODIFIER_TRADE_COMPANY_GOVERNING_COST:Coste de gobierno de compañía comercial
+MODIFIER_TRADE_COMPANY_INVESTMENT_COST:Coste de inversión de compañía comercial
+MODIFIER_TRADE_POWER_IN_FLEET:Poder comercial por buques en la flota
+MODIFIER_TRADE_RANGE:Alcance comercial
+MODIFIER_TRADE_STEERING:Comercio desviado
+MODIFIER_TRANSFER_TRADE_POWER_REASONS:Aceptación de transferencia de comercio
+MODIFIER_TRANSPORT_ATTRITION:Desgaste mientras subidos a barcos
+MODIFIER_TRANSPORT_HULL_SIZE_MODIFIER:Tamaño de casco de transporte
+MODIFIER_TRANSPORT_NUMBER_OF_CANNONS_MODIFIER:Cañones de transporte
+MODIFIER_TREASURE_FLEET_INCOME:Ingresos de la flota de Indias
+MODIFIER_TRIBAL_DEVELOPMENT_GROWTH:Crecimiento de desarrollo tribal
+MODIFIER_TRIBUTARY_CONVERSION_COST_MODIFIER:Modificador coste de tributario a vasallo
+MODIFIER_UNJUSTIFIED_DEMANDS:Demandas injustificadas
+MODIFIER_UNREST_CATHOLIC_PROVINCES:Descontento en provincias católicas
+MODIFIER_VASSAL_FORCELIMIT_BONUS:Contribución de los Súbditos al Límite de Fuerzas
+MODIFIER_VASSAL_INCOME:Ingresos procedentes de vasallos
+MODIFIER_VASSAL_MANPOWER_BONUS:Contribución a la soldadesca del vasallo
+MODIFIER_VASSAL_NAVAL_FORCELIMIT_BONUS:Contribución al límite de fuerzas navales del vasallo
+MODIFIER_VASSAL_SAILORS_BONUS:Contribución a los marineros del vasallo
+MODIFIER_WARSCORE_COST_VS_OTHER_RELIGION:Coste de marcador de guerra contra otras religiones
+MODIFIER_WARSCORE_FROM_BATTLES_MODIFIER:Marcador de guerra por modificador de batallas
+MODIFIER_WAR_TAXES_COST_MODIFIER:Coste de impuestos de guerra
+MODIFIER_YEARLY_ABSOLUTISM:Absolutismo anual
+MODIFIER_YEARLY_ARMY_PROFESSIONALISM:Profesionalidad militar anual
+MODIFIER_YEARLY_AUTHORITY:Autoridad anual
+MODIFIER_YEARLY_CORRUPTION:Corrupción anual
+MODIFIER_YEARLY_DOOM_REDUCTION:Reducción de Perdición anual
+MODIFIER_YEARLY_FEDERATION_FAVOR_GROWTH:Crecimiento anual de Favor de la federación
+MODIFIER_YEARLY_GOVERNMENT_POWER:Poder del gobierno anual
+MODIFIER_YEARLY_HARMONY:Aumento anual de armonía
+MODIFIER_YEARLY_INNOVATIVENESS:Capacidad de innovación anual
+MODIFIER_YEARLY_KARMA_DECAY:Declive anual de karma
+MODIFIER_YEARLY_PATRIARCH_AUTHORITY:Autoridad anual del patriarca
+MODIFIER_YEARLY_REVOLUTIONARY_ZEAL:Fervor revolucionario anual
+MODIFIER_YEARLY_TRIBAL_ALLEGIANCE:Lealtad tribal anual
+MODIFIER_YEARS_OF_NATIONALISM:Años de Nacionalismo
+MODIFIER_YEARS_TO_INTEGRATE_PERSONAL_UNION:Años para la integración de la Unión personal
+NATIVE_UPRISING_CHANCE:¡Hay un §Y$CHANCE$§! de posibilidades al mes de un levantamiento indígena.
+NAVAL_FORCELIMIT_MODIFIER:Modif. de lím. navales
+NAVAL_MAINTENANCE_INCREASE:Mantenimiento Naval Incrementado en §R+$VALUE$%§!.\n
+NAVAL_MAINTENANCE_MODIFIER:Modif. de mant. naval
+ND_CONSORT_COST_MODIFIER:Ser consorte
+NED_ALL_DUTCH_PROVINCES_GAIN_MODIFIER:Todas las provincias de los §YPaíses Bajos§! que NO sean de cultura §Yflamenca§! y productoras de §Ytelas§! recibirán:
+NED_IF_NETHERLANDS_EXTEND_ABOVE_MODIFIER:Si cumplimos la misión siendo §YPaíses Bajos§!, el modificador §YJe Maintiendrai§! se prorrogará §G10§! años más.
+NED_UNLOCK_BOURSE_CONDITIONAL_MODIFIER:Desbloquea el modificador condicional en el Gran proyecto §YBolsa de Ámsterdam§!.
+NOT_HAVE_THE_LIBERTY_DESIRE_MODIFIER:NO tiene el modificador $MODIFIER|Y$ de Deseo de libertad
+NUMBER_OF_COLONISTS:Colonos
+NUMBER_OF_DIPLOMATS:Diplomáticos
+NUMBER_OF_MERCHANTS:Comerciantes
+NUMBER_OF_MISSIONARIES:Misioneros
+NUMBER_OF_OFFICIALS:Magistrados
+NUMBER_OF_TRADE_COMPANIES_IN_REGION_AT_LEAST:Al menos $VALUE|Y$ compañías comerciales en la región
+NUMBER_OF_TRADE_COMPANIES_IN_REGION_SIZE_LESS_THAN:Menos de $VALUE|Y$ compañías comerciales en la región
+NUMBER_OF_TRADE_COMPANIES_LESS_THAN:Menos de $VALUE|Y$ compañías comerciales
+NUM_OF_LOANS_AI_MODIFIER:Número de préstamos
+ONLY_ADMIN_SPEED:Sólo los administradores de servidores pueden cambiar la velocidad del juego.
+ONLY_BANNER_MODIFIER:§YSolo afecta a regimientos de estandartes§!
+ONLY_CARAVEL_MODIFIER:§YAfecta solo a las carabelas§!
+ONLY_CAROLEAN_MODIFIER:§YAfecta solo a los regimientos de carolinos§!
+ONLY_CAWA_MODIFIER:§YAfecta solo a los regimientos de cawa§!
+ONLY_COSSACK_MODIFIER:§YSolo afecta a regimientos de cosacos§!
+ONLY_GALLEASS_MODIFIER:§YAfecta solo a las galeazas§!
+ONLY_GALLEON_MODIFIER:§YAfecta solo a los galeones§!
+ONLY_GEOBUKSEON_MODIFIER:§YAfecta solo a los barcos geobukseon§!
+ONLY_HOST_SPEED:Solo el anfitrión puede cambiar la velocidad del juego.
+ONLY_HUSSARS_MODIFIER:§YAfecta solo a los regimientos de húsares§!
+ONLY_JANISSARY_MODIFIER:§YAfecta solo a regimientos jenízaros§!
+ONLY_MAMLUKS_MODIFIER:§YAfecta solo a los regimientos de mamelucos§!
+ONLY_MAN_OF_WAR_MODIFIER:§YAfecta solo a los buques de guerra§!
+ONLY_MARINE_MODIFIER:§YSolo afecta a regimientos de infantería de marina§!
+ONLY_MERCENARY_MODIFIER:§YAfecta solo a los regimientos mercenarios§!
+ONLY_MUSKETEER_MODIFIER:§YAfecta solo a los regimientos de mosqueteros§!
+ONLY_QIZILBASH_MODIFIER:§YAfecta solo a los regimientos de qizilbash§!
+ONLY_RAJPUT_MODIFIER:§YSolo afecta a regimientos rajputs§!
+ONLY_RELIGIOUS_MODIFIER:§YEste modificador desaparece cuando cambie la religión estatal.§!
+ONLY_REVOLUTIONARY_GUARD_MODIFIER:§YSolo afecta los regimientos de Guardia Revolucionaria§!
+ONLY_SAMURAI_MODIFIER:§YAfecta solo a los regimientos de samurái!
+ONLY_STRELTSY_MODIFIER:§YSolo afecta a regimientos de streltsí§!
+ONLY_TERCIO_MODIFIER:§YAfecta solo a los regimientos de tercios§!
+ONLY_VOC_INDIAMEN_MODIFIER:§YAfecta solo a los barcos indiaman§!
+ON_ACTION_CHANCE:Puede pasar lo siguiente si vamos en esa dirección.
+ORM_BUFF_ARABIC_TRADE_INFLUENCE_TO_GIVE_EXTRA_TRADE_EFFICIENCY:§YMercantilismo árabe§! dará un §G10,0%§! extra de Eficiencia comercial escalada
+ORM_BUFF_FAR_EAST_COMPANY_MODIFIER:Modificar §YCompañía del Lejano Oriente§! en:\n   Desviar comercio: §G+10,0%§!\n   Coste de inversión en compañía comercial: §G-25,0%§!
+ORM_RELIGIOUS_PROPAGATION_NOW_GRANTS_PROVINCE_FOLLOWING_MODIFIER:Cuando empecemos a §YPropagar religión§!, la provincia ganará este modificador:
+OVERLORD_NAVAL_FORCE_LIMIT_MODIFIER:Modificador del límite de fuerzas navales del soberano
+PAPACY_CHANCE:Probab.:
+PAPACY_LABEL_CHANCE:Oportunidad
+PASHA_MODIFIER:Pachá en Estado
+PORT_BLOCKADE_SAIL_SPEED:Velocidad de vela: $SPEED|0G$
+POSSIBLE_POLICY_MODIFIER:\n$MODIFIERS$
+POTENTIAL_NATIVE_UPRISING_CHANCE:Si comenzásemos a colonizar esta provincia, habría un §Y$CHANCE$§!% de posibilidades al mes de un levantamiento indígena.
+PP_CHANCE:Probabilidad:
+PRODUCTION_EFFICIENCY:Rendimiento de la producción
+PROSP_CHANCE:Hay una posibilidad de $CHANCE$ al mes de que el progreso a la prosperidad aumente en §Y+$INC$§! debido a:\n$WHY$\n
+PROVINCEMISSION_MAINTENANCE_COST:Hemos pagado a este misionero $COST|R$¤ este mes.
+PROVINCE_REVOLUTION_MODIFIER:Revolución
+PROVINCE_TRADE_EFFICIENCY:Eficiencia del comercio local
+PROVINCE_TRADE_MODIFIER:Modificador de poder comercial local
+PW_GROWTH_CHANCE:Nvos. colonos
+PW_SPEED:Vel.
+RANK_MODIFIER:Modificador de categoría:  -$VALUE$%
+RECOVER_ARMY_MORALE_SPEED:Velocidad de recuperación de Moral del Ejército
+RECOVER_NAVY_MORALE_SPEED:Velocidad de recuperación de moral de la armada
+REDUCE_INFRASTRUCTURE_TOOLTIP_MODIFIER:Reducir la infraestructuras quitará esto de esta provincia:\n$MODIFIER$\n
+REFORM_DESIRE_CONV_SPEED:Deseo de reforma: $MOD|+G%$\n
+REGIMENT_RECRUIT_SPEED:Velocidad de reclutamiento de regimientos
+REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER:Emperador y electores podrán recaudar impuestos de guerra gratis mientras estén en guerra con enemigos del Sacro Imperio Romano
+REPAIR_ANY_DAMAGE:Cualquier daño
+REPAIR_HIGH_DAMAGE:Daños graves
+REPAIR_LOW_DAMAGE:Daños ligeros
+REPAIR_SPEED:Velocidad de Reparación
+RUSABIL_STRELTSY_MODIFIER:Esto aumentará nuestro coste de estabilidad en $MODIFIER$ al apoyarnos en estos regimientos.
+SAILORS_EFFICIENCY:Eficiencia marineros
+SAILORS_RECOVERY:Velocidad de recuperación de marineros
+SENDMISSIONARY_CHANCE:Existen §Y$CHANCE$%§! posibilidades de éxito al año de que la provincia sea convertida.
+SHIP_COST:Costes de barcos
+SHIP_RECRUIT_SPEED:Velocidad de construcción de barcos
+SM_MOUSE_SPEED:Velocidad del ratón
+SM_SCROLL_SPEED:Velocidad de desplazamiento
+SM_ZOOM_SPEED:Velocidad del zoom
+SOCIAL_JOIN_REQUEST_RECEIVED:Recibida solicitud de admisión
+SORT_BY_CHANCE:Ordena por posibilidad de tener control de la Curia
+SORT_BY_WAR_EXHAUSTION:Clasificado por Hastío bélico
+SPY_OFFENCE:Cap. ofensiva de espía
+SPY_OFFENCE_BASE:Velocidad de la base: $VAL|Y$
+SPY_OFFENCE_DESC_DISTANCE:Multiplicador de distancia: x$VAL|Y$
+SPY_OFFENCE_DESC_RIVAL:Rival: $VAL|%2+=$
+SPY_OFFENCE_DISC_PENALTY:Espía descubierto: $VAL|%2+=$
+STABILITY_AI_MODIFIER:Estabilidad
+STABILITY_COST_MODIFIER:Modif. de coste de estabilidad
+STATE_MAINTENANCE_LABEL:Mantenimiento $OWNER$:
+STATE_MAINTENANCE_MODIFIER:Mantenimiento de estado
+SUBJECT_BREAK_CHANCE:Posibilidad de ruptura de la unión por la muerte del monarca: $VAL|-%$
+SUBJECT_COLONY_TARIFF_EFFICIENCY:La eficacia de tarifa es del §Y$VAL$%§!$VAL2$.
+SUBJECT_INHERITANCE_CHANCE:Posibilidad de herencia por la muerte del monarca: $VAL|+%$
+SUBJECT_SORT_EFFICIENCY:Ordenado por eficacia de los ingresos
+SUPPLY_LIMIT_EFFICIENCY:Mod. de límite de suministros
+SUPPLY_LIMIT_MODIFIER:Modificador del límite de suministros
+SUPPORT_EFFICIENCY:Eficacia de apoyo
+TARIFF_BASE_MODIFIER:Modif. de tarifa base: $VAL|%1+$
+TARRIFFS_EFFICIENCY:Eficiencia de aranceles
+TAX_INCOME_EFFICIENCY:Eficiencia en Ingresos de Impuestos
+THERE_MAY_BE_CROSSING_MODIFIER:@$ATK$$ATTACKER|Y$ puede tener penalización por cruce: $VALUE$
+THERE_WILL_BE_CROSSING_MODIFIER:@$ATK$$ATTACKER|Y$ tendrá penalización por cruce: $VALUE$
+TRADE_EFFICIENCY:Eficiencia comercial
+TRADE_GOODS_SIZE_MODIFIER:Modificador de productos locales producidos
+TRADE_INCOME_MODIFIER:Modif. de ingresos por comercio
+TRADE_POWER_EFFICIENCY:Eficacia de poder comercial
+TRADE_VALUE_MODIFIER:Modificante del Valor del Comercio
+TRADING_POLICY_MODIFIER:Política comercial de $NAME|Y$: $VAL$
+UNIT_AUTO_REPAIR_DAMAGED:§YReparar buques dañados§!
+UNIT_AUTO_REPAIR_DAMAGED_DELAYED:Todos los barcos dañados se separarán, dirigirán al puerto para reparaciones y luego volverán a esta unidad.
+UNIT_DETACH_DAMAGED:Separar las unidades dañadas
+WARSCORE_COST_MODIFIER:Esto será más modificado en: $VALUE$\n
+WAR_EXHAUSTION:Hastío bélico mensual
+YUA_EVERY_OWNED_PROVINCE_WITH_COASTAL_DEFENCE_GAINS_MODIFIER:Toda provincia poseída que tenga un edificio de §Yfortificación costera§! con al menos §Y20§! de desarrollo, ganará:
+YUA_EVERY_POPULATION_CENSUS_DECREE_GRANTS_MODIFIER:Todo §Ydecreto de censo de población§! también dará Poder administrativo mensual §G+1§!.
+YUA_INCREASE_SCHOLAR_CHANCE:Se §Ytriplicarán§! las probabilidades de que nuestros §Ygobernantes§! y §Yherederos§! consigan el rasgo §Yerudito§!.

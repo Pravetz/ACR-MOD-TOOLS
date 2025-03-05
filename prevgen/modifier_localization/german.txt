@@ -1,0 +1,843 @@
+ACTUALPOWER_MODIFIER:Modifiziert durch $VAL$.\n
+ADJ_C_SPEED:Grenzt an Reformationszentrum an: $VAL$\n
+ADMINISTRATIVE_EFFICIENCY:Administrative Effizienz
+ADMIN_EFFICIENCY:Administrative Effizienz
+ADVISOR_DEATH_CHANCE:Wird mit einer Wahrscheinlichkeit von §Y$CHANCE$%§! pro Jahr zu Tode kommen.
+AFFORD_SHIP_COST:Wir können uns dieses Schiff nicht leisten. Wir benötigen mindestens $COST$¤
+AGGRESSIVE_EXPANSION_DISTANCE_MODIFIER:Entfernungsmodifikator
+ALLY_JOIN_CHANCE:$NAME$: §Y$VAL$§Y
+ARMY_MAINTENANCE_CONDOTTIERI_NUM:\nCondottieri: $A|2Y$¤
+ARMY_MAINTENANCE_DRILLING_NUM:\nDrillen von Armeen: $A|2Y$¤
+ARMY_MAINTENANCE_NUM:Armeen: $A|2Y$¤ \nSöldner: $M|2Y$¤\nSöldnerkompanien: $MC|2Y$¤
+ARMY_MAINTENANCE_OVERFORCE:Truppenlimit überschritten: $FORCE|2Y$¤
+ARMY_MAINTENANCE_REINFORCE:Verstärkungen: $REINFORCE|2Y$¤
+ARMY_MAINTENANCE_TOTAL:Gesamtkosten: $TOTAL|2Y$¤
+AUTOMATIC_MAINTENANCE_DESC:Wenn diese Option aktiviert ist, wird der Unterhalt Eurer Armee und Flotte automatisch erhöht und Eure Festungen werden in Betrieb genommen, sobald Ihr Euch in einem Krieg befindet.\n
+AUTOMATIC_MAINTENANCE_DRILL:Außerdem hören alle Armeen, die sich momentan im Drill befinden, mit dem Drill auf.\n
+AZT_MODIFY_TENOCHITLAN_CITY_MODIFIER:Modifiziert "§YTenochtitlan-Stadt§!" um:\n   Wohlstand (lokales Wachstum): §G+0.50§!\n   Entwicklungskosten (Lokal): §G-5.00%§!
+AZT_UNLOCK_TENOCHTITLAN_CONDITIONAL_MODIFIER:Schaltet den bedingten Modifikator im Großprojekt "§YTenochtitlan§!" frei.
+BASE_LAND_MAINTENANCE_FACTOR:Landunterhalts-Basisfaktor
+BLOCKADE_EFFICIENCY:Effizienz (Blockade)
+BUILDING_MAINTENANCE_COST:Unterhalt nach Fertigstellung: §Y$AMOUNT$§W¤/Monat
+CANNOT_AFFORD_IT_AI_MODIFIER:Kann sich das nicht leisten
+CARDINAL_CHANCE:Kardinalchance
+CARDINAL_TOOLTIP_CHANCE:§Y$COUNTRY$§W hat eine Wahrscheinlichkeit von $AMOUNT$, den nächsten Kurienleiter zu stellen.
+CD_CONODTIERRIS_RECEIVED:Heuerte Condottieri-Truppen von $LIST$ an.
+CHURCH_POWER_MODIFIER:Kirchenmacht
+COLONIST_PLACEMENT_CHANCE:Chance (Kolonisten)
+COLONY_MAINTENANCE_COST:$NAME$: §Y+$COST$§!¤ $EXTRA$\n
+CONFIRMMISSION_MAINTENANCE_COST:Die Konvertierung dieser Provinz wird $COST|R$¤/Monat kosten. Die Kosten basieren auf der Entwicklung und Autonomie der Provinz.
+CONFIRMMISSION_MAINTENANCE_COST_BASE:Grundkosten aus Provinzen: $COST|Y$¤
+CONFIRMMISSION_MAINTENANCE_COST_MODIFIED_BY:Diese Kosten werden modifiziert durch:
+CORE_CREATION_COST_MODIFIER:\nErstellung von Kernprovinz modifiziert um: $VAL$\n
+COSSACKS_ABILITY_COSSACKS_MODIFIER:Das Vertrauen auf diese Regimenter wird unseren Modifikator für Stabilität um $MODIFIER$ erhöhen.
+COT_GLOBAL_MODIFIER:§YGlobaler Modifikator§!:\n$MODIFIER$\n
+COT_PROVINCE_GLOBAL_MODIFIER:§Y$PROVINCE$:§! $NAME$
+COT_PROVINCE_MODIFIER:§YProvinzmodifikator§!:\n$MODIFIER$\n
+COT_REGION_MODIFIER:§YIm Besitz befindliche Provinzen der Region§!:\n$MODIFIER$\n
+COT_STATE_MODIFIER:§YIm Besitz befindliche Provinzen der Region§!:\n$MODIFIER$\n
+COUNTRY_REVOLUTIONARY_ZEAL_MODIFIER:Revolutionseifer
+COUNTRY_TRADE_EFFICIENCY:Handelseffizienz (Max. 200%): $VAL$
+DECREASE_SPEED:Spielgeschwindigkeit verringern
+DEVELOPMENT_EFFICIENCY:Entwicklungseffizienz
+DIPLO_DAMAGED_SHIPS:Schiffe wurden beschädigt: 
+DIPLO_WAR_EXHAUSTION:$WHO$e Kriegsmüdigkeit: 
+DONT_HAVE_THE_ACTIVE_PROVINCE_MODIFIER:Hat NICHT die aktiven Provinzmodifikatoren 
+DONT_HAVE_THE_MODIFIER:Verfügt NICHT über den Modifikator 
+DONT_HAVE_THE_PROVICEN_MODIFIER:Verfügt NICHT über den Provinzmodifikator 
+DONT_HAVE_THE_RULER_MODIFIER:Haben NICHT den Herrscher-Modifikator 
+ECONOMY_ADVISOR_COST_MODIFIER:Die Gehälter der Berater werden wie folgt modifiziert:
+ECONOMY_STATE_MAINTENANCE_DRO:Der Staatsunterhalt wird monatlich für die Administration von Staaten gezahlt, in der sich nicht unsere Hauptstadt befindet. Er basiert auf der Gesamtentwicklung und der Distanz zur Hauptstadt.
+EFFECT_ADD_TRIGGERED_MODIFIER:§Y$PROV$§! erhält den Modifikator "§Y$MODIFIER$§!", der folgende Auswirkungen hat:\n$VALUE$\n\n
+EFFECT_REMOVE_TRIGGERED_MODIFIER:$PROV$ verliert den Modifikator "§Y$MODIFIER$§!".
+EMBARGO_EFFICIENCY:Embargo-Effizienz: §Y$VAL$§W
+ESTATE_INFLUENCE_MODIFIER:$ESTATE|Y$ haben den $VALUE|Y$ Einfluss-Modifikator.
+ESTATE_LOYALTY_MODIFIER:$ESTATE|Y$ haben den $VALUE|Y$ Loyalitäts-Modifikator.
+EXPAND_INFRASTRUCTURE_TOOLTIP_MODIFIER:Der Ausbau der Infrastruktur wird Folgendes auf die Provinz übertragen:\n$MODIFIER$\n
+FEO_ALL_RUTHENIAN_PROVINCES_GAIN_PERMANENT_MODIFIER:Alle im Besitz befindlichen Provinzen in der Region §YRuthenien§! erhalten §G-10.0%§! Entwicklungskosten (Lokal), §G10.0%§! Rekrutenreserve (Lokal) und §G15.0%§! Steuereinnahmen (Lokal)
+FEO_OCCUPYING_MAJOR_EUROPEAN_CITIES_GRANTS_PERMANENT_MODIFIER:Die Eroberung bestimmter §Ydeutscher Großstädte§! gibt uns nun folgende Boni:\n   §YWien§!: Kosten (Diplomatische Annexion) §G-10.0%§!\n   §YPrag§!: Beraterkosten (Gleiche Kultur) §G-15.0%§!\n   §YKöln§!: Missionare §G+1§! und Missionarsstärke (Häretiker) §G+2.00%§!\n   §YAachen§!: Administrative Effizienz §G+5.00%§!\n   §YLübeck§!: Einheitenlimit (Flotte) §G+20.0%§! und Provinz-Handelseinfluss (Global) §G+15.0%§!
+FEO_SELECTING_DOCTRINE_GIVES_BLACK_SEAS_FLEET_MODIFIER:\nWenn wir eine Flottendoktrin auswählen, erhalten wir §Y15§! Jahre lang den Modifikator "§YSchwarzmeerflotte§!", der folgende Auswirkungen hat:\n   §G+10.0%§! Kampfstärke (Galeeren)\n   §G-10.0%§! Unterhalt (Flotte)
+FLAGSHIP_COST:Kosten (Flaggschiff)
+FLAGSHIP_MAINTENANCE_MODIFIER:$VALUE|R$
+FLAGSHIP_MAINTENANCE_TOTAL:Kosten: $COST|R$¤\nUnterhalt: $MAINTENANCE|R$¤
+FORT_MAINTENANCE_ECO_IRO:Wir zahlen für $PAID|Y$ Festungen Unterhalt, wovon $MOTH|Y$ gegenwärtig stillgelegt sind.
+FORT_MAINTENANCE_ECO_IRO_2:$MOTH|Y$ feindliche Festungen sind stillgelegt und verursachen uns keine Kosten.
+FORT_MAINTENANCE_LOCK_NONC:Der Unterhalt kann nur für Festungen aus- und angeschaltet werden, die Ihr kontrolliert, da Ihr nur für diese bezahlt.
+FORT_MAINTENANCE_LOCK_OFF:Die Festung in dieser Provinz kann über dieses Interface oder über die Schaltfläche "Alle Festungen stilllegen" im Reiter Militär stillgelegt werden.
+FORT_MAINTENANCE_LOCK_OFF_ACTION:§GKlicken, um Festungen niemals stillzulegen§!
+FORT_MAINTENANCE_LOCK_ON:Die Festung in dieser Provinz wird niemals stillgelegt werden.
+FORT_MAINTENANCE_LOCK_ON_ACTION:§GKlicken, um das Stilllegen von Festungen zu erlauben§!
+FORT_MAINTENANCE_LOCK_SIEGE:Der Unterhalt kann bei Festungen, die belagert werden, nicht aus- oder angeschaltet werden!
+FORT_MAINTENANCE_LONG:Dies sind die monatlichen Kosten für unsere Nation pro Festungsstufe.
+FORT_MAINTENANCE_MODIFIER:Unterhalt (Festungen)
+FREE_MAINTENANCE_ON_EXPL_CONQ:Kein Unterhalt für Entdecker
+GLOBAL_AUTONOMY_MOD:Autonomie (Monatlich)
+GLOBAL_GARRISON_GROWTH:Globale Verstärkungsrate (Garnisonen)
+GLOBAL_MANPOWER:Rekrutenreserve (Global)
+GLOBAL_MISSIONARY_STRENGTH:Missionarsstärke
+GLOBAL_PROV_TRADE_POWER_MODIFIER:Provinz-Handelseinfluss (Global)
+GLOBAL_SAILORS:Seeleute (Global)
+GLOBAL_SUPPLY_LIMIT_MODIFIER:Versorgungslimit (National)
+GLOBAL_TARIFF_MODIFIER:Zölle (Global)
+GLOBAL_TAX_MODIFIER:Steuereinnahmen (Global)
+GLOBAL_TRADEGOODS_SIZE_DESC:Dieser Faktor steigert die Menge der in unseren Provinzen produzierten Inlandsgüter.
+GLOBAL_TRADE_INCOME_MODIFIER:Handelseinkommen (Global)
+GLOBAL_UNREST:Unruhe (Global)
+GOLD_DEPLETE_CHANCE:Bei einer Grundproduktion von $PROD|Y$ besteht jedes Jahr eine Wahrscheinlichkeit von §R$CHANCE$%§!, dass die Mine erschöpft wird, wodurch ihre Produktion halbiert wird.
+GOODS_PRODUCED_EFFICIENCY:Effizienz produzierter Güter
+GOVERNING_CAPACITY_MODIFIER:\nDies wird multipliziert mit:\n$MODIFIER$
+GOVERNMENT_DESELECTED_DESC:Änderungen in Eurer Nation haben dazu geführt, dass Euere Regierungsform $REFORM|Y$ nicht länger haltbar ist. Sie wurde abgeschafft und mit der Regierungsform $REPLACEMENT|Y$ ersetzt.
+GOV_INTERACTION_CAPITAL_AREA_MODIFIER:Jede Provinz in Eurer Hauptstadt-Region erhält für $YEARS|Y$ Jahre:\n$MODIFIER$\n
+GOV_INTERACTION_GLOBAL_MODIFIER:Ihr erhaltet für $YEARS|Y$ Jahre:\n$MODIFIER$\n
+GROWTH_MODIFIER:Wachstumsmodifikator
+HAB_ALL_HUNGARIAN_PROVINCES_LOSE_AUTONOMY_AND_GAIN_THE_FOLLOWING_MODIFIER:Alle §Yungarischen§! Kernprovinzen verlieren §G50%§! Autonomie und erhalten Folgendes.
+HAB_EVERY_IMPERIAL_CAPITAL_GAINS_FOLLOWING_MODIFIER:Die §YHauptstadt§! jedes §YReichsfürsten§! erhält Folgendes:
+HAB_UNLOCK_VIENNA_CONDITIONAL_MODIFIER:Schaltet den §Ybedingten Modifikator§! des Großprojekts §YSchloss Schönbrunn§! frei.
+HAS_NOT_TRADE_MODIFIER:$WHO$ hat KEIN §Y$WHAT$§! in §Y$WHERE$§!.\n
+HAS_TRADE_MODIFIER:$WHO$ hat §Y$WHAT$§! in §Y$WHERE$§!.\n
+HAVE_LAND_MAINTENANCE_OVER:Unterhalt für Armee haben von über 
+HAVE_LAND_MAINTENANCE_UNDER:Unterhalt für Armee haben von unter 
+HAVE_LESS_GLOBAL_MODIFIER:Hat weniger als $VALUE$ $MODIFIER$
+HAVE_LESS_LOCAL_MODIFIER:Hat weniger als $VALUE$ $MODIFIER$
+HAVE_MORE_GLOBAL_MODIFIER:Hat mindestens $VALUE$ $MODIFIER$
+HAVE_MORE_LOCAL_MODIFIER:Hat mindestens $VALUE$ $MODIFIER$
+HAVE_NAVAL_MAINTENANCE_OVER:Hat einen höherene Flottenunterhalt als 
+HAVE_NAVAL_MAINTENANCE_UNDER:Hat einen niedrigeren Flottenunterhalt als 
+HAVE_THE_ACTIVE_PROVINCE_MODIFIER:Hat die aktiven Provinzmodifikatoren 
+HAVE_THE_LIBERTY_DESIRE_MODIFIER:Hat den Freiheitsstreben-Modifikator $MODIFIER|Y$
+HAVE_THE_MODIFIER:Verfügt über den Modifikator 
+HAVE_THE_PROVINCE_MODIFIER:Verfügt über den Provinzmodifikator 
+HAVE_THE_RULER_MODIFIER:Haben den Herrscher-Modifikator 
+HEAVYSHIP_COST:Kosten (Großschiffe)
+HEGEMON_BASE_MODIFIER:Erhält immer folgende Boni:\n
+HEGEMON_MAX_MODIFIER:Erhält bei maximaler Macht:\n
+HEGEMON_SCALES_MODIFIER:Erhält mit der Zeit, wenn die Macht wächst:\n
+HORDES_BASAQS_NOW_GRANT_TRIPLES_LOYALTY_PER_TRIBUTE_RECEIVED:Das Standesprivileg "§YMehr Autonomie für die Basqaq§!" gibt jetzt jedes Mal, wenn uns ein §YTributstaat§! Tribut zahlt, §G+1%§! Loyalität für den Stand, dem es zugewiesen wurde.
+HORDES_CREATE_PAX_MONGOLICA_MODIFIER:Verschmilzt die Modifikatoren "§YKhan der Khane§!" und "§YWie ein Drache§!" im neuen Modifikator "§YPax Mongolica§!" und verstärkt diesen um:\n   Reisezeit (Gesandte): §G-10.0%§!\n   Regierungslimit: §G+100§!
+HRE_EMPEROR_HAS_MODIFIER:Das Reich hat den Modifikator 
+HRE_EMPEROR_HAS_NOT_MODIFIER:Das Reich hat nicht den Modifikator 
+HRE_MEMBER_HAS_MODIFIER:Reichsmitglieder haben den Modifikator 
+HRE_MEMBER_HAS_NOT_MODIFIER:Reichsmitglieder haben nicht den Modifikator 
+HUN_ALL_AUSTRIAN_PROVINCES_LOSE_AUTONOMY_AND_GAIN_THE_FOLLOWING_MODIFIER:Alle §Yösterreichischen§! Kernprovinzen verlieren §G50%§! Autonomie und erhalten Folgendes.
+IMPROVE_RELATION_MODIFIER:Beziehungen Verbessern
+INCREASE_SPEED:Spielgeschwindigkeit erhöhen
+INVESTMENT_AREA_MODIFIER:Gesamte Region $AREA|Y$:\n
+INVESTMENT_COMPANY_AREA_MODIFIER:§Y$COUNTRY$e§! Handelshausprovinzen in $AREA|Y$:\n
+INVESTMENT_OWNER_MODIFIER:Für $COUNTRY|Y$:\n
+INVESTMENT_OWNER_REGION_MODIFIER:Für $COUNTRY|Y$ in $REGION|Y$:\n
+INVESTMENT_REGION_MODIFIER:Gesamte Region $REGION|Y$:\n
+INVITE_RECEIVED:Einladung erhalten
+LAG_DECREASE_SPEED:$PLAYER$ hat Verbindungsprobl., Spielgeschw. wird reduziert.
+LAND_FORCELIMIT_MODIFIER:Einheitenlimit (Armee)
+LAND_MAINTENANCE_MODIFIER:Unterhalt (Armee)
+LAND_OWNERSHIP_MODIFIER:$PERCENT|Y0&$ Landbesitz gibt:\n$MODIFIERS$\n
+LEDGER_CHANCE:Chance
+LEDGER_PLACEMENT_COST:Platzierungskosten
+LEDGER_PRODUCTION_EFFICIENCY:Effizienz
+LEDGER_REAL_PRODUCTION_EFFICIENCY:Tatsächliche Effizienz
+LEDGER_SCORE_PLACEMENT:Platzierung
+LEDGER_SPEED:Geschw.
+LEDGER_TRADE_EFFICIENCY:Handelseffizienz
+LIBERTY_DESIRE_FROM_ADM_EFFICIENCY:Administrative Effizienz: $VAL$
+LIBERTY_DESIRE_FROM_WAR_EXHAUSTION:Kriegsmüdigkeit von §Y$OVERLORD$§!: $VAL$
+LIGHTSHIP_COST:Kosten (Leichtschiffe)
+LOCAL_COLONIST_PLACEMENT_CHANCE:Lokale Chance (Kolonisten)
+LOCAL_MISSIONARY_PLACEMENT_CHANCE:Lokale Chance (Missionare)
+LOCAL_PRODUCTION_EFFICIENCY:Produktionseffizienz (Lokal)
+LOCAL_TARIFF_MODIFIER:Zölle (Lokal)
+LOCAL_TAX_MODIFIER:Steuereinnahmen (Lokal)
+LOCAL_TRADE_INCOME_MODIFIER:Handelseinkommen (Lokal)
+LOOT_RECOVERY:§Y$DELAY$§! Tage nach der letzten Plünderung beginnt die Provinz, sich monatlich um §G$PERCENTAGE$%§! zu erholen.
+LOOT_RECOVERY_DATE:Diese Provinz wurde zuletzt am §Y$LAST_LOOT_DATE$§! geplündert. Sie wird sich ab §Y$FUTURE_LOOT_DATE$§! monatlich um §G$PERCENTAGE$%§! erholen, sofern sie nicht vor diesem Datum wieder geplündert wird.
+LOOT_RECOVERY_DATE_AFTER:Diese Provinz wurde zuletzt am $LAST_LOOT_DATE|Y$ geplündert. Sie wird sich monatlich um §G$PERCENTAGE$%§! erholen, sofern sie nicht erneut geplündert wird.
+L_REGIMENT_RECRUIT_SPEED:Lokale Rekrutierungszeit
+L_SHIP_RECRUIT_SPEED:Lokale Schiffsbauzeit
+MACRO_MAINTENANCE_COST:Unterhalt: $COST|1$¤ monatlich
+MACRO_MAINTENANCE_FORCE_LIMIT_WARN:§RDer Bau würde unser Truppenlimit übersteigen!§!
+MACRO_REDUCE_MAINTENANCE_DESC:Dieses Gebäude reduziert den Unterhalt um $VAL$
+MANPOWER_EFFICIENCY:Rekrutenreserve-Effizienz
+MANPOWER_RECOVERY:Regeneration (Rekrutenreserve)
+MERCHANT_FOREIGN_COMPETE_CHANCE:Wettbewerbschancen im Ausland
+MERCHANT_OWN_COMPETE_CHANCE:Heimische Händler-Wettbewerbschance
+MERC_MAINTENANCE_MODIFIER:Unterhalt (Söldner)
+MERC_MAINTENANCE_TT:§YMonatlicher Unterhalt§!\n
+MIGRATION_MODIFIER:Dies wird des Weiteren modifiziert durch:\n$MOD$
+MIL_SCORE_EXHAUSTION:Kriegsmüdigkeit: §R$VAL$§!\n
+MISSIONARY_PLACEMENT_CHANCE:Missionar-Chancen
+MODIFIER_ACCEPTED_CULTURES:Akzeptierte Kulturen
+MODIFIER_ACCEPTED_CULTURE_THRESHOLD:Akzeptanzlimit (Kulturen)
+MODIFIER_ACCEPT_VASSALIZATION_REASONS:Vasallisierungsakzeptanz
+MODIFIER_ADDED:$WHERE$ erhält "$WHAT|Y$" $TIME$, mit folgenden Auswirkungen:\n$EFFECT$\n\n
+MODIFIER_ADDED_SHORT:"§Y$WHAT$§W" $TIME$\n
+MODIFIER_ADDED_SHORT_TIME_DATE:bis $DATE|Y$
+MODIFIER_ADDED_SHORT_TIME_DURATION:für $DURATION|Y$
+MODIFIER_ADDED_SHORT_TIME_FOREVER:bis zum Ende des Spiels
+MODIFIER_ADDED_TIME_DATE:bis zum $DATE|Y$
+MODIFIER_ADDED_TIME_DURATION:für $DURATION|Y$
+MODIFIER_ADDED_TIME_FOREVER:bis zum Ende des Spiels
+MODIFIER_ADD_TRIBAL_LAND_COST:Stammesland hinzufügen (Kosten)
+MODIFIER_ADMINISTRATIVE_EFFICIENCY:Administrative Effizienz
+MODIFIER_ADMIRAL_COST:Kosten (Admiräle)
+MODIFIER_ADM_ADVISOR_COST:Kosten (Adm. Berater)
+MODIFIER_ADVISOR_COST:Kosten (Berater)
+MODIFIER_ADVISOR_POOL:Verfügbare Berater
+MODIFIER_AE_IMPACT:Auswirkung (Aggressive Expansion)
+MODIFIER_ALLOWED_CARAVEL_FRACTION:Flottenlimit (Karavelle)
+MODIFIER_ALLOWED_COSSACK_FRACTION:Truppenlimit (Kosaken-Regimenter-Anteil)
+MODIFIER_ALLOWED_GALLEASS_FRACTION:Flottenlimit (Galeasse)
+MODIFIER_ALLOWED_GALLEON_FRACTION:Flottenlimit (Galeone)
+MODIFIER_ALLOWED_GEOBUKSEON_FRACTION:Flottenlimit (Geobukseon-Schiffe)
+MODIFIER_ALLOWED_MAMLUKS_FRACTION:Truppenlimit (Mamelucken-Regimenter-Anteil)
+MODIFIER_ALLOWED_MAN_OF_WAR_FRACTION:Flottenlimit (Linienschiff)
+MODIFIER_ALLOWED_MARINE_FRACTION:Einheitenlimit (Marineregimenter)
+MODIFIER_ALLOWED_MUSKETEER_FRACTION:Truppenlimit (Musketier-Regiment)
+MODIFIER_ALLOWED_NUM_OF_BUILDINGS:Gebäude (Max. Anzahl)
+MODIFIER_ALLOWED_NUM_OF_MANUFACTORIES:Manufakturen (Max. Anzahl)
+MODIFIER_ALLOWED_QIZILBASH_FRACTION:Truppenlimit (Qizilbasch-Regimenter-Anteil)
+MODIFIER_ALLOWED_RAJPUT_FRACTION:Truppenlimit (Rajputen-Regimenter-Anteil)
+MODIFIER_ALLOWED_REV_GUARD_FRACTION:Truppenlimit (Revolutionsgarde-Regimenter-Anteil)
+MODIFIER_ALLOWED_SAMURAI_FRACTION:Truppenlimit (Samurai)
+MODIFIER_ALLOWED_STRELTSY_FRACTION:Truppenlimit (Strelizen-Regimenter-Anteil)
+MODIFIER_ALLOWED_TERCIO_FRACTION:Truppenlimit (Tercio-Regimenter-Anteil)
+MODIFIER_ALLOWED_VOC_INDIAMEN_FRACTION:Flottenlimit (VOC-Ostindienfahrer)
+MODIFIER_ALLOW_CLIENT_STATES:Kann §YSatellitenstaat§! gründen
+MODIFIER_ALLOW_FREE_ESTATE_PRIVILEGE_REVOCATION:Erlaubt den Widerruf von Standesprivileg unabhängig von Loyalität und Einfluss
+MODIFIER_ALLOW_JANISSARIES_FROM_OWN_FAITH:Erlaubt die Rekrutierung von Janitscharen in Provinzen des wahren Glaubens
+MODIFIER_ALLOW_MERCENARIES_TO_SPLIT:Kann Söldner-Regimenter aufteilen und zusammenfügen.
+MODIFIER_ALLOW_MERCENARY_DRILL:Erlaubt den Drill von Söldnern
+MODIFIER_ALL_ESTATE_INFLUENCE_MODIFIER:Einfluss (Alle Stände)
+MODIFIER_ALL_ESTATE_LOYALTY_EQUILIBRIUM:Loyalitätsgleichgewicht (Alle Stände)
+MODIFIER_ALL_ESTATE_POSSIBLE_PRIVILEGES:Landstand (Max. Privilegien)
+MODIFIER_ALL_POWER_COST:Machtkosten
+MODIFIER_AMOUNT_OF_BANNERS:Mandschu-Banner (Global)
+MODIFIER_AMOUNT_OF_CARAVEL:Flottenlimit (Karavelle)
+MODIFIER_AMOUNT_OF_CAROLEAN:Mögliche Karoliner-Infanterie
+MODIFIER_AMOUNT_OF_CAWA:Mögliche Kawa
+MODIFIER_AMOUNT_OF_GALLEASS:Flottenlimit (Galeasse)
+MODIFIER_AMOUNT_OF_GALLEON:Flottenlimit (Galeone)
+MODIFIER_AMOUNT_OF_GEOBUKSEON:Flottenlimit (Geobukseon-Schiffe)
+MODIFIER_AMOUNT_OF_HUSSARS:Verfügbare Flügelhusaren
+MODIFIER_AMOUNT_OF_MAMLUKS:Truppenlimit (Mamelucken)
+MODIFIER_AMOUNT_OF_MAN_OF_WAR:Flottenlimit (Linienschiff)
+MODIFIER_AMOUNT_OF_MUSKETEER:Truppenlimit (Musketier-Regiment)
+MODIFIER_AMOUNT_OF_QIZILBASH:Truppenlimit (Qizilbasch)
+MODIFIER_AMOUNT_OF_SAMURAI:Truppenlimit (Samurai)
+MODIFIER_AMOUNT_OF_STRELTSY:Truppenlimit (Strelizen)
+MODIFIER_AMOUNT_OF_TERCIO:Truppenlimit (Tercio-Regimenter)
+MODIFIER_AMOUNT_OF_VOC_INDIAMEN:Flottenlimit (VOC-Ostindienfahrer)
+MODIFIER_ANNEXATION_RELATIONS_IMPACT:Meinungsmalus (Annektierung)
+MODIFIER_APPOINT_CARDINAL_COST:Kosten (Kardinal ernennen)
+MODIFIER_ARMY_TRADITION_FROM_BATTLE:Armeetradition (Landschlachten)
+MODIFIER_ARTILLERY_BARRAGE_COST:Kosten (Artillerieangriff)
+MODIFIER_ARTILLERY_BONUS_VS_FORT:Artilleriebonus (Festungen)
+MODIFIER_ARTILLERY_FIRE:Fernkampf (Artillerie)
+MODIFIER_ARTILLERY_LEVELS_AVAILABLE_VS_FORT:Verfügbare Artilleriestufen gegen Festungen
+MODIFIER_ARTILLERY_LEVEL_MODIFIER:Belagerungsbeitrag (Artilleriestufe)
+MODIFIER_ARTILLERY_SHOCK:Nahkampf (Artillerie)
+MODIFIER_ASSAULT_FORT_ABILITY:Festung stürmen (Fähigkeit)
+MODIFIER_ASSAULT_FORT_COST_MODIFIER:Festung stürmen (Kosten)
+MODIFIER_ATTACK:Kampfbonus
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN:Kampfbonus für Terrain der Hauptstadt
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN_IN_PROV: für uns aufgrund des gleichen Terrains wie unsere Hauptstadt
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN_IN_PROV_BONUS:§G$VALUE|=0$ Kampfbonus§!
+MODIFIER_ATTACK_BONUS_IN_CAPITAL_TERRAIN_IN_PROV_PENALTY:§R$VALUE|=0$ Kampfmalus§!
+MODIFIER_AUTONOMY_CHANGE_TIME:Autonomie (Abklingzeit)
+MODIFIER_AUTO_EXPLORE_ADJACENT_TO_COLONY:Deckt automatisch angrenzende Provinzen auf, wenn eine Kolonie im Bau ist.
+MODIFIER_AVAILABLE_PROVINCE_LOOT:Verfügbare Beute
+MODIFIER_BACKROW_ARTILLERY_DAMAGE:Schaden (Artillerie in der hinteren Reihe)
+MODIFIER_BLOCKADE_FORCE_REQUIRED:Erforderliche Blockadekraft
+MODIFIER_BLOCKADE_IMPACT_ON_SIEGE_IN_FLEET:Flotteneinfluss auf Belagerung
+MODIFIER_BLOCK_INTRODUCE_NEW_HEIR:Blockiert das Einführen neuer Thronfolger
+MODIFIER_CANDIDATE_RANDOM_BONUS:Bonus für zufälligen Kandidaten
+MODIFIER_CANNONS_FOR_HUNTING_PIRATES_IN_FLEET:Jagdeffizienz von Piraten (Flotte)
+MODIFIER_CAN_BYPASS_FORTS:Ignoriere Kontrollzonen
+MODIFIER_CAN_CHAIN_CLAIM:Ansprüche an benachbarten Ansprüchen
+MODIFIER_CAN_CLAIM_STATES:Kann ganze Staaten beanspruchen
+MODIFIER_CAN_COLONY_BOOST_DEVELOPMENT:+1 von §Yjeder Entwicklung§!, wenn die Kolonie fertiggestellt ist
+MODIFIER_CAN_NOT_BUILD_BUILDINGS:Kann KEINE Gebäude bauen
+MODIFIER_CAN_NOT_BUILD_COLONIES:Kann KEINE Kolonien gründen
+MODIFIER_CAN_NOT_BUILD_MISSIONARIES:Kann KEINE Missionare entsenden
+MODIFIER_CAN_NOT_DECLARE_WAR:Kann KEINE Kriege erklären
+MODIFIER_CAN_NOT_SEND_MERCHANTS:Kann KEINE Händler entsenden
+MODIFIER_CAN_RECRUIT_CAWA:Kann Kawa-Regimenter rekrutieren
+MODIFIER_CAN_RECRUIT_COSSACKS:Kann Kosaken-Regimenter rekrutieren
+MODIFIER_CAN_RECRUIT_HUSSARS:Kann §YFlügelhusaren§! rekrutieren
+MODIFIER_CAN_RECRUIT_JANISSARIES:Kann Janitscharen rekrutieren
+MODIFIER_CAN_RECRUIT_RAJPUTS:Kann Rajputen-Regimenter rekrutieren
+MODIFIER_CAN_RECRUIT_REVOLUTIONARY_GUARDS:Kann Revolutionsgarden-Regimenter rekrutieren
+MODIFIER_CAN_RECRUIT_TERCIO:Kann Tercio-Regimenter rekrutieren
+MODIFIER_CAN_REVOKE_PARLIAMENT_SEATS:Kann Sitze im Parlament entziehen
+MODIFIER_CAN_TRANSFER_VASSAL_WARGOAL:Erlaubt "§YUntertan übertragen§!" in Friedensverhandlung
+MODIFIER_CAN_TRANSPORT_UNITS:Kann Einheiten transportieren
+MODIFIER_CAPED_BY_FORCELIMIT:Kann NICHT über das Truppenlimit hinaus rekrutieren
+MODIFIER_CAPTURE_SHIP_CHANCE:Eroberungschance (Schiffe)
+MODIFIER_CAVALRY_FIRE:Fernkampf (Kavallerie)
+MODIFIER_CAVALRY_FLANKING:Flankieren (Kavallerie)
+MODIFIER_CAVALRY_SHOCK:Nahkampf (Kavallerie)
+MODIFIER_CAV_TO_INF_RATIO:Verhältnis (Kavallerie zu Infanterie)
+MODIFIER_CAWA_COST:Kosten (Kawa-Regimenter)
+MODIFIER_CENTER_OF_TRADE_UPGRADE_COST:Aufwertungskosten (Handelszentren)
+MODIFIER_CENTRALIZE_STATE_COST:Kosten (Staat zentralisieren)
+MODIFIER_CHANCE_TO_INHERIT:Chance auf das Erben von Untertanen in einer Personalunion
+MODIFIER_CHURCH_POWER:Kirchenmacht
+MODIFIER_CLAIM_COLONIES:– Kann Ansprüche in allen Kolonialregionen fingieren, die im Besitz einer anderen Nation sind, die von der Provinz aus gesehen ebenfalls in Übersee liegen, oder ihrer Kolonialnation.
+MODIFIER_CLAIM_DURATION:Haltbarkeit (Anspruch)
+MODIFIER_COAST_CAN_NOT_BE_RAIDED:Blockiert Sklavenüberfälle
+MODIFIER_COAST_RAID_RANGE:Reichweite (Küstenüberfälle)
+MODIFIER_COLONIAL_GROWTH:Koloniewachstum (Global)
+MODIFIER_COLONIAL_RANGE:Kolonialreichweite
+MODIFIER_COLONIAL_SUBJECT_TYPE_UPGRADE_COST_MODIFIER:Kolonialtyp (Änderungskosten)
+MODIFIER_COLONIAL_TYPE_CHANGE_COST_MODIFIER:Kolonialtyp (Änderungskosten)
+MODIFIER_COLONIST_TIME:Reisezeit (Kolonisten)
+MODIFIER_COLONY_COST_MODIFIER:Kosten (Kolonien)
+MODIFIER_COLONY_DEVELOPMENT_BOOST:Zuwachs (Kolonieentwicklung)
+MODIFIER_CORE_CREATION:Kosten (Kernprovinzen)
+MODIFIER_CORE_DECAY_ON_YOUR_OWN:Haltbarkeit (Feindlicher Anspruch)
+MODIFIER_COUNTRY_ADMIN_POWER:Administrative Macht (Monatlich)
+MODIFIER_COUNTRY_DIPLOMATIC_POWER:Diplomatische Macht (Monatlich)
+MODIFIER_COUNTRY_MILITARY_POWER:Militärische Macht (Monatlich)
+MODIFIER_CULTURE_CONVERSION_COST:Kosten (Kulturänderung)
+MODIFIER_CULTURE_CONVERSION_TIME:Kulturkonvertierung (Zeit)
+MODIFIER_CURIA_POWERS_COST:Machtkosten (Kurie)
+MODIFIER_CURIA_TREASURY_CONTRIBUTION:Beitrag (Schatzkammer der Kurie)
+MODIFIER_DEVELOPMENT_COST_IN_PRIMARY_CULTURE:Entwicklungskosten (Primärkultur)
+MODIFIER_DEVELOPMENT_COST_MODIFIER:Entwicklungskosten
+MODIFIER_DEVELOPMENT_EFFICIENCY:Entwicklungseffizienz
+MODIFIER_DIPLOMATIC_ANNEXATION_COST:Kosten (Diplomatische Annexion)
+MODIFIER_DIPLOMATIC_UPKEEP:Diplomatische Beziehungen
+MODIFIER_DIPLO_SKILL:Diplomatische Reputation
+MODIFIER_DIP_ADVISOR_COST:Kosten (Dip. Berater)
+MODIFIER_DIRECT_TAX_PERCENTAGE:Direkte Steuern
+MODIFIER_DISCIPLINE:Disziplin
+MODIFIER_DISCOVERED_RELATION_IMPACT:Meinungsmalus (Entdeckte Geheimdienstaktionen)
+MODIFIER_DISEMBARK_SPEED:Geschwindigkeit (Ausschiffung)
+MODIFIER_DISENGAGEMENT_CHANCE:Rückzugschance (Schiffe)
+MODIFIER_DRILL_DECAY_MODIFIER:Verfall (Regimenter-Drill)
+MODIFIER_DRILL_GAIN_MODIFIER:Armee-Drill (Zuwachs)
+MODIFIER_ELECTION_CYCLE:Länge der Regierungszeit
+MODIFIER_EMBARGO_EFFICIENCY:Effizienz (Embargos)
+MODIFIER_EMBRACEMENT_COST:Förderkosten (Institutionen)
+MODIFIER_ENABLE_FORCED_MARCH:Gewaltmarsch aktivieren
+MODIFIER_ENEMY_CORE_CREATION:Gegnerische Kosten (Kernprovinzen)
+MODIFIER_ENFORCE_RELIGION_COST:Friedenskosten (Zwangskonvertierung)
+MODIFIER_ENGAGEMENT_COST:Gefechtsbreite (Schiffe)
+MODIFIER_ENGAGEMENT_COST_MODIFIER:Gefechtsbreite (Schiffe)
+MODIFIER_ENVOY_TRAVEL_TIME:Reisezeit (Gesandte)
+MODIFIER_ESTABLISH_ORDER_COST:Kosten (Gründung von Lokalen Organisationen)
+MODIFIER_ESTATE_INTERACTION_COOLDOWN_MODIFIER:Landstand (Interaktionsabklingzeit)
+MODIFIER_ESTATE_LOYALTY_CHANGE_ON_REVOKED:Landstand (Loyalitätsänderung bei Privilegienentzug)
+MODIFIER_EXPAND_ADMINISTRATION_COST:Kosten (Verwaltungsgebiet erweitern)
+MODIFIER_EXPAND_INFRASTRUCTURE_COST_MODIFIER:Kosten (Infrastruktur ausbauen)
+MODIFIER_EXPEL_MINORITIES_COST:Kosten (Minderheiten vertreiben)
+MODIFIER_EXPLORATION_MISSION_RANGE_IN_FLEET:Erkundungsreichweite (Flotte)
+MODIFIER_EXTRA_MANPOWER_AT_RELIGIOUS_WAR:Dreifacher Rekrutenreserve-Zuwachs während religiöser Kriege.
+MODIFIER_FABRICATE_CLAIMS_TIME:Zeitaufwand (Ansprüche Erheben)
+MODIFIER_FEMALE_ADVISOR_CHANCE:Chance auf weiblichen Berater
+MODIFIER_FIRE_DAMAGE:Schaden (Fernkampf)
+MODIFIER_FIRE_DAMAGE_RECIEVED:Reduktion (Fernkampfschaden)
+MODIFIER_FLAGSHIP_DURABILITY_MODIFIER:Haltbarkeit (Flaggschiff)
+MODIFIER_FLAGSHIP_LANDING_PENALTY:Kampfmalus bei Landung
+MODIFIER_FLAGSHIP_NAVAL_ENGAGEMENT_IN_FLEET:Gefechtsbreite (Flotten)
+MODIFIER_FLAGSHIP_NAVAL_TRADITION:Flottentradition durch Seeschlachten
+MODIFIER_FORCE_MARCH_FREE:Gewaltmarsch kostet keine Macht
+MODIFIER_FREE_ADM_POLICY:Kostenlose Richtlinien (Adm)
+MODIFIER_FREE_CITY_IMPERIAL_AUTHORITY:Reichsautorität von Reichsstädten
+MODIFIER_FREE_CONCENTRATE_DEVELOPMENT:Kann Entwicklung ohne Verlust bündeln
+MODIFIER_FREE_DIP_POLICY:Kostenlose Richtlinien (Dip)
+MODIFIER_FREE_LAND_LEADER_POOL:Kostenlose Generäle
+MODIFIER_FREE_LEADER_POOL:Anführerlimit
+MODIFIER_FREE_MAINTENANCE_ON_EXPL_CONQ:Kein Unterhalt für Entdecker
+MODIFIER_FREE_MIL_POLICY:Kostenlose Richtlinien (Mil)
+MODIFIER_FREE_NAVY_LEADER_POOL:Kostenlose Admiräle
+MODIFIER_FREE_POLICY:Kostenlose Richtlinien
+MODIFIER_GALLEY_HULL_SIZE_MODIFIER:Galeere (Rumpfgröße)
+MODIFIER_GALLEY_NUMBER_OF_CANNONS_MODIFIER:Galeere (Kanonen)
+MODIFIER_GARRISON_DAMAGE:Garnisonsarmee (Schaden)
+MODIFIER_GARRISON_SIZE:Größe (Garnisonen)
+MODIFIER_GENERAL_COST:Kosten (Generäle)
+MODIFIER_GLOBAL_ALLOWED_NUM_OF_BUILDINGS:Gebäude (Max. Anzahl)
+MODIFIER_GLOBAL_ALLOWED_NUM_OF_MANUFACTORIES:Manufakturen (Max. Anzahl)
+MODIFIER_GLOBAL_ATTACKER_DICE_ROLL_BONUS:Würfelwurf (Nationaler Angreifer-Bonus)
+MODIFIER_GLOBAL_COT_GRAVITY:Nationaler Umschlagplatz wird verlangt
+MODIFIER_GLOBAL_DEFENDER_DICE_ROLL_BONUS:Würfelwurf (Nationaler Verteidiger-Bonus)
+MODIFIER_GLOBAL_FOREIGN_TRADE_POWER:Handelseinfluss (Ausland)
+MODIFIER_GLOBAL_HEATHEN_MISSIONARY_STRENGTH:Missionarsstärke (Heiden)
+MODIFIER_GLOBAL_HERETIC_MISSIONARY_STRENGTH:Missionarsstärke (Häretiker)
+MODIFIER_GLOBAL_INSTITUTION_SPREAD:Institutionsverbreitung
+MODIFIER_GLOBAL_MONTHLY_DEVASTATION:Verwüstung (Monatlich)
+MODIFIER_GLOBAL_NAVAL_BARRAGE_COST:Kosten (Küstenbombardierung)
+MODIFIER_GLOBAL_NAVAL_ENGAGEMENT:Seeangriff (Global)
+MODIFIER_GLOBAL_NAVAL_ENGAGEMENT_MODIFIER:Seeangriff (Global)
+MODIFIER_GLOBAL_OWN_TRADE_POWER:Handelseinfluss (Inland)
+MODIFIER_GLOBAL_PROPSPERITY_GROWTH:Wohlstand (nationales Wachstum)
+MODIFIER_GLOBAL_REBEL_SUPPRESSION:Effizienz (Rebellenunterdrückung)
+MODIFIER_GLOBAL_SHIP_REPAIR:Globale Reparatur (Schiffe)
+MODIFIER_GLOBAL_SHIP_TRADE_POWER:Handelseinfluss (Schiffe)
+MODIFIER_GLOBAL_TRADE_GOODS_SIZE:Produzierte Güter (Inland)
+MODIFIER_GLOBAL_TRADE_GOODS_SIZE_MODIFIER:Produzierte Güter
+MODIFIER_GLOBAL_TRADE_POWER:Handelseinfluss (Global)
+MODIFIER_GOLD_DEPLETION_CHANCE_MODIFIER:Golderschöpfungschance
+MODIFIER_GOVERNING_CAPACITY:Regierungslimit
+MODIFIER_GOVERNING_CAPACITY_MODIFIER:Regierungslimit (Modifikator)
+MODIFIER_GOVERNING_COST:Verwaltungskosten
+MODIFIER_GREAT_PROJECT_UPGRADE_COST:Großprojekte (Verbesserungskosten)
+MODIFIER_GREAT_PROJECT_UPGRADE_TIME:Großprojekte (Verbesserungszeit)
+MODIFIER_HARMONIZATION_SPEED:Harmonisierungsgeschwindigkeit
+MODIFIER_HARSH_TREATMENT_COST:Kosten (Raue Behandlung)
+MODIFIER_HAS_BANNERS:Erlaubt Banner
+MODIFIER_HAS_CARAVEL:Nation erlaubt das Ausheben von Karavellen
+MODIFIER_HAS_CAROLEAN:Erlaubt die Rekrutierung von Karoliner-Infanterie
+MODIFIER_HAS_GALLEASSE:Nation erlaubt das Ausheben von Galeassen
+MODIFIER_HAS_GALLEON:Nation erlaubt das Ausheben von Galeonen
+MODIFIER_HAS_GEOBUKSEON:Nation erlaubt das Ausheben von Geobukseonen
+MODIFIER_HAS_HUSSARS:Erlaubt das Ausheben von Flügelhusaren
+MODIFIER_HAS_MAMLUKS:Nation erlaubt das Ausheben von Mamelucken
+MODIFIER_HAS_MAN_OF_WAR:Nation erlaubt das Ausheben von Linienschiffen
+MODIFIER_HAS_MARINES:Nation erlaubt das Ausheben von Marine-Infanterie
+MODIFIER_HAS_MUSKETEER:Nation erlaubt das Ausheben von Musketier-Infanterie
+MODIFIER_HAS_QIZILBASH:Nation erlaubt die Rekrutierung von Qizilbasch
+MODIFIER_HAS_SAMURAI:Nation erlaubt das Ausheben von Samurai-Infanterie
+MODIFIER_HAS_STRELTSY:Nation erlaubt das Ausheben von Strelizen-Infanterie
+MODIFIER_HAS_TERCIO:Nation erlaubt das Ausheben von Tercio-Infanterie
+MODIFIER_HAS_VOC_INDIAMEN:Nation erlaubt das Ausheben von VOC-Ostindienfahrern
+MODIFIER_HEAVY_SHIP_HULL_SIZE_MODIFIER:Großschiff (Rumpfgröße)
+MODIFIER_HEAVY_SHIP_NUMBER_OF_CANNONS_MODIFIER:Großschiff (Kanonen)
+MODIFIER_HEIR_CHANCE:Wahrscheinlichkeit (Nachfolger)
+MODIFIER_HOSTILE_DISEMBARK_SPEED:Ausschiffungszeit (Feinde)
+MODIFIER_HOSTILE_FLEET_ATTRITION:Zermürbung (Feindliche Flotte)
+MODIFIER_HULL_SIZE:Rumpfgröße (Schiffe)
+MODIFIER_HULL_SIZE_MODIFIER:Rumpfgröße
+MODIFIER_HUSSARS_COST:Kosten (Husaren-Regimenter)
+MODIFIER_IDEA_COST:Kosten (Ideen)
+MODIFIER_IGNORE_CORING_DISTANCE:Ignoriere Reichweite für Kernprovinzen
+MODIFIER_IMPERIAL_AUTHORITY:Reichsautorität (Wachstum)
+MODIFIER_IMPERIAL_AUTHORITY_VALUE:Reichsautorität (Modifikator)
+MODIFIER_IMPERIAL_MANDATE:Mandatwachstum (Modifikator)
+MODIFIER_IMPERIAL_MERCENARY_COST:Kosten (HRR-Söldnerrekrutierung)
+MODIFIER_IMPERIAL_REFORM_CATHOLIC_APPROVAL:Zustimmung für Reichsreformen (Katholische Fürsten)
+MODIFIER_INFANTRY_FIRE:Fernkampf (Infanterie)
+MODIFIER_INFANTRY_SHOCK:Nahkampf (Infanterie)
+MODIFIER_INFILTRATE_ADMINITRATION:Verwaltung infiltrieren
+MODIFIER_INFLATION_ACTION_COST:Kosten (Inflation-Reduktion)
+MODIFIER_INNOVATIVENESS_GAIN:Innovationsfähigkeit (Zuwachs)
+MODIFIER_INSTITUTION_GROWTH:Institutionswachstum
+MODIFIER_INSTITUTION_SPREAD_FROM_TRUE_FAITH:Institutionsverbreitung (Wahrer Glaube)
+MODIFIER_IN_COUNTRY:$MODIFIER|Y$
+MODIFIER_JANISSARY_COST:Kosten (Janitscharen-Regimenter)
+MODIFIER_JUSTIFY_TRADE_CONFLICT_TIME:Zeitaufwand (Handelskonflikt Rechtfertigen)
+MODIFIER_LAND_MORALE:Moral (Armee)
+MODIFIER_LEADER_COST:Kosten (Anführer)
+MODIFIER_LEGITIMATE_SUBJECT_ELECTOR:Legitimer Untertanenkurfürst
+MODIFIER_LIBERTY_DESIRE:Freiheitsstreben
+MODIFIER_LIBERTY_DESIRE_FROM_SUBJECT_DEVELOPMENT:Freiheitsstreben (Untertanen-Entwicklung)
+MODIFIER_LIGHT_SHIP_HULL_SIZE_MODIFIER:Leichtes Schiff (Rumpfgröße)
+MODIFIER_LIGHT_SHIP_NUMBER_OF_CANNONS_MODIFIER:Leichtes Schiff (Kanonen)
+MODIFIER_LOCAL_AMOUNT_OF_BANNERS:Mandschu-Banner (Lokal)
+MODIFIER_LOCAL_AMOUNT_OF_CAROLEAN:Mögliche Karoliner-Infanterie
+MODIFIER_LOCAL_AMOUNT_OF_CAWA:Mögliche Kawa
+MODIFIER_LOCAL_AMOUNT_OF_HUSSARS:Verfügbare Flügelhusaren durch Entwicklung
+MODIFIER_LOCAL_ASSAULT_FORT_ABILITY:Festung stürmen (Lokale Fähigkeit)
+MODIFIER_LOCAL_ASSAULT_FORT_COST_MODIFIER:Festung stürmen (Lokale Kosten)
+MODIFIER_LOCAL_ATTACKER_DICE_ROLL_BONUS:Würfelwurf (Lokaler Angreifer-Bonus)
+MODIFIER_LOCAL_CENTER_OF_TRADE_UPGRADE_COST:Handelszentren (Lokale Aufwertungskosten)
+MODIFIER_LOCAL_CENTRALIZE_STATE_COST:Lokale Kosten (Staat zentralisieren)
+MODIFIER_LOCAL_COLONIAL_GROWTH:Koloniewachstum (Lokal)
+MODIFIER_LOCAL_COLONY_COST_MODIFIER:Lokale Kosten (Kolonien)
+MODIFIER_LOCAL_CORE_CREATION:Lokale Kosten (Kernprovinzen)
+MODIFIER_LOCAL_COT_GRAVITY:Lokaler Umschlagplatz wird verlangt
+MODIFIER_LOCAL_CULTURE_CONVERSION_TIME:Kulturkonvertierung (Lokale Zeit)
+MODIFIER_LOCAL_DEFENDER_DICE_ROLL_BONUS:Würfelwurf (Lokaler Verteidiger-Bonus)
+MODIFIER_LOCAL_DEVELOPMENT_COST_MODIFIER:Entwicklungskosten (Lokal)
+MODIFIER_LOCAL_DEVELOPMENT_EFFICIENCY:Entwicklungseffizienz (Lokal)
+MODIFIER_LOCAL_FORT_MAINTENANCE_MODIFIER:Festungsunterhalt (Lokal)
+MODIFIER_LOCAL_FRIENDLY_MOVEMENT_SPEED:Bewegungsgeschwindigkeit (Freund)
+MODIFIER_LOCAL_GARRISON_DAMAGE:Garnisonsarmee (Lokaler Schaden)
+MODIFIER_LOCAL_GARRISON_SIZE:Garnisonsgröße (Lokal)
+MODIFIER_LOCAL_GOLD_DEPLETION_CHANCE_MODIFIER:Golderschöpfungschance (Lokal)
+MODIFIER_LOCAL_GOVERNING_COST:Verwaltungskosten (Provinzen)
+MODIFIER_LOCAL_GOVERNING_INCREASE_COST:Lokale Regierungskosten (Erhöhung)
+MODIFIER_LOCAL_GREAT_PROJECT_UPGRADE_COST:Großprojekte (Lokale Verbesserungskosten)
+MODIFIER_LOCAL_GREAT_PROJECT_UPGRADE_TIME:Großprojekte (Lokale Verbesserungszeit)
+MODIFIER_LOCAL_HAS_CARAVEL:Provinz erlaubt das Ausheben von Karavellen
+MODIFIER_LOCAL_HAS_CAROLEAN:Provinz erlaubt die Rekrutierung von Karoliner-Infanterie
+MODIFIER_LOCAL_HAS_GALLEASS:Provinz erlaubt das Ausheben von Galeassen
+MODIFIER_LOCAL_HAS_GALLEON:Provinz erlaubt das Ausheben von Galeonen
+MODIFIER_LOCAL_HAS_GEOBUKSEON:Provinz erlaubt das Ausheben von Geobukseon-Schiffen
+MODIFIER_LOCAL_HAS_MAMLUKS:Provinz erlaubt die Rekrutierung von Mamelucken
+MODIFIER_LOCAL_HAS_MAN_OF_WAR:Provinz erlaubt das Ausheben von Linienschiffen
+MODIFIER_LOCAL_HAS_MUSKETEER:Provinz erlaubt die Rekrutierung von Musketier-Infanterie
+MODIFIER_LOCAL_HAS_QIZILBASH:Provinz erlaubt die Rekrutierung von Qizilbasch
+MODIFIER_LOCAL_HAS_SAMURAI:Provinz erlaubt die Rekrutierung von Samurai-Infanterie
+MODIFIER_LOCAL_HAS_STRELTSY:Provinz erlaubt die Rekrutierung von Strelizen-Infanterie
+MODIFIER_LOCAL_HAS_TERCIO:Provinz erlaubt die Rekrutierung von Tercio-Infanterie
+MODIFIER_LOCAL_HAS_VOC_INDIAMEN:Provinz erlaubt das Ausheben von VOC-Ostindienfahrern
+MODIFIER_LOCAL_HEIR_ADMIN:Thronfolger (Adm. Macht)
+MODIFIER_LOCAL_HEIR_DIPLOMATIC:Thronfolger (Dip. Macht)
+MODIFIER_LOCAL_HEIR_MILITARY:Thronfolger (Mil. Macht)
+MODIFIER_LOCAL_HOSTILE_MOVEMENT_SPEED:Bewegungsgeschwindigkeit (Feind)
+MODIFIER_LOCAL_INSTITUTION_SPREAD:Institutionsverbreitung
+MODIFIER_LOCAL_MISSIONARY_MAINTENANCE_COST:Lokaler Missionarsunterhalt
+MODIFIER_LOCAL_MONTHLY_DEVASTATION:Verwüstung (Monatlich)
+MODIFIER_LOCAL_MOVEMENT_SPEED:Geschwindigkeit (Lokal)
+MODIFIER_LOCAL_NAVAL_ENGAGEMENT:Seeangriff (Lokal)
+MODIFIER_LOCAL_OWN_COAST_NAVAL_COMBAT_BONUS:Flottenkampfbonus an eigener Küste (Lokal)
+MODIFIER_LOCAL_PROPSPERITY_GROWTH:Wohlstand (lokales Wachstum)
+MODIFIER_LOCAL_REGIMENT_COST:Lokale Kosten (Regimenter)
+MODIFIER_LOCAL_RELIGIOUS_CONVERSION_RESISTANCE:Lokale Resistenz (Reformation)
+MODIFIER_LOCAL_RELIGIOUS_UNITY_CONTRIBUTION:Beitrag zur lokalen religiösen Einheit
+MODIFIER_LOCAL_SHIP_COST:Lokale Kosten (Schiffe)
+MODIFIER_LOCAL_SHIP_REPAIR:Lokale Reparatur (Schiffe)
+MODIFIER_LOCAL_TOLERANCE_OF_HEATHENS:Lokale Toleranz (Ungläubige)
+MODIFIER_LOCAL_TOLERANCE_OF_HERETICS:Lokale Toleranz (Häretiker)
+MODIFIER_LOCAL_TRADE_COMPANY_INVESTMENT_COST:Kosten (Lokale Handelshaus-Investitionen)
+MODIFIER_LOCAL_WARSCORE_COST_MODIFIER:Kriegspunktkosten
+MODIFIER_LOOT_AMOUNT:Geschwindigkeit (Plündern)
+MODIFIER_MANPOWER_AGAINST_IMPERIAL_ENEMIES:Rekrutenreserve gegen Feinde des Reichs
+MODIFIER_MANPOWER_IN_ACCEPTED_CULTURE_PROVINCES:Rekrutenreserve (Provinzen mit akzeptierter Kultur)
+MODIFIER_MANPOWER_IN_CULTURE_GROUP_PROVINCES:Rekrutenreserve (Provinzen derselben Kulturgruppe)
+MODIFIER_MANPOWER_IN_OWN_CULTURE_PROVINCES:Rekrutenreserve (Provinzen der Primärkultur)
+MODIFIER_MANPOWER_IN_TRUE_FAITH_PROVINCES:Rekrutenreserve (Provinzen des Wahren Glaubens)
+MODIFIER_MAX_ABSOLUTISM:Absolutismus (Maximum)
+MODIFIER_MAX_ABSOLUTISM_EFFECT:Absolutismus (Max. Wirkung)
+MODIFIER_MAX_ADMIRAL_FIRE:Admiral (Max. Fernkampf)
+MODIFIER_MAX_ADMIRAL_MANEUVER:Admiral (Max. Manöver)
+MODIFIER_MAX_ADMIRAL_SHOCK:Admiral (Max. Nahkampf)
+MODIFIER_MAX_ADMIRAL_SIEGE:Admiral (Max. Belagerung)
+MODIFIER_MAX_COALITION_SIZE:Maximale Größe der Koalitionen
+MODIFIER_MAX_ELECTORS:Anzahl an Kurfürsten
+MODIFIER_MAX_FLAGSHIPS:Flaggschiffe (Max. Anzahl)
+MODIFIER_MAX_FREE_CITIES:Anzahl an Reichsstädten
+MODIFIER_MAX_GENERAL_FIRE:General (Max. Fernkampf)
+MODIFIER_MAX_GENERAL_MANEUVER:General (Max. Manöver)
+MODIFIER_MAX_GENERAL_SHOCK:General (Max. Nahkampf)
+MODIFIER_MAX_GENERAL_SIEGE:General (Max. Belagerung)
+MODIFIER_MAX_HOSTILE_ATTRITION:Feindliche Zermürbung (Maximum)
+MODIFIER_MAX_POSSIBLE_PARLIAMENT_SEATS:Parlamentssitze (Maximal)
+MODIFIER_MAX_REVOLUTIONARY_ZEAL:Revolutionseifer (Maximum)
+MODIFIER_MAX_STATES:Verfügbare Staaten
+MODIFIER_MAY_ATTACK_GOVERNMENT_ENEMIES:Permanenter Kriegsgrund (Andere Regierungsformen)
+MODIFIER_MAY_ATTACK_OVERSEAS:Kann in Handelshausregionen in Übersee Ansprüche fingieren.
+MODIFIER_MAY_ATTACK_PRIMITIVES:Kann in Kolonialregionen in Übersee Ansprüche fingieren.
+MODIFIER_MAY_ATTACK_RELIGIOUS_ENEMIES:Permanenter Kriegsgrund (Andere Religionsgruppen)
+MODIFIER_MAY_BUILD_SUPPLY_DEPOT:Kann Versorgungsdepots bauen
+MODIFIER_MAY_CONVERT_TERRITORIES:Kann Religion in Territorien konvertieren.
+MODIFIER_MAY_EXPLORE:Ermöglicht: Entdecker und Konquistadoren
+MODIFIER_MAY_FABRICATE_FOR_VASSALS:Kann Ansprüche für Untertanen fingieren
+MODIFIER_MAY_NON_RELIGION:Provinzen von Häretikern und Heiden geben uns keine Mali
+MODIFIER_MAY_NOT_CONVERT_TERRITORIES:Kann KEINE Provinzen in Territorien konvertieren
+MODIFIER_MAY_NOT_REDUCE_INFLATION:Kann NICHT die Inflation reduzieren
+MODIFIER_MAY_PERFORM_SLAVE_RAID:Ermöglicht Küstenüberfälle
+MODIFIER_MAY_PERFORM_SLAVE_RAID_ON_SAME_RELIGION:Ermöglicht Küstenüberfälle, einschließlich der Küsten von Nationen mit gleicher Religion.
+MODIFIER_MAY_RECRUIT_FEMALE_GENERALS:Ermöglicht: Weibliche Generäle
+MODIFIER_MAY_REFILL_GARRISON:Kann Garnisonen auffüllen
+MODIFIER_MAY_REPAIR_AT_SEA:Ermöglicht: Schiffreparatur in Küsten-Seezonen
+MODIFIER_MAY_REPAIR_SEA:Ermöglicht die Schiffreparatur in Küsten-Seezonen.
+MODIFIER_MAY_RETURN_MANPOWER_ON_DISBAND:Erhält beim Auflösen Rekrutenreserve zurück
+MODIFIER_MAY_SEA_REPAIR:Ermöglicht die Schiffreparatur in Küsten-Seezonen.
+MODIFIER_MAY_SIBERIAN_FRONTIER:Ermöglicht sibirische Grenzen
+MODIFIER_MAY_STEAL_MAPS:Ermöglicht: Karten stehlen
+MODIFIER_MERCANTILISM_COST:Kosten (Merkantilismus fördern)
+MODIFIER_MERCENARY_DISCIPLINE:Disziplin (Söldner)
+MODIFIER_MERCENARY_INDEPENDENT_FROM_TRADE_RANGE:Kann Söldner von überall rekrutieren
+MODIFIER_MERCENARY_LEADER_ARMY_TRADITION:Söldneranführer (Armeetradition)
+MODIFIER_MERCENARY_MANPOWER:Rekrutenreserve (Söldner)
+MODIFIER_MILITARY_TACTICS:Militärtaktik
+MODIFIER_MIL_ADVISOR_COST:Kosten (Mil. Berater)
+MODIFIER_MIN_AUTONOMY_IN_TERRITORIES:Minimale Autonomie (Territorium)
+MODIFIER_MISSIONARY_MAINTENANCE_COST:Unterhaltskosten (Missionare)
+MODIFIER_MONARCH_ADMIN_POWER:Herrscher (Adm. Macht)
+MODIFIER_MONARCH_DIPLOMATIC_POWER:Herrscher (Dip. Macht)
+MODIFIER_MONARCH_LIFESPAN:Durchschnittliche Lebensspanne (Monarchen)
+MODIFIER_MONARCH_MILITARY_POWER:Herrscher (Mil. Macht)
+MODIFIER_MONARCH_POWER_TRIBUTE:Tribut (Machtpunkte)
+MODIFIER_MONTHLY_CHANCE_ADMIRAL_GAINING_SKILL:Monatliche Chance, dass ein Admiral auf Mission eine Fähigkeit erhält
+MODIFIER_MONTHLY_CHURCH_POWER:Glaubensmacht (Monatlich)
+MODIFIER_MONTHLY_FAVOR_MODIFIER:Gefallen (Monatlicher Zuwachs)
+MODIFIER_MONTHLY_FEDERATION_FAVOR_GROWTH:Föderationsgunst (Monatlich)
+MODIFIER_MONTHLY_FERVOR_INCREASE:Eifer (Monatlich)
+MODIFIER_MONTHLY_GOLD_INFLATION_MODIFIER:Goldinflation (Monatlich)
+MODIFIER_MONTHLY_HEIR_CLAIM_INCREASE:Nachfolgeanspruch (Monatliche Erhöhung)
+MODIFIER_MONTHLY_HEIR_CLAIM_INCREASE_MODIFIER:Nachfolgeanspruch (Monatliche Erhöhung)
+MODIFIER_MONTHLY_KARMA:Karma (Monatlich)
+MODIFIER_MONTHLY_KARMA_ACCELERATOR:Karma (Monatlicher Zuwachs)
+MODIFIER_MONTHLY_MILITARIZED_SOCIETY:Staatliche Militarisierung
+MODIFIER_MONTHLY_PIETY:Pietät (Monatlich)
+MODIFIER_MONTHLY_PIETY_ACCELERATOR:Pietät (Monatlicher Zuwachs)
+MODIFIER_MONTHLY_REFORM_PROGRESS:Monatlicher Reformfortschritt
+MODIFIER_MONTHLY_REFORM_PROGRESS_BUILDING:Monatlicher Reformfortschritt (Gebäude)
+MODIFIER_MONTHLY_REFORM_PROGRESS_MODIFIER:Reformfortschritt (Monatlich)
+MODIFIER_MONTHLY_SUPPORT_HEIR_GAIN:Monatl. Unterstützung für Thronfolger
+MODIFIER_MORALE_DAMAGE:Moralschaden
+MODIFIER_MORALE_DAMAGE_RECIEVED:Reduktion (Moralschaden)
+MODIFIER_MORALE_FLAGSHIP:Moral (Flaggschiff)
+MODIFIER_MOVEMENT_SPEED:Bewegungsgeschwindigkeit
+MODIFIER_MOVEMENT_SPEED_IN_FLEET:Geschwindigkeit (Flotte)
+MODIFIER_MOVEMENT_SPEED_ONTO_OFF_BOAT:Bewegungsgeschwindigkeit (Von und auf Schiffe)
+MODIFIER_MOVE_CAPITAL_COST_MODIFIER:Kosten (Hauptstadt bewegen)
+MODIFIER_NATIONAL_FOCUS_COOLDOWN_YEARS:Nationaler Schwerpunkt (Jahre Abklingzeit)
+MODIFIER_NATIVE_ADVANCEMENT_COST:Fortschrittskosten (Eingeborene)
+MODIFIER_NATIVE_ASSIMILATION:Assimilation (Eingeborene)
+MODIFIER_NATIVE_UPRISING_CHANCE:Aufstände (Eingeborene)
+MODIFIER_NAVAL_ATTRITION_IN_FLEET:Zermürbung (Flotte)
+MODIFIER_NAVAL_BARRAGE_COST_IN_FLEET:Kosten (Flottenbombardierung)
+MODIFIER_NAVAL_MAINTENANCE_FLAGSHIP:Unterhalt (Flaggschiff)
+MODIFIER_NAVAL_MORALE:Moral (Flotte)
+MODIFIER_NAVAL_MORALE_DAMAGE:Moralschaden (Flotten)
+MODIFIER_NAVAL_MORALE_DAMAGE_RECEIVED:Erhaltener Moralschaden (Flotten)
+MODIFIER_NAVAL_MORALE_IN_FLEET:Moral (Flotte)
+MODIFIER_NAVAL_TRADITION_FROM_BATTLE:Flottentradition (Seeschlachten)
+MODIFIER_NAVAL_TRADITION_FROM_TRADE:Flottentradition aus Handelsschutz
+MODIFIER_NO_CLAIM_COST_INCREASEMENT:Keine zusätzlichen Anspruchskosten
+MODIFIER_NO_COST_FOR_REINFORCING:Keine Kosten durch Verstärkungen\n
+MODIFIER_NO_RELIGION_PENALTY:Provinzen von Häretikern und Heiden geben uns keine Mali.
+MODIFIER_NO_STABILITY_LOSS_ON_MONARCH_DEATH:Kein Stabilitätsverlust bei Tod des Monarchen
+MODIFIER_NUMBER_OF_CANNONS:Kanonenanzahl (Schiffe)
+MODIFIER_NUMBER_OF_CANNONS_FLAGSHIP:Kanonen (Flaggschiff)
+MODIFIER_NUMBER_OF_CANNONS_FLAGSHIP_MODIFIER:Kanonen (Flaggschiff)
+MODIFIER_NUMBER_OF_CANNONS_MODIFIER:Schiffskanonen
+MODIFIER_NUM_OF_PARLIAMENT_ISSUES:Anzahl (Parlamentsanliegen)
+MODIFIER_OVEREXTENSION_IMPACT_MODIFIER:Auswirkungen (Überdehnung)
+MODIFIER_OWN_COAST_NAVAL_COMBAT_BONUS:Flottenkampfbonus an eigener Küste
+MODIFIER_OWN_TERRITORY_DICE_ROLL_BONUS:Würfelwurf (Bonus in eigenem Territorium)
+MODIFIER_PAPAL_INFLUENCE_FROM_CARDINALS:Papsteinfluss durch Kardinäle
+MODIFIER_PARLIAMENT_BACKING_CHANCE:Unterstützungschance (Parlamentsdebatte)
+MODIFIER_PARLIAMENT_CHANCE_OF_DECISION:Entscheidungschance (Parlament)
+MODIFIER_PARLIAMENT_DEBATE_DURATION:Dauer (Parlamentsdebatte)
+MODIFIER_PARLIAMENT_EFFECT_DURATION:Dauer (Parlamentsauswirkung)
+MODIFIER_PLACED_MERCHANT_POWER:Handelsmacht (Händler)
+MODIFIER_PLACED_MERCHANT_POWER_MODIFIER:Handelsmacht (Händler)
+MODIFIER_POSSIBLE_ADM_POLICY:Mögliche Richtlinien (Adm)
+MODIFIER_POSSIBLE_CONDOTTIERI:Mögliche Condottieri
+MODIFIER_POSSIBLE_DIP_POLICY:Mögliche Richtlinien (Dip)
+MODIFIER_POSSIBLE_MIL_POLICY:Mögliche Richtlinien (Mil)
+MODIFIER_POSSIBLE_POLICY:Mögliche Richtlinien
+MODIFIER_POWER_PROJECTION_FROM_INSULTS:Machtzuwachs von Beleidigungen
+MODIFIER_PRESTIGE_FROM_BATTLES_IN_FLEET:Flottenprestige aus Schlachten
+MODIFIER_PRESTIGE_PER_DEVELOPMENT_FROM_CONVERSION:Missionare (Prestige pro Entwicklung)
+MODIFIER_PRIVATEERING_EFFICIENCY_IN_FLEET:Freibeutereffizienz (Flotten)
+MODIFIER_PRIVATEER_EFFICIENCY:Effizienz (Freibeuter)
+MODIFIER_PROMOTE_CULTURE_COST:Kosten (Kultur fördern)
+MODIFIER_PROVINCE_OWNER_TRADE_CHANCE:Händlerwettbewerbschance von eigenen Provinzen
+MODIFIER_PROVINCE_WARSCORE_COST:Kriegspunktkosten (Provinzen)
+MODIFIER_REASONS_TO_ELECT:Gründe für die Wahl
+MODIFIER_REBEL_SUPPORT_EFFICIENCY:Effizienz (Rebellen unterstützen)
+MODIFIER_REDUCED_LIBERTY_DESIRE:Freiheitsstreben (Untertanen)
+MODIFIER_REDUCED_LIBERTY_DESIRE_ON_OTHER_CONTINENT:Freiheitsstreben (Anderer Kontinent)
+MODIFIER_REDUCED_LIBERTY_DESIRE_ON_SAME_CONTINENT:Freiheitsstreben (Untertanen auf gleichem Kontinent)
+MODIFIER_REDUCED_STAB_IMPACTS:Reduziert Stabilitätseinbußen durch diplomatische Aktionen
+MODIFIER_REDUCED_TRADE_PENALTY_ON_NON_MAIN_TRADE_NODE:Handelsmalusreduktion (Kein Hauptumschlagplatz)
+MODIFIER_REELECTION_COST:Kosten (Wiederwahl)
+MODIFIER_REFORM_PROGRESS_GROWTH:Regierungsreform (Wachstum)
+MODIFIER_REFORM_PROGRESS_GROWTH_BUILDING:Regierungsreform (Beitrag)
+MODIFIER_REGIMENT_MANPOWER_USAGE:Regimenter (Rekrutenreservenutzung)
+MODIFIER_REINFORCE_COST:Verstärkungskosten
+MODIFIER_REINFORCE_SPEED:Verstärkungsrate (Regimenter)
+MODIFIER_RELATIONS_DECAY:Verfall (Meinung)
+MODIFIER_RELATIONS_DECAY_OF_ME:Verbesserung (Meinung)
+MODIFIER_RELATION_WITH_ACCEPED_CULTURE:Meinung gegenüber akzeptierter Kultur
+MODIFIER_RELATION_WITH_HEATHENS:Meinung über Ungläubige
+MODIFIER_RELATION_WITH_HERETICS:Meinung gegenüber Ketzern
+MODIFIER_RELATION_WITH_OTHER_CULTURE:Meinung gegenüber nicht akzeptierter Kultur
+MODIFIER_RELATION_WITH_SAME_CULTURE:Meinung gegenüber derselben Kultur
+MODIFIER_RELATION_WITH_SAME_CULTURE_GROUP:Meinung gegenüber derselben Kulturgruppe
+MODIFIER_RELATION_WITH_SAME_RELIGION:Meinung über gleiche Religion
+MODIFIER_RELIGIOUS_CONVERSION_RESISTANCE:Resistenz (Reformation)
+MODIFIER_RELIGIOUS_CONVERSION_RESISTANCE_DRO:Gibt an, wie gut sich Euer Land der Ausbreitung der Religion aus den Reformationszentren widersetzen kann. Dies verringert die Chance, dass Eure Provinzen von den Reformationszentren ausgewählt werden.
+MODIFIER_RELIGIOUS_UNITY:Religiöse Einheit
+MODIFIER_REMOVED:$WHAT|Y$ wird von $WHERE$ entfernt.\n
+MODIFIER_RESERVES_ORGANIZATION:Reduziert den von der Reserve erlittenen Moralschaden
+MODIFIER_REVERSE_RELATION_WITH_HEATHEN_RELIGION:Meinung (Nationen mit heidnischer Religion)
+MODIFIER_REVERSE_RELATION_WITH_HERETIC_RELIGION:Meinung (Nationen mit ketzerischer Religion)
+MODIFIER_REVERSE_RELATION_WITH_SAME_RELIGION:Meinung (Nationen mit derselben Religion)
+MODIFIER_RIVAL_BORDER_FORT_MAINTENANCE:Unterhalt (Benachbarte Forts zu Rivalen)
+MODIFIER_RIVAL_CHANGE_COST:Kosten (Rivalen wechseln)
+MODIFIER_SABOTAGE_REPUTATION:Ruf sabotieren
+MODIFIER_SAILORS_COST:Kosten (Seeleute)
+MODIFIER_SAILOR_MAINTENANCE:Unterhalt (Seeleute)
+MODIFIER_SAME_CULTURE_ADVISOR_COST:Beraterkosten (Herrscherkultur)
+MODIFIER_SAME_RELIGION_ADVISOR_COST:Beraterkosten (Herrscherreligion)
+MODIFIER_SETTLE_COST:Besiedlungskosten
+MODIFIER_SHIP_DURABILITY:Rumpfstärke (Schiffe)
+MODIFIER_SHIP_POWER_PROPAGATION:Übertragung (Schiff-Handelsmacht)
+MODIFIER_SHIP_TRADE_POWER:Handelseinfluss (Schiffe)
+MODIFIER_SHIP_TRADE_POWER_MODIFIER:Handelsmacht (Schiffe)
+MODIFIER_SHOCK_DAMAGE:Schaden (Nahkampf)
+MODIFIER_SHOCK_DAMAGE_RECIEVED:Reduktion (Nahkampfschaden)
+MODIFIER_SIEGE_ABILITY:Effizienz (Belagerung)
+MODIFIER_SIEGE_BLOCKADE_PROGRESS:Blockadeeinfluss (Belagerung)
+MODIFIER_SOW_DISCONTENT:Unmut schüren
+MODIFIER_SPECIAL_UNIT_COST_MODIFIER:Kosten (Spezialeinheiten)
+MODIFIER_SPECIAL_UNIT_FORCELIMIT:Einheitenlimit (Spezialtruppen)
+MODIFIER_SPECIAL_UNIT_MANPOWER_COST_MODIFIER:Rekrutenreservekosten (Spezialeinheiten)
+MODIFIER_SPIES_COST:Kosten (Spione)
+MODIFIER_SPY_ACTION_COST_MODIFIER:Kosten (Spionageaktionen)
+MODIFIER_STABILITY_COST_TO_DECLARE_WAR:Stabilitätsmalus bei Kriegserklärung
+MODIFIER_STABILITY_COST_TO_DECLAR_WAR:Stabilitätsmalus bei Kriegserklärung
+MODIFIER_STATES_GOVERNING_COST:Verwaltungskosten (Staaten)
+MODIFIER_STATEWIDE_GOVERNING_COST:Verwaltungskosten (Staaten)
+MODIFIER_STATE_GOVERNING_INCREASE_COST:Verwaltungskosten (Erhöhung)
+MODIFIER_SUNK_SHIP_MORALE_HIT_RECIEVED:Moralschaden (Verlorene Schiffe)
+MODIFIER_TECHNOLOGY_COST:Kosten (Technologien)
+MODIFIER_TERRITORY_GOVERNING_COST:Verwaltungskosten (Territorien)
+MODIFIER_TOLERANCE_HEATHEN:Toleranz (Ungläubige)
+MODIFIER_TOLERANCE_HERETIC:Toleranz (Häretiker)
+MODIFIER_TOLERANCE_OF_HEATHENS_CAPACITY:Maximale Toleranz (Ungläubige)
+MODIFIER_TOLERANCE_OF_HERETICS_CAPACITY:Maximale Toleranz (Häretiker)
+MODIFIER_TOLERANCE_OWN:Toleranz (Wahrer Glaube)
+MODIFIER_TRADE_COMPANY_GOVERNING_COST:Verwaltungskosten (Handelshäuser)
+MODIFIER_TRADE_COMPANY_INVESTMENT_COST:Kosten (Handelshaus-Investitionen)
+MODIFIER_TRADE_POWER_IN_FLEET:Handelsmacht pro Schiff in Flotte
+MODIFIER_TRADE_RANGE:Reichweite (Handel)
+MODIFIER_TRADE_STEERING:Handels-Steuerung
+MODIFIER_TRANSFER_TRADE_POWER_REASONS:Akzeptanz (Handel übertragen)
+MODIFIER_TRANSPORT_ATTRITION:Zermürbung (bei Verladung auf Schiffe)
+MODIFIER_TRANSPORT_HULL_SIZE_MODIFIER:Transportschiff (Rumpfgröße)
+MODIFIER_TRANSPORT_NUMBER_OF_CANNONS_MODIFIER:Transportschiff (Kanonen)
+MODIFIER_TREASURE_FLEET_INCOME:Einkommen (Silberflotten)
+MODIFIER_TRIBAL_DEVELOPMENT_GROWTH:Stammesentwicklung (Wachstum)
+MODIFIER_TRIBUTARY_CONVERSION_COST_MODIFIER:Kosten (Tributstaat zu Vasall)
+MODIFIER_UNJUSTIFIED_DEMANDS:Kosten (Unrechtmäßige Forderungen)
+MODIFIER_UNREST_CATHOLIC_PROVINCES:Unruhe (Katholische Provinzen)
+MODIFIER_VASSAL_FORCELIMIT_BONUS:Vasallenbonus (Einheitenlimit)
+MODIFIER_VASSAL_INCOME:Einnahmen (Vasallen)
+MODIFIER_VASSAL_MANPOWER_BONUS:Vasallenbonus (Rekrutenreserve)
+MODIFIER_VASSAL_NAVAL_FORCELIMIT_BONUS:Vasallenbonus (Flottenlimit)
+MODIFIER_VASSAL_SAILORS_BONUS:Vasallenbonus (Seeleute)
+MODIFIER_WARSCORE_COST_VS_OTHER_RELIGION:Kriegspunktkosten (andere Religion)
+MODIFIER_WARSCORE_FROM_BATTLES_MODIFIER:Kriegsstand (Schlachten)
+MODIFIER_WAR_TAXES_COST_MODIFIER:Kosten (Kriegssteuern)
+MODIFIER_YEARLY_ABSOLUTISM:Absolutismus (Jährlich)
+MODIFIER_YEARLY_ARMY_PROFESSIONALISM:Armee-Professionalität (Jährlich)
+MODIFIER_YEARLY_AUTHORITY:Autorität (Jährlich)
+MODIFIER_YEARLY_CORRUPTION:Korruption (Jährlich)
+MODIFIER_YEARLY_DOOM_REDUCTION:Verhängnis-Reduktion (Jährlich)
+MODIFIER_YEARLY_FEDERATION_FAVOR_GROWTH:Föderationsgefallen (Jährlich)
+MODIFIER_YEARLY_GOVERNMENT_POWER:Regierungsmacht (Jährlich)
+MODIFIER_YEARLY_HARMONY:Harmonie (jährlich)
+MODIFIER_YEARLY_INNOVATIVENESS:Innovationsfähigkeit (Jährlich)
+MODIFIER_YEARLY_KARMA_DECAY:Verfall (Jährliches Karma)
+MODIFIER_YEARLY_PATRIARCH_AUTHORITY:Patriarchale Autorität (Jährlich)
+MODIFIER_YEARLY_REVOLUTIONARY_ZEAL:Revolutionseifer (Jährlich)
+MODIFIER_YEARLY_TRIBAL_ALLEGIANCE:Stammestreue (jährlich)
+MODIFIER_YEARS_OF_NATIONALISM:Nationalismus (Jahre)
+MODIFIER_YEARS_TO_INTEGRATE_PERSONAL_UNION:Personalunion (Jahre für die Integration)
+NATIVE_UPRISING_CHANCE:Es besteht eine Wahrscheinlichkeit von §Y$CHANCE$§! % pro Monat eines Aufstands der Eingeborenen.
+NAVAL_FORCELIMIT_MODIFIER:Einheitenlimit (Flotte)
+NAVAL_MAINTENANCE_INCREASE:Flottenunterhalt erhöht um §R+$VALUE$%§W.\n
+NAVAL_MAINTENANCE_MODIFIER:Unterhalt (Flotte)
+ND_CONSORT_COST_MODIFIER:Gemahl(in) sein
+NED_ALL_DUTCH_PROVINCES_GAIN_MODIFIER:Alle Provinzen in der Region §YNiederlande§!, die NICHT §Yflämisch§! sind und §YTuch§! produzieren, erhalten Folgendes:
+NED_IF_NETHERLANDS_EXTEND_ABOVE_MODIFIER:Wenn wir diese Mission abschließen, während wir die §YNiederlande§! sind, wird der Modifikator "§YJe Maintiendrai§!" um §G10§! Jahre verlängert.
+NED_UNLOCK_BOURSE_CONDITIONAL_MODIFIER:Schaltet den bedingten Modifikator für das Großprojekt "§YAmsterdamer Börse§!" frei.
+NOT_HAVE_THE_LIBERTY_DESIRE_MODIFIER:Hat NICHT den Freiheitsstreben-Modifikator $MODIFIER|Y$
+NUMBER_OF_COLONISTS:Kolonisten
+NUMBER_OF_DIPLOMATS:Diplomaten
+NUMBER_OF_MERCHANTS:Händler
+NUMBER_OF_MISSIONARIES:Missionare
+NUMBER_OF_TRADE_COMPANIES_AT_LEAST:Besitzt mindestens $VALUE|Y$ Handelshäuser
+NUMBER_OF_TRADE_COMPANIES_IN_REGION_AT_LEAST:Handelshäuser in Region mindestens $VALUE|Y$
+NUMBER_OF_TRADE_COMPANIES_IN_REGION_SIZE_LESS_THAN:Handelshäuser in Region weniger als $VALUE|Y$
+NUMBER_OF_TRADE_COMPANIES_LESS_THAN:Besitzt weniger als $VALUE|Y$ Handelshäuser
+NUM_OF_LOANS_AI_MODIFIER:Anzahl an Darlehen
+ONLY_ADMIN_SPEED:Nur Server-Administratoren können die Spielgeschwindigkeit ändern.
+ONLY_BANNER_MODIFIER:§YBetrifft nur Banner-Regimenter§!
+ONLY_CARAVEL_MODIFIER:§YBetrifft nur Karavellen§!
+ONLY_CAROLEAN_MODIFIER:§YBetrifft nur Karoliner-Regimenter§!
+ONLY_CAWA_MODIFIER:§YBetrifft nur Kawa-Regimenter§!
+ONLY_COSSACK_MODIFIER:§YBetrifft nur Kosaken-Regimenter§!
+ONLY_GALLEASS_MODIFIER:§YBetrifft nur Galeassen§!
+ONLY_GALLEON_MODIFIER:§YBetrifft nur Galeonen§!
+ONLY_GEOBUKSEON_MODIFIER:§YBetrifft nur Geobukseon-Schiffe§!
+ONLY_HOST_SPEED:Nur der Host kann die Spielgeschwindigkeit ändern.
+ONLY_HUSSARS_MODIFIER:§YBeeinflusst nur Husaren-Regimenter§!
+ONLY_JANISSARY_MODIFIER:§YBetrifft nur Janitscharen-Regimenter§!
+ONLY_MAMLUKS_MODIFIER:§YBetrifft nur Mamelucken-Regimenter§!
+ONLY_MAN_OF_WAR_MODIFIER:§YBetrifft nur Linienschiffe§!
+ONLY_MARINE_MODIFIER:§YBetrifft nur Marine-Regimenter§!
+ONLY_MERCENARY_MODIFIER:§YBeeinflusst nur Söldnerregimenter§!
+ONLY_MUSKETEER_MODIFIER:§YBetrifft nur Musketier-Regimenter§!
+ONLY_QIZILBASH_MODIFIER:§YBetrifft nur Qizilbasch-Regimenter§!
+ONLY_RAJPUT_MODIFIER:§YBetrifft nur Rajputen-Regimenter§!
+ONLY_RELIGIOUS_MODIFIER:§YDieser Modifikator läuft aus, wenn die Staatsreligion gewechselt wird.§!
+ONLY_REVOLUTIONARY_GUARD_MODIFIER:§YBeeinflusst nur Revolutionsgarden-Regimenter§!
+ONLY_SAMURAI_MODIFIER:§YBetrifft nur Samurai-Regimenter§!
+ONLY_STRELTSY_MODIFIER:§YBetrifft nur Strelizen-Regimenter§!
+ONLY_TERCIO_MODIFIER:§YBetrifft nur Tercio-Regimenter§!
+ONLY_VOC_INDIAMEN_MODIFIER:§YBetrifft nur VOC-Ostindienfahrer§!
+ON_ACTION_CHANCE:Folgendes kann eintreten, wenn wir in diese Richtung gehen.
+ORM_BUFF_ARABIC_TRADE_INFLUENCE_TO_GIVE_EXTRA_TRADE_EFFICIENCY:§YArabischer Merkantilismus§! gibt jetzt zusätzlich §G10.0%§! Handelseffizienz (skalierend)
+ORM_BUFF_FAR_EAST_COMPANY_MODIFIER:Modifiziert "§YFernost-Handelshaus§!" um:\n   - Handelsübertragung: §G+10.0%§!\n   Kosten (Handelshaus-Investitionen): §G-25.0%§!
+ORM_RELIGIOUS_PROPAGATION_NOW_GRANTS_PROVINCE_FOLLOWING_MODIFIER:Wenn wir eine Provinz durch die Handelspolitik "§YReligion verbreiten§!" konvertieren, erhält diese nun den folgenden Modifikator:
+OVERLORD_NAVAL_FORCE_LIMIT_MODIFIER:Flottenlimit (Lehnsherr)
+PAPACY_CHANCE:Chance:
+PAPACY_LABEL_CHANCE:Chance
+PASHA_MODIFIER:Pascha im Staat
+PORT_BLOCKADE_SAIL_SPEED:Fahrgeschwindigkeit: $SPEED|0G$
+POTENTIAL_NATIVE_UPRISING_CHANCE:Wenn wir damit anfangen würden, diese Provinz zu kolonialisieren, bestünde eine Wahrscheinlichkeit von §Y$CHANCE$§! % pro Monat eines Aufstands der Eingeborenen.
+PP_CHANCE:Chance:
+PRODUCTION_EFFICIENCY:Produktionseffizienz
+PROSP_CHANCE:Es besteht eine Chance von $CHANCE$ monatlich, dass der Fortschritt des Wohlstands um §Y+$INC$§! erhöht wird, aufgrund von:\n$WHY$\n
+PROVINCEMISSION_MAINTENANCE_COST:Wir haben diesem Missionar diesen Monat $COST|R$¤ gezahlt.
+PROVINCE_REVOLUTION_MODIFIER:Revolution
+PROVINCE_TRADE_EFFICIENCY:Handelseffizienz (Lokal)
+PROVINCE_TRADE_MODIFIER:Handelsmacht (Lokal)
+PW_GROWTH_CHANCE:Chance:
+PW_SPEED:Geschwindigkeit
+RANK_MODIFIER:Rangmodifikator: -$VALUE$%
+RECOVER_ARMY_MORALE_SPEED:Moralregeneration (Armee)
+RECOVER_NAVY_MORALE_SPEED:Moralregeneration (Flotte)
+REDUCE_INFRASTRUCTURE_TOOLTIP_MODIFIER:Die Infrastruktur in der Provinz zu reduzieren, entfernt Folgendes aus der Provinz:\n$MODIFIER$\n
+REFORM_DESIRE_CONV_SPEED:Reformbegehren: $MOD|+G%$\n
+REGIMENT_RECRUIT_SPEED:Baugeschwindigkeit (Regimenter)
+REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER:Kaiser und Kurfürsten können in Kriegen gegen Feinde des Heiligen Römischen Reiches kostenlos Kriegssteuern erheben
+REPAIR_ANY_DAMAGE:Beschädigt
+REPAIR_HIGH_DAMAGE:Schwer beschädigt
+REPAIR_LOW_DAMAGE:Leicht beschädigt
+REPAIR_SPEED:Reparaturgeschwindigkeit
+RUSABIL_STRELTSY_MODIFIER:Das Vertrauen auf diese Regimenter wird unseren Modifikator für Stabilität um $MODIFIER$ erhöhen.
+SAILORS_EFFICIENCY:Effizienz von Seeleuten
+SAILORS_RECOVERY:Regeneration (Seeleute)
+SENDMISSIONARY_CHANCE:Pro Jahr besteht eine Wahrscheinlichkeit von §Y$CHANCE$%§W, dass die Konvertierung der Provinz erfolgreich ist.
+SHIP_COST:Kosten (Schiffe)
+SHIP_RECRUIT_SPEED:Baugeschwindigkeit (Schiffe)
+SM_MOUSE_SPEED:Mausgeschwindigkeit
+SM_SCROLL_SPEED:Scrollgeschwindigkeit
+SM_ZOOM_SPEED:Zoomgeschwindigkeit
+SOCIAL_JOIN_REQUEST_RECEIVED:Beitrittsanfrage erhalten
+SORT_BY_CHANCE:Nach Wahrscheinlichkeit für Kontrolle über die Kurie sortieren
+SORT_BY_WAR_EXHAUSTION:Nach §YKriegsmüdigkeit§! sortieren
+SPY_OFFENCE:Spionagenetzwerkaufbau
+SPY_OFFENCE_BASE:Grundgeschwindigkeit: $VAL|Y$
+SPY_OFFENCE_DESC_DISTANCE:Entfernungsmultiplikator: x$VAL|Y$
+SPY_OFFENCE_DESC_RIVAL:Rivale: $VAL|%2+=$
+SPY_OFFENCE_DISC_PENALTY:Spion entdeckt: $VAL|%2+=$
+STABILITY_AI_MODIFIER:Stabilität
+STABILITY_COST_MODIFIER:Kosten (Stabilität)
+STATE_MAINTENANCE_LABEL:$OWNER$er Unterhalt:
+STATE_MAINTENANCE_MODIFIER:Unterhalt (Staaten)
+SUBJECT_BREAK_CHANCE:Chance auf Unionsbruch bei Tod des Monarchen: $VAL|-%$
+SUBJECT_COLONY_TARIFF_EFFICIENCY:Zolleffizienz beträgt §Y$VAL$%§!$VAL2$.
+SUBJECT_INHERITANCE_CHANCE:Erbschaftschance bei Tod des Monarchen: $VAL|+%$
+SUBJECT_SORT_EFFICIENCY:Nach Einnahmenseffizienz sortieren
+SUPPLY_LIMIT_EFFICIENCY:Versorgungslimit-Effizienz
+SUPPLY_LIMIT_MODIFIER:Versorgungslimit
+SUPPORT_EFFICIENCY:Effiz. der Zahlungen
+TARIFF_BASE_MODIFIER:Zollbasismodifikator: $VAL|%1+$
+TARRIFFS_EFFICIENCY:Zolleffizienz
+TAX_INCOME_EFFICIENCY:Steuer-Effizienz
+THERE_MAY_BE_CROSSING_MODIFIER:@$ATK$$ATTACKER|Y$ kann Überquerungsmalus erhalten: $VALUE$
+THERE_WILL_BE_CROSSING_MODIFIER:@$ATK$$ATTACKER|Y$ erhält Überquerungsmalus: $VALUE$
+TRADE_EFFICIENCY:Handelseffizienz
+TRADE_GOODS_SIZE_MODIFIER:Produzierte Güter (Lokal)
+TRADE_INCOME_MODIFIER:Einnahmen (Handel)
+TRADE_POWER_EFFICIENCY:Effizienz der Handelsmacht
+TRADE_VALUE_MODIFIER:Handelswert
+TRADING_POLICY_MODIFIER:$NAME|Y$ Handelspolitik: $VAL$
+UNIT_AUTO_REPAIR_DAMAGED:§YBeschädigte Schiffe reparieren§!
+UNIT_AUTO_REPAIR_DAMAGED_DELAYED:Alle beschädigten Schiffe werden getrennt und nehmen für Reparaturmaßnahmen Kurs auf einen Hafen. Im Anschluss kehren sie zu dieser Einheit zurück.
+UNIT_DETACH_DAMAGED:§YAngeschlagene ausgliedern§!
+WARSCORE_COST_MODIFIER:Dies wird des Weiteren modifiziert durch: $VALUE$\n
+WAR_EXHAUSTION:Kriegsmüdigkeit (Monatlich)
+YUA_EVERY_OWNED_PROVINCE_WITH_COASTAL_DEFENCE_GAINS_MODIFIER:Jede im Besitz befindliche Provinz mit einer §YKüstenverteidigung§! und mindestens §Y20§! Entwicklung erhält Folgendes:
+YUA_EVERY_POPULATION_CENSUS_DECREE_GRANTS_MODIFIER:Jeder §YVolkszählungs-Erlass§! gibt zusätzlich §G+1§! Administrative Macht (Monatlich).
+YUA_INCREASE_SCHOLAR_CHANCE:§GVerdreifacht§! die Wahrscheinlichkeit, dass unsere §YHerrscher§! und §YThronfolger§! die Persönlichkeitseigenschaft "§YGelehrter§!" erhalten.

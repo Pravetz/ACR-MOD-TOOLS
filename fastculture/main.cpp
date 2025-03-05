@@ -25,7 +25,7 @@ string lockey_gc_i, lockey_gc_ii;
 string loc_i, loc_ii;
 string loc_arg_buffer, loc_arg_t;
 
-string f_GC_path, f_CGC_path, f_loc_path, f_lockey_path, f_varloc_path;
+string f_GC_path, f_CGC_path, f_loc_path, f_lockey_path, f_varloc_path, f_uniques_path;
 
 std::string format_name(const std::string &str){
 	if(locs.find(str) != locs.end()){
@@ -82,11 +82,12 @@ void stf()
 	f_GetCulture_ << "\n";
 	f_GetCulture_ << "defined_text = {\n";
 	f_GetCulture_ << "	name = "+GetCulture_+"\n";
+	f_GetCulture_ << "	random = no\n";
 	f_GetCulture_ << "	text = {\n";
 	f_GetCulture_ << "		localisation_key = "+lockey_gc_i+"_accepted\n";
 	f_GetCulture_ << "		trigger = {\n";
 	f_GetCulture_ << "			AND = {\n";
-	f_GetCulture_ << "				owner = { accepted_culture = " + current_culture + " }\n";
+	f_GetCulture_ << "				owner = { primary_or_accepted_culture = { culture=" + current_culture + " } }\n";
 	f_GetCulture_ << "				check_variable = {\n";
 	f_GetCulture_ << "					which = "+POPculture_prcnt+"\n";
 	f_GetCulture_ << "					value = 1\n";
@@ -98,7 +99,7 @@ void stf()
 	f_GetCulture_ << "		localisation_key = "+lockey_gc_i+"_unaccepted\n";
 	f_GetCulture_ << "		trigger = {\n";
 	f_GetCulture_ << "			AND = {\n";
-	f_GetCulture_ << "				NOT = { owner = { accepted_culture = " + current_culture + " } }\n";
+	f_GetCulture_ << "				NOT = { owner = { primary_or_accepted_culture = { culture=" + current_culture + " } } }\n";
 	f_GetCulture_ << "				check_variable = {\n";
 	f_GetCulture_ << "					which = "+POPculture_prcnt+"\n";
 	f_GetCulture_ << "					value = 1\n";
@@ -119,11 +120,12 @@ void stf()
 	f_GetCulture_ << "\n";
 	f_GetCulture_ << "defined_text = {\n";
 	f_GetCulture_ << "	name = "+GetCulture_Country_Scope_+"\n";
+	f_GetCulture_ << "	random = no\n";
 	f_GetCulture_ << "	text = {\n";
 	f_GetCulture_ << "		localisation_key = "+lockey_gc_i+"_accepted\n";
 	f_GetCulture_ << "		trigger = {\n";
 	f_GetCulture_ << "			AND = {\n";
-	f_GetCulture_ << "				accepted_culture = " + current_culture + "\n";
+	f_GetCulture_ << "				primary_or_accepted_culture = { culture=" + current_culture + " }\n";
 	f_GetCulture_ << "				check_variable = {\n";
 	f_GetCulture_ << "					which = "+POPculture_prcnt+"\n";
 	f_GetCulture_ << "					value = 1\n";
@@ -135,7 +137,7 @@ void stf()
 	f_GetCulture_ << "		localisation_key = "+lockey_gc_i+"_unaccepted\n";
 	f_GetCulture_ << "		trigger = {\n";
 	f_GetCulture_ << "			AND = {\n";
-	f_GetCulture_ << "				NOT = { accepted_culture = " + current_culture + " }\n";
+	f_GetCulture_ << "				NOT = { primary_or_accepted_culture = { culture=" + current_culture + " } }\n";
 	f_GetCulture_ << "				check_variable = {\n";
 	f_GetCulture_ << "					which = "+POPculture_prcnt+"\n";
 	f_GetCulture_ << "					value = 1\n";
@@ -158,6 +160,15 @@ void stf()
 	loc_GetCulture_.close();
 }
 
+void generate_cf_unique(const string &culture){
+	ofstream cfu_file;
+	cfu_file.open(f_uniques_path.c_str(), fstream::app);
+	if(cfu_file){
+		cfu_file << " issue_unique_to_" << culture << ":0 \"This issue is of special interest for deputies of §Y" << format_name(culture) << "§! culture, they have §G100%§! support for it.\"\n";
+	}
+	cfu_file.close();
+}
+
 void create_pop(string culture, string group)
 {
 	current_culture = culture;
@@ -167,7 +178,7 @@ void create_pop(string culture, string group)
 	lockey_gc_i = "acr_str_prct_"+culture;
 	lockey_gc_ii = "acr_str_null_prct_"+culture;
 	loc_i = lockey_gc_i+"_accepted:0"+" "+'"'+"§G[Root."+POPculture_prcnt+".GetName]§!: "+"[Root."+POPculture_prcnt+".GetValue]"+"%\\n"+'"'+'\n';
-	loc_i += lockey_gc_i+"_unaccepted:0"+" "+'"'+"§R[Root."+POPculture_prcnt+".GetName]§!: "+"[Root."+POPculture_prcnt+".GetValue]"+"%\\n"+'"';
+	loc_i += " " + lockey_gc_i+"_unaccepted:0"+" "+'"'+"§R[Root."+POPculture_prcnt+".GetName]§!: "+"[Root."+POPculture_prcnt+".GetValue]"+"%\\n"+'"';
 	loc_ii = lockey_gc_ii+":0"+" "+'"'+'"';
 	loc_arg_t = "[Root."+GetCulture_+"]";
 	loc_arg_buffer = loc_arg_buffer+loc_arg_t;
@@ -208,6 +219,9 @@ void create_pop(string culture, string group)
 	}
 	if(mode_ == "!all-varloc"){
 		save_varlocs(culture, group);
+	}
+	if(mode_ == "!cf-uniques"){
+		generate_cf_unique(culture);
 	}
 }
 
@@ -347,7 +361,6 @@ int main()
 		}
 		
 		if(mode_ == "!all-keys"){
-			int lines = 0;
 			cout<<"Path to save loc keys: ";
 			getline(cin, f_lockey_path);
 			
@@ -357,9 +370,17 @@ int main()
 		}
 		
 		if(mode_ == "!all-varloc"){
-			int lines = 0;
 			cout<<"Path to save variable loc(expects YAML file, any will work): ";
 			getline(cin, f_varloc_path);
+			
+			for(size_t i = 0; i < cultures.size(); i++){
+				create_pop(cultures[i], cultures_groups[cultures[i]]);
+			}
+		}
+		
+		if(mode_ == "!cf-uniques"){
+			cout<<"Path to save variable loc(expects YAML file, any will work): ";
+			getline(cin, f_uniques_path);
 			
 			for(size_t i = 0; i < cultures.size(); i++){
 				create_pop(cultures[i], cultures_groups[cultures[i]]);
