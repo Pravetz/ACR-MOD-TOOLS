@@ -19,6 +19,18 @@ Mod link: https://steamcommunity.com/sharedfiles/filedetails/?id=2601684449
 
 "prevgen" is used to generate previews for modifiers, generated keys can be then used by "custom_tooltip" to display info about modifier to the player without "hacks" like adding it to the country for 1 in-game day. 
 
+"urbanite" is used to generate modifiers related to province's urbanization level and their localizations
+
+"logistic" is used to generate modifiers related to country's armament or munitions deficit and their localizations
+
+"conscriptor" is used to create decisions to change country's monthly levies percentage, related modifiers to it and all the necessary localizations
+
+"mining" is used to create mine building modifiers
+
+"scaleff" is used to create scaled templated effects for given value
+
+"tagparse" wasn't used anywhere in the mod, but can be useful to extract country tags from "country_tags" directory files for one's needs
+
 All data about available modifiers was obtained from EU4 wiki: https://eu4.paradoxwikis.com/Modifier_list
 
 Modifier localizations for prevgen are taken from game files.
